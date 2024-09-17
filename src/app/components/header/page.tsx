@@ -30,11 +30,13 @@ export default function Header() {
           <div className="container flex items-center justify-between p-6 mx-auto">
             <div>
                 <Image
+                    onClick={handleClick}
                     src="/icon-header.png"
                     alt="Coconut Tree Logo"
                     objectFit="contain"
                     width={100}
                     height={100}
+                    className="cursor-pointer"
                 />
             </div>
   

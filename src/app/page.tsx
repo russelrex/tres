@@ -7,7 +7,7 @@ import { useState } from "react";
 export default function Home() {
   const [openAccordions, setOpenAccordions] = useState([false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]);
 
-  const toggleAccordion = (index: any) => {
+  const toggleAccordion = (index: number) => {
     setOpenAccordions(openAccordions.map((isOpen, i) => (i === index ? !isOpen : isOpen)));
   };
   
@@ -183,7 +183,7 @@ export default function Home() {
             <br /><br />
             Additionally, participate in our skill-based open play,
             ladder league, and unique game day events such as
-            &quot;Lefty/Righty&quot; and &quot;Vegas Jackpot.&quot; Whether you're a
+            &quot;Lefty/Righty&quot; and &quot;Vegas Jackpot.&quot; Whether you&apos;re a
             beginner or advanced player, our diverse pickleball
             programming ensures non-stop fun and improvement
             throughout your unforgettable stay.

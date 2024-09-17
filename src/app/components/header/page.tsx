@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from 'next/image'
 
 const headerNames = [
@@ -13,6 +13,7 @@ const headerNames = [
   ];
 
 export default function Header() {
+    const [isScrolled, setIsScrolled] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const router = useRouter();
 
@@ -23,10 +24,29 @@ export default function Header() {
     const handleClick = () => {
         router.push('/');
       };
+      
+      useEffect(() => {
+        const handleScroll = () => {
+          if (window.scrollY > 50) { // Change '50' to the scroll amount where the blur should start
+            setIsScrolled(true);
+          } else {
+            setIsScrolled(false);
+          }
+        };
+    
+        window.addEventListener('scroll', handleScroll);
+    
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+      }, []);
 
     return (
         <header>
-        <div className="fixed inset-x-0 top-0 z-50 backdrop-blur duration-200 border-b">
+        <div className={`fixed inset-x-0 top-0 z-50 duration-200 ${
+            isScrolled ? 'backdrop-blur' : ''
+            }`
+        }>
           <div className="container flex items-center justify-between p-6 mx-auto">
             <div>
                 <Image

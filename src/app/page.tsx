@@ -39,10 +39,12 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="relative bg-green-300 w-80 h-80 sm:w-[30rem] sm:h-96 border border-4 border-zinc-900">
-            <img
-              src="header-01.jpg"
+            <Image
+              src="/header-01.jpg"
               alt="Pickleball"
-              className="w-full h-full object-cover opacity-80" />
+              objectFit="cover"
+              layout="fill"
+            />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
               <p className="text-2xl font-extrabold text-white mb-2">
                 MAJOR TRES PICKLEBALL EXPERIENCE
@@ -59,10 +61,12 @@ export default function Home() {
             </div>
           </div>
           <div className="relative bg-green-300 w-80 h-80 sm:w-[30rem] sm:h-96 border border-4 border-zinc-900">
-            <img
-              src="header-02.jpg"
+            <Image
+              src="/header-02.jpg"
               alt="Pickleball"
-              className="w-full h-full object-cover opacity-80" />
+              objectFit="cover"
+              layout="fill"
+            />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
               <p className="text-2xl font-extrabold text-white mb-2">
                 TRES PALAPAS IMMERSION CAMPS
@@ -81,10 +85,12 @@ export default function Home() {
         </div>
 
         <div className="relative bg-green-300 w-80 h-80 sm:w-[30rem] sm:h-96 border border-4 border-zinc-900">
-          <img
-            src="header-03.jpg"
-            alt="Pickleball"
-            className="w-full h-full object-cover opacity-80" />
+          <Image
+              src="/header-03.jpg"
+              alt="Pickleball"
+              objectFit="cover"
+              layout="fill"
+            />
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
             <p className="text-2xl font-extrabold text-white mb-2">
               PRO-SERIES CAMPS
@@ -130,10 +136,13 @@ export default function Home() {
       
       <div className="grid grid-cols-1 sm:grid-cols-2 bg-blue-400">
         <div className="relative bg-blue-300 h-[50rem]">
-          <img
-            src="pickle-ss-01.jpg"
+          <Image
+            src="/pickle-ss-01.jpg"
             alt="Pickleball"
-            className="z-0 w-full h-full object-fill opacity-50" />
+            objectFit="cover"
+            layout="fill"
+            className="opacity-50"
+          />
           <div className="absolute inset-0 flex flex-col items-left text-left m-5 mt-20 sm:m-10">
           <div>
             <div className="relative inline-block">
@@ -174,7 +183,7 @@ export default function Home() {
             <br /><br />
             Additionally, participate in our skill-based open play,
             ladder league, and unique game day events such as
-            "Lefty/Righty" and "Vegas Jackpot." Whether you're a
+            &quot;Lefty/Righty&quot; and &quot;Vegas Jackpot.&quot; Whether you're a
             beginner or advanced player, our diverse pickleball
             programming ensures non-stop fun and improvement
             throughout your unforgettable stay.
@@ -183,16 +192,22 @@ export default function Home() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2">
           <div className="relative bg-green-900 opacity-80">
-            <img
-              src="pickle-ss-05.png"
+            <Image
+              src="/pickle-ss-05.png"
               alt="Pickleball"
-              className="w-full h-full object-cover opacity-80" />
+              objectFit="cover"
+              layout="fill"
+              className="opacity-80"
+            />
           </div>
           <div className="relative bg-green-300 h-[50rem]">
-            <img
-              src="pickle-ss-02.jpg"
+            <Image
+              src="/pickle-ss-02.jpg"
               alt="Pickleball"
-              className="w-full h-full object-cover opacity-80" />
+              objectFit="cover"
+              layout="fill"
+              className="opacity-80"
+            />
             <div className="absolute inset-0 flex flex-col items-left text-left m-10 sm:m-10">
             <div>
               <div className="relative inline-block">
@@ -239,10 +254,13 @@ export default function Home() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 bg-blue-400">
         <div className="relative bg-blue-300 h-[50rem]">
-          <img
-            src="pickle-ss-03.jpg"
-            alt="Pickleball"
-            className="w-full h-full object-cover opacity-50" />
+          <Image
+              src="/pickle-ss-03.jpg"
+              alt="Pickleball"
+              objectFit="cover"
+              layout="fill"
+              className="opacity-50"
+            />
           <div className="absolute inset-0 flex flex-col items-left text-left m-20 sm:m-10">
           <div>
             <div className="relative inline-block">
@@ -318,7 +336,7 @@ export default function Home() {
               <br />
               Mix in a refreshing margarita and relax as our curated
               <span className="font-bold"> Culinary Market<span className="align-super text-xs">TM</span></span> tantalizes your palette one savory
-              bite at a time. Hang out and laugh with new friends. It's
+              bite at a time. Hang out and laugh with new friends. It&apos;s
               all here, where pickleball, tacos, and sunshine create the
               perfect recipe for an unforgettable getaway!
             </div>
@@ -327,10 +345,12 @@ export default function Home() {
             <div className="flex justify-center mt-16">
               <div className="relative w-full h-72 border border-4 border-white-900">
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
-                  <img
-                    src="pickle-ss-04.jpg"
+                  <Image
+                    src="/pickle-ss-04.jpg"
                     alt="Pickleball"
-                    className="w-full h-full object-cover" />
+                    objectFit="cover"
+                    layout="fill"
+                  />
                 </div>
               </div>
             </div>
@@ -622,7 +642,7 @@ export default function Home() {
             (add $300, $400, $600, or $1000 per person for upgraded accomodation) <br />
             breafast, lunch, & dinner included daily <br />
             all afternoon activities leave from and return to resort <br />
-            afternoon activities not included in price except for "more pickleball" & "siesta" <br />
+            afternoon activities not included in price except for &quot;more pickleball&quot; & &quot;siesta&quot; <br />
             unlimited pickleball included if 30 scheduled hours is not enough
           </p>
           <br /> <br/>
@@ -648,10 +668,11 @@ export default function Home() {
         <div className="">
           <div className="flex flex-col items-center mx-4 mt-16">
             <div className="relative w-full h-[25rem] md:w-4/6 md:h-[40rem] border-4 border-white">
-              <img
-                src="reg-01.jpeg"
+              <Image
+                src="/reg-01.jpeg"
                 alt="Pickleball"
-                className="w-full h-full object-cover"
+                objectFit="cover"
+                layout="fill"
               />
             </div>
             <button className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
@@ -662,10 +683,11 @@ export default function Home() {
         <div>
           <div className="flex flex-col items-center mx-4 mt-16">
             <div className="relative w-full h-[25rem] md:w-4/6 md:h-[40rem] border-4 border-white">
-              <img
-                src="reg-02.jpeg"
+              <Image
+                src="/reg-02.jpeg"
                 alt="Pickleball"
-                className="w-full h-full object-cover"
+                objectFit="cover"
+                layout="fill"
               />
             </div>
             <button className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
@@ -676,10 +698,11 @@ export default function Home() {
         <div>
           <div className="flex flex-col items-center mx-4 mt-16">
             <div className="relative w-full h-[25rem] md:w-4/6 md:h-[40rem] border-4 border-white">
-              <img
-                src="reg-03.jpeg"
+              <Image
+                src="/reg-03.jpeg"
                 alt="Pickleball"
-                className="w-full h-full object-cover"
+                objectFit="cover"
+                layout="fill"
               />
             </div>
             <button className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
@@ -690,10 +713,11 @@ export default function Home() {
         <div>
           <div className="flex flex-col items-center mx-4 mt-16">
             <div className="relative w-full h-[25rem] md:w-4/6 md:h-[40rem] border-4 border-white">
-              <img
-                src="reg-04.jpeg"
+              <Image
+                src="/reg-04.jpeg"
                 alt="Pickleball"
-                className="w-full h-full object-cover"
+                objectFit="cover"
+                layout="fill"
               />
             </div>
             <button className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
@@ -705,10 +729,13 @@ export default function Home() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 bg-green-900 opacity-80">
         <div className="relative bg-green-900 opacity-80 h-[50rem]">
-          <img
-            src="pickle-ss-05.png"
+          <Image
+            src="/pickle-ss-05.png"
             alt="Pickleball"
-            className="w-full h-full object-cover opacity-50" />
+            objectFit="cover"
+            layout="fill"
+            className="opacity-50"
+          />
           <div className="absolute inset-0 flex flex-col items-left text-left m-10 sm:m-10 lg:mt-40">
             <div>
               <div className="relative inline-block">
@@ -731,7 +758,7 @@ export default function Home() {
               pickleball experience, which is why we created the
               <span className="font-bold"> Culinary Market<span className="align-super text-xs">TM</span></span>. This concept brings the best local
               flavors to your plate without leaving the resort, featuring a daily rotation of signature dishes from top East Cape
-              restaurants. Meals are prepared partially in the restaurants' kitchens
+              restaurants. Meals are prepared partially in the restaurants&apos; kitchens
               and finished on-site for fresh, hot dining. our
               <span className="font-bold"> Culinary Market<span className="align-super text-xs">TM</span></span> offers the excitement of exploring local
               cuisine without the need for reservations or restaurant
@@ -742,10 +769,13 @@ export default function Home() {
           </div>
         </div>
         <div className="relative bg-green-900 h-[50rem]">
-          <img
-            src="taco.jpg"
+          <Image
+            src="/taco.jpg"
             alt="Pickleball"
-            className="w-full h-full object-cover opacity-80" />
+            objectFit="cover"
+            layout="fill"
+            className="opacity-80"
+          />
           <div className="absolute inset-0 flex flex-col justify-center items-center">
             <div className="text-center">
               <p className="relative text-white text-3xl sm:text-3xl lg:text-5xl font-extrabold inline z-10">
@@ -979,7 +1009,7 @@ const accordionData = [
     <p>- Yes, children are welcome to come play pickleball at Tres Palapas. Children under the age of 14 must be accompanied by a parent at all times. Juniors aged 14-18 that respect the Code of Conduct may play at Tres without a parent. Baja Kids is a great local service that offers baby-sitting and activities for young children.</p>
   ) },
   { title: "Can I bring a group for a private event at Tres Palapas?", content: 
-    (<p>- Yes, we host weddings, family reunions, friends' trips, and other types of private events. Email info@trespalapasbaja.com to inquire about reserving for your private party.</p>)
+    (<p>- Yes, we host weddings, family reunions, friends&apos; trips, and other types of private events. Email info@trespalapasbaja.com to inquire about reserving for your private party.</p>)
   },
   { title: "Do you have any job opportunities?", content: (
     <>

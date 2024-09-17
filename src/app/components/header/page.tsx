@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import Image from 'next/image'
 
 const headerNames = [
 	{ name: 'PACKAGES' },
@@ -28,12 +29,13 @@ export default function Header() {
         <div className="fixed inset-x-0 top-0 z-50 backdrop-blur duration-200 border-b">
           <div className="container flex items-center justify-between p-6 mx-auto">
             <div>
-              <img
-              onClick={handleClick}
-                src="icon-header.png"
-                alt="Coconut Tree Logo"
-                className="w-40 object-contain cursor-pointer"
-              />
+                <Image
+                    src="/icon-header.png"
+                    alt="Coconut Tree Logo"
+                    objectFit="contain"
+                    width={100}
+                    height={100}
+                />
             </div>
   
             <div className="md:hidden">

@@ -18,19 +18,17 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="grid flex items-center opacity-90 justify-items-center py-16 gap-8"
+      <div className="relative grid flex items-center opacity-90 justify-items-center py-16 gap-8"
         style={{
           backgroundColor: 'rgb(99, 139, 99)'
         }}
       >
-        <div
-            className="absolute inset-0"
-            style={{
-              backgroundImage: 'url("/bg-02.png")',
-              backgroundSize: 'contain',
-              backgroundPosition: 'center',
-              opacity: 0.2,
-            }}
+        <Image
+            className="opacity-20"
+            src="/bg-02.png"
+            alt="Pickleball"
+            objectFit="cover"
+            layout="fill"
           />
         <div className="container text-center mt-20 xs:ml-72 sm:text-start">
           <div data-aos="fade-left" className="relative inline-block">
@@ -90,7 +88,7 @@ export default function Home() {
           ></div>
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
             <p className="text-2xl font-extrabold text-white mb-2">
-              MAJOR TRES PICKLEBALL EXPERIENCE
+              TRES PALAPAS <br /> IMMERSION CAMPS
             </p>
             <p className="text-medium text-white mb-2">
               (All inclusive package)
@@ -117,7 +115,7 @@ export default function Home() {
           ></div>
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
             <p className="text-2xl font-extrabold text-white mb-2">
-              MAJOR TRES PICKLEBALL EXPERIENCE
+              PRO-SERIES <br /> CAMPS
             </p>
             <p className="text-medium text-white mb-2">
               (All inclusive package)
@@ -165,12 +163,13 @@ export default function Home() {
       <div className="grid grid-cols-1 sm:grid-cols-2"
       style={{
         backgroundColor: 'rgb(99, 139, 179)'}}>
-        <div className="relative h-[40rem] sm:h-auto">
+        <div className="relative h-[40rem]">
           <Image
             src="/pickle-ss-01.jpg"
             alt="Pickleball"
             objectFit="cover"
             layout="fill"
+            objectPosition="center 20%"
             className="opacity-50"
           />
           <div className="absolute inset-0 flex flex-col items-left text-left m-5 mt-20 sm:m-10">
@@ -186,7 +185,7 @@ export default function Home() {
           <div>
             <div data-aos="zoom-in-right" className="relative inline-block">
               <p className="relative text-white text-5xl sm:text-4xl lg:text-6xl font-extrabold inline z-10">
-                Experience
+                EXPERIENCE
               </p>
               <div className="z-0 absolute bottom-0 left-0 w-full h-4 bg-orange-500"></div>
             </div>
@@ -197,18 +196,17 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className="relative">
-          <div
-            className="absolute inset-0"
-            style={{
-              backgroundImage: 'url("/bg-01.png")',
-              backgroundSize: 'auto',
-              backgroundPosition: 'center',
-              opacity: 0.2,
-            }}
-          />
+        <div className="relative overflow-hidden flex items-center justify-center">
+          <Image
+              className="opacity-20 transform scale-150"
+              src="/bg-01.png"
+              alt="Pickleball"
+              objectFit="cover"
+              objectPosition="center 50%"
+              layout="fill"
+            />
           <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" className="relative">
-            <p className="m-10 mt-20 sm:m-10 lg:m-20 lg:mt-40 text-base lg:text-xl text-white">
+            <p className="m-10 sm:m-5 text-base sm:text-sm lg:text-xl text-white">
               Experience the ultimate pickleball getaway with our
               all-inclusive travel package. Enjoy hassle-free airport
               transfers, comfortable lodging, daily shuttles to and
@@ -234,7 +232,7 @@ export default function Home() {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2">
-        <div className="relative" style={{ 
+        <div className="relative flex items-center justify-center" style={{ 
                 backgroundColor: 'rgb(99, 139, 99)'}}>
             <div
               className="absolute inset-0"
@@ -246,7 +244,7 @@ export default function Home() {
               }}
             />
             <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" className="relative">
-              <p className="m-10 mt-20 sm:m-10 lg:m-20 lg:mt-40 text-base lg:text-xl text-white">
+              <p className="m-10 sm:m-5 text-base sm:text-sm lg:text-xl text-white">
                 Experience the ultimate pickleball evolution at our
                 innovative all-inclusive 5-day Immersion Camp. This
                 comprehensive program is designed to up your game
@@ -271,7 +269,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="relative bg-green-300 h-[50rem]">
+          <div className="relative bg-green-300 h-[40rem]">
             <Image
               src="/pickle-ss-02.jpg"
               alt="Pickleball"
@@ -283,16 +281,7 @@ export default function Home() {
             <div>
               <div data-aos="zoom-in-right" className="relative inline-block">
                 <p className="relative text-white text-4xl lg:text-6xl font-extrabold inline z-10">
-                  TRES
-                </p>
-                <div className="z-0 absolute bottom-0 left-0 w-full h-4 bg-orange-500"></div>
-              </div>
-            </div>
-            <br />
-            <div>
-              <div data-aos="zoom-in-right" className="relative inline-block">
-                <p className="relative text-white text-4xl lg:text-6xl font-extrabold inline z-10">
-                  PALAPAS
+                  TRES PALAPAS
                 </p>
                 <div className="z-0 absolute bottom-0 left-0 w-full h-4 bg-orange-500"></div>
               </div>
@@ -324,7 +313,7 @@ export default function Home() {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2">
-        <div className="relative h-[50rem]" style={{ 
+        <div className="relative h-[40rem]" style={{ 
                 backgroundColor: 'rgb(99, 139, 179)'}}>
           <Image
               src="/pickle-ss-03.jpg"
@@ -357,7 +346,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className="relative" style={{ 
+        <div className="relative flex items-center justify-center" style={{ 
                 backgroundColor: 'rgb(99, 139, 179)'}}>
             <div
               className="absolute inset-0"
@@ -369,7 +358,7 @@ export default function Home() {
               }}
             />
             <div data-aos="fade-up" data-aos-duration="2000" className="relative">
-              <p className="m-10 mt-20 sm:m-10 lg:m-20 lg:mt-40 text-base lg:text-xl text-white">
+              <p className="m-10 sm:m-5 text-base sm:text-sm lg:text-xl text-white">
                 Elevate your pickleball game with our exclusive
                 Pro-Series Camp experience. This all-inclusive travel
                 package offers an intensive 9-hour training over 3 days
@@ -391,6 +380,63 @@ export default function Home() {
             </div>
           </div>
       </div>
+
+            <div className="relative py-16 px-4"
+                style={{
+                backgroundColor: 'rgb(99, 139, 99)'
+                }}
+            >
+            <Image
+              className="opacity-20"
+              src="/bg-01.png"
+              alt="Pickleball"
+              objectFit="cover"
+              layout="fill"
+            />
+            <div className="text-center pt-16">
+            <div data-aos="fade-left" data-aos-duration="2000" className="relative inline-block">
+                <p className="relative text-white text-2xl sm:text-4xl lg:text-6xl font-extrabold inline z-10">
+                HOOKED ON PICKLEBALL
+                </p>
+                <div className="z-0 absolute bottom-0 left-0 w-full h-4 bg-orange-500"></div>
+            </div>
+            <div data-aos="fade-left" data-aos-duration="2000" className="relative inline-block">
+                <p className="relative text-white text-2xl sm:text-4xl lg:text-6xl font-extrabold inline z-10">
+                TACOS & SUNSHINE?
+                </p>
+                <div className="z-0 absolute bottom-0 left-0 w-full h-4 bg-orange-500"></div>
+            </div>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 mx-12 lg:mx-48 gap-16">
+              <div data-aos="fade-up" data-aos-duration="2000" className="z-10">
+                  <p className="m-10 sm:m-5 text-base sm:text-sm lg:text-xl text-white mt-4 lg:mt-16">
+                  Tres Palapas is your ultimate pickleball paradise from
+                  sun up to sun down. Unleash your pickleball passion with
+                  our innovative programming tailored to every skill level.
+                  <br />
+                  Mix in a refreshing margarita and relax as our curated
+                  <span className="font-bold"> Culinary Market<span className="align-super text-xs">TM</span></span> tantalizes your palette one savory
+                  bite at a time. Hang out and laugh with new friends. It&apos;s
+                  all here, where pickleball, tacos, and sunshine create the
+                  perfect recipe for an unforgettable getaway!
+                  </p>
+              </div>
+            <div data-aos="fade-down" data-aos-duration="2000">
+                <div className="flex justify-center mt-16">
+                  <div className="relative w-full h-96 border border-4 border-white-900">
+                      <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
+                      <Image
+                          src="/pickle-ss-04.jpg"
+                          alt="Pickleball"
+                          objectFit="cover"
+                          layout="fill"
+                      />
+                      </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+        </div>
     </>
   );
 }

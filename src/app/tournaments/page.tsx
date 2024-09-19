@@ -8,24 +8,22 @@ export default function Tournaments() {
     return (
         <>
         <Header />
-        <div className="py-16 px-4"
+        <div className="relative py-16 px-4"
           style={{
           backgroundColor: 'rgb(99, 139, 179)'
         }}>
-        <div
-            className="z-0 fixed inset-0"
-            style={{
-            backgroundImage: 'url("/bg-03.png")',
-            backgroundSize: 'contain',
-            backgroundPosition: 'center',
-            opacity: 0.2,
-            }}
-        />
-        <div className="grid grid-cols-1 sm:grid-cols-2 pb-8">
-
+          <Image
+            className="inset-0 opacity-20"
+            src="/bg-01.png"
+            alt="Pickleball"
+            objectFit="cover"
+            objectPosition="center"
+            layout="fill"
+          />
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
           <div data-aos="flip-right" data-aos-duration="2000" className="z-10">
-            <div className="flex flex-col items-center mx-4 mt-16">
-              <div className="relative w-full h-[25rem] md:w-4/6 md:h-[40rem] border-4 border-white">
+            <div className="flex flex-col items-center mt-16 ml-0 mr-0 md:ml-[70px] md:mr-[-70px]">
+              <div className="relative w-full md:w-4/6 h-[25rem] md:h-[40rem] border border-4 border-white">
                 <Image
                   src="/reg-01.jpeg"
                   alt="Pickleball"
@@ -38,9 +36,9 @@ export default function Tournaments() {
               </button>
             </div>
           </div>
-          <div  data-aos="flip-left" data-aos-duration="2000" className="z-10">
-            <div className="flex flex-col items-center mx-4 mt-16">
-              <div className="relative w-full h-[25rem] md:w-4/6 md:h-[40rem] border-4 border-white">
+          <div data-aos="flip-left" data-aos-duration="2000" className="z-10">
+            <div className="flex flex-col items-center mt-16 ml-0 mr-0 md:ml-[-70px] md:mr-[70px]">
+              <div className="relative w-full md:w-4/6 h-[25rem] md:h-[40rem] border-4 border-white">
                 <Image
                   src="/reg-02.jpeg"
                   alt="Pickleball"
@@ -54,7 +52,7 @@ export default function Tournaments() {
             </div>
           </div>
           <div data-aos="flip-left" data-aos-duration="2000" className="z-10">
-            <div className="flex flex-col items-center mx-4 mt-16">
+            <div className="flex flex-col items-center mt-16 ml-0 mr-0 md:ml-[70px] md:mr-[-70px]">
               <div className="relative w-full h-[25rem] md:w-4/6 md:h-[40rem] border-4 border-white">
                 <Image
                   src="/reg-03.jpeg"
@@ -69,7 +67,8 @@ export default function Tournaments() {
             </div>
           </div>
           <div data-aos="flip-right" data-aos-duration="2000" className="z-10">
-            <div className="flex flex-col items-center mx-4 mt-16">
+            <div className="flex flex-col items-center mt-16 ml-0 mr-0 md:ml-[-70px] md:mr-[70px]"
+            >
               <div className="relative w-full h-[25rem] md:w-4/6 md:h-[40rem] border-4 border-white">
                 <Image
                   src="/reg-04.jpeg"
@@ -85,6 +84,7 @@ export default function Tournaments() {
           </div>
 
         </div>
+
         <Footer />
       </div>
         </>

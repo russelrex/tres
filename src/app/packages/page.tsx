@@ -1,23 +1,24 @@
 import Header from "../components/header/page";
 import Footer from "../components/footer/page";
+import Image from "next/image";
 
 export default function Packages() {
     return (
         <>
             <Header />
-            <div className="py-16 px-4"
+            <div className="relative py-16 px-4"
                 style={{
                 backgroundColor: 'rgb(99, 139, 99)'
                 }}
             >
-            <div
-                className="fixed inset-0"
-                style={{
-                backgroundImage: 'url("/bg-03.png")',
-                backgroundSize: 'contain',
-                backgroundPosition: 'center',
-                opacity: 0.2,
-            }} />
+            <Image
+                className="fixed inset-0 opacity-20"
+                src="/bg-01.png"
+                alt="Pickleball"
+                objectFit="cover"
+                objectPosition="center"
+                layout="fill"
+            />
             <div className="grid grid-cols-1 sm:grid-cols-3 text-center py-24 gap-2">
             <div className="z-10 text-white justify-self-center">
                 <div data-aos="zoom-in-right" className="relative inline-block">

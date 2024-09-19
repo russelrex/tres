@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import Header from "../components/header/page";
+import Image from "next/image";
+import Footer from "../components/footer/page";
 
 export default function FAQ() {
     const [openAccordions, setOpenAccordions] = useState([false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]);
@@ -13,42 +15,53 @@ export default function FAQ() {
     return (
         <>
             <Header />
-            <div className="grid grid-cols-1 bg-green-900 opacity-80 py-24"
+            <div className="relative py-24"
                 style={{
-                backgroundImage: 'url("/bg-03.png")',
-                backgroundSize: 'contain',
-                backgroundPosition: 'center',
-                }}>
-                <div className="pt-16">
-                <div data-aos="zoom-in" className="text-center">
-                    <div className="relative inline-block">
-                    <p className="relative text-white text-3xl sm:text-4xl lg:text-6xl font-extrabold inline z-10">
-                        FAQ
-                    </p>
-                    <div className="z-0 absolute bottom-0 left-0 w-full h-4 bg-orange-500"></div>
-                    </div>
-                </div>
-                <div className="mx-auto mt-8 w-3/4">
-                    {accordionData.map((accordion, index) => (
-                    <div key={index} className="mb-4">
-                        <button 
-                        onClick={() => toggleAccordion(index)} 
-                        className="w-full flex justify-between text-start items-center bg-orange-500 text-white px-4 py-3 font-bold text-sm lg:text-lg rounded-md focus:outline-none">
-                        <span>{accordion.title}</span>
-                        <span>{openAccordions[index] ? '-' : '+'}</span>
-                        </button>
+                backgroundColor: 'rgb(99, 139, 99)'
+                }}
+            >
+              <div className="grid grid-cols-1">
+                    <Image
+                      className="inset-0 opacity-20"
+                      src="/bg-03.png"
+                      alt="Pickleball"
+                      objectFit="cover"
+                      objectPosition="center"
+                      layout="fill"
+                  />
+                  <div className="pt-16">
+                  <div data-aos="zoom-in" className="text-center">
+                      <div className="relative inline-block">
+                      <p className="relative text-white text-3xl sm:text-4xl lg:text-6xl font-extrabold inline z-10">
+                          FAQ
+                      </p>
+                      <div className="z-0 absolute bottom-0 left-0 w-full h-4 bg-orange-500"></div>
+                      </div>
+                  </div>
+                  <div className="flex flex-col mx-auto mt-8 w-3/4">
+                      {accordionData.map((accordion, index) => (
+                      <div key={index} className=" z-10 mb-4">
+                          <button 
+                          onClick={() => toggleAccordion(index)} 
+                          className="w-full flex justify-between text-start items-center bg-orange-500 text-white px-4 py-3 font-bold text-sm lg:text-lg rounded-md focus:outline-none">
+                          <span>{accordion.title}</span>
+                          <span>{openAccordions[index] ? '-' : '+'}</span>
+                          </button>
 
-                        <div
-                        className={`overflow-hidden transition-[max-height] duration-700 ease-in-out ${openAccordions[index] ? 'max-h-screen' : 'max-h-0'}`}
-                        >
-                        <div className="p-4 bg-white text-black">
-                            {accordion.content}
-                        </div>
-                        </div>
-                    </div>
-                    ))}
-                </div>
-                </div>
+                          <div
+                          className={`overflow-hidden transition-[max-height] duration-700 ease-in-out ${openAccordions[index] ? 'max-h-screen' : 'max-h-0'}`}
+                          >
+                          <div className="p-4 bg-white text-black">
+                              {accordion.content}
+                          </div>
+                          </div>
+                      </div>
+                      ))}
+                  </div>
+                  </div>
+              </div>
+              
+              <Footer />
             </div>
         </>
     )

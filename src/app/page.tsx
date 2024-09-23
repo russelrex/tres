@@ -3,11 +3,14 @@
 import Image from "next/image";
 import Header from "./components/header/page";
 import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 // @ts-expect-error: This error is expected due to XYZ reason
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "./components/footer/page";
 
 export default function Home() {
+  const router = useRouter();
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -24,7 +27,7 @@ export default function Home() {
         }}
       >
         <Image
-            className="opacity-20"
+            className="opacity-10"
             src="/bg-02.png"
             alt="Pickleball"
             objectFit="cover"
@@ -191,14 +194,14 @@ export default function Home() {
             </div>
           </div>
           <br />
-            <button data-aos="flip-left" className="mt-4 p-1 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400 w-52">
+            <button onClick={() => router.push('/packages')} data-aos="flip-left" className="mt-4 p-1 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400 w-52">
               VIEW SCHEDULE
             </button>
           </div>
         </div>
         <div className="relative overflow-hidden flex items-center justify-center">
           <Image
-              className="opacity-20 transform scale-150"
+              className="opacity-10 transform scale-200"
               src="/bg-01.png"
               alt="Pickleball"
               objectFit="cover"
@@ -206,7 +209,7 @@ export default function Home() {
               layout="fill"
             />
           <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" className="relative">
-            <p className="m-10 sm:m-5 text-base sm:text-sm lg:text-xl text-white">
+            <p className="mt-4 m-10 sm:m-28 sm:mt-4 text-base sm:text-sm lg:text-xl text-white">
               Experience the ultimate pickleball getaway with our
               all-inclusive travel package. Enjoy hassle-free airport
               transfers, comfortable lodging, daily shuttles to and
@@ -231,20 +234,19 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2">
+      <div className="grid grid-cols-1 sm:grid-cols-2 overflow-hidden">
         <div className="relative flex items-center justify-center" style={{ 
                 backgroundColor: 'rgb(99, 139, 99)'}}>
             <div
-              className="absolute inset-0"
+              className="absolute opacity-10 inset-0 transform scale-150"
               style={{
                 backgroundImage: 'url("/pickle-ss-05.png")',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
-                opacity: 0.2,
               }}
             />
             <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" className="relative">
-              <p className="m-10 sm:m-5 text-base sm:text-sm lg:text-xl text-white">
+              <p className="mt-4 m-10 sm:m-20 sm:mt-12 text-base sm:text-sm lg:text-xl text-white">
                 Experience the ultimate pickleball evolution at our
                 innovative all-inclusive 5-day Immersion Camp. This
                 comprehensive program is designed to up your game
@@ -305,7 +307,7 @@ export default function Home() {
               </div>
             </div>
             <br />
-            <button data-aos="flip-right" className="mt-4 p-1 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400 w-52">
+            <button onClick={() => router.push('/packages')} data-aos="flip-right" className="mt-4 p-1 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400 w-52">
               VIEW SCHEDULE
             </button>
             </div>
@@ -341,24 +343,23 @@ export default function Home() {
             </div>
           </div>
           <br />
-            <button data-aos="flip-up" className="mt-4 p-1 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400 w-52">
+            <button onClick={() => router.push('/packages')} data-aos="flip-up" className="mt-4 p-1 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400 w-52">
               VIEW SCHEDULE
             </button>
           </div>
         </div>
-        <div className="relative flex items-center justify-center" style={{ 
+        <div className="relative flex items-center justify-center overflow-hidden" style={{ 
                 backgroundColor: 'rgb(99, 139, 179)'}}>
             <div
-              className="absolute inset-0"
+              className="absolute opacity-10 inset-0 transform scale-200"
               style={{
                 backgroundImage: 'url("/bg-02.png")',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
-                opacity: 0.2,
               }}
             />
             <div data-aos="fade-up" data-aos-duration="2000" className="relative">
-              <p className="m-10 sm:m-5 text-base sm:text-sm lg:text-xl text-white">
+              <p className="mt-4 m-10 sm:m-28 sm:mt-4 text-base sm:text-sm lg:text-xl text-white">
                 Elevate your pickleball game with our exclusive
                 Pro-Series Camp experience. This all-inclusive travel
                 package offers an intensive 9-hour training over 3 days
@@ -387,7 +388,7 @@ export default function Home() {
                 }}
             >
             <Image
-              className="opacity-20"
+              className="opacity-10"
               src="/bg-01.png"
               alt="Pickleball"
               objectFit="cover"
@@ -400,6 +401,7 @@ export default function Home() {
                 </p>
                 <div className="z-0 absolute bottom-0 left-0 w-full h-4 bg-orange-500"></div>
             </div>
+            <br />
             <div data-aos="fade-left" data-aos-duration="2000" className="relative inline-block">
                 <p className="relative text-white text-2xl sm:text-4xl lg:text-6xl font-extrabold inline z-10">
                 TACOS & SUNSHINE?
@@ -409,11 +411,11 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 mx-12 lg:mx-48 gap-16">
               <div data-aos="fade-up" data-aos-duration="2000" className="z-10">
-                  <p className="m-10 sm:m-5 text-base sm:text-sm lg:text-xl text-white mt-4 lg:mt-16">
+                  <p className="m-10 sm:m-5 text-base sm:text-sm lg:text-2xl text-white mt-4 lg:mt-16">
                   Tres Palapas is your ultimate pickleball paradise from
                   sun up to sun down. Unleash your pickleball passion with
                   our innovative programming tailored to every skill level.
-                  <br />
+                  <br /> <br />
                   Mix in a refreshing margarita and relax as our curated
                   <span className="font-bold"> Culinary Market<span className="align-super text-xs">TM</span></span> tantalizes your palette one savory
                   bite at a time. Hang out and laugh with new friends. It&apos;s
@@ -435,6 +437,9 @@ export default function Home() {
                   </div>
                 </div>
             </div>
+            </div>
+            <div className="mt-24">
+              <Footer />
             </div>
         </div>
     </>

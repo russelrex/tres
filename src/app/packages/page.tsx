@@ -12,7 +12,7 @@ export default function Packages() {
                 }}
             >
             <Image
-                className="fixed inset-0 opacity-20"
+                className="fixed inset-0 opacity-10"
                 src="/bg-01.png"
                 alt="Pickleball"
                 objectFit="cover"
@@ -35,7 +35,7 @@ export default function Packages() {
                 <div className="absolute bottom-0 left-0 w-full h-3 bg-orange-500"></div>
                 </div>
                 <br />
-                <p>(All Inclusive package)</p>
+                <p className="mt-4">(All Inclusive package)</p>
                 <p><span className="font-bold">7 nights /</span><span className="font-normal text-xs">starting at</span><span className="font-bold"> $1,294 per person</span></p>
                 <div className="box-border w-auto mt-4 p-4 border-4 text-start">
                 <span className="font-bold">Saturday</span><br/>
@@ -120,8 +120,7 @@ export default function Packages() {
                 </p>
                 <div className="z-0 absolute bottom-0 left-0 w-full h-3 bg-orange-500"></div>
                 </div>
-                <br />
-                <p>(All Inclusive package)</p>
+                <p className="mt-4">(All Inclusive package)</p>
                 <p><span className="font-bold">7 nights /</span><span className="font-normal text-xs">starting at</span><span className="font-bold"> $1,794 per person</span></p>
                 <div className="box-border w-auto mt-4 p-4 border-4 text-start">
                 <span className="font-bold">Saturday</span><br/>
@@ -142,7 +141,7 @@ export default function Packages() {
                 <br />
                 <span className="font-bold">Monday</span><br/>
                 <ul className="list-none">
-                    <li className="before:content-['-'] before:mr-2">Master Camp: 8:am-10:am</li>
+                    <li className="before:content-['-'] before:mr-2">Immersion Camp: 8:am-10:am</li>
                     <li className="before:content-['-'] before:mr-2">Lunch: 12:30pm</li>
                     <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 2pm-4pm</li>
                     <li className="before:content-['-'] before:mr-2">Dinner: 6:30pm</li>
@@ -150,7 +149,7 @@ export default function Packages() {
                 <br />
                 <span className="font-bold">Tuesday</span><br/>
                 <ul className="list-none">
-                    <li className="before:content-['-'] before:mr-2">Master Camp: 8:am-10:am or 10am-12pm</li>
+                    <li className="before:content-['-'] before:mr-2">Immersion Camp: 8:am-10:am or 10am-12pm</li>
                     <li className="before:content-['-'] before:mr-2">Lunch: 12:30pm</li>
                     <li className="before:content-['-'] before:mr-2">Round Robin: 2pm-4pm</li>
                     <li className="before:content-['-'] before:mr-2">Dinner: 6:30pm</li>
@@ -158,7 +157,7 @@ export default function Packages() {
                 <br />
                 <span className="font-bold">Wednesday</span><br/>
                 <ul className="list-none">
-                    <li className="before:content-['-'] before:mr-2">Master Camp: 8:am-10:am or 10am-12pm</li>
+                    <li className="before:content-['-'] before:mr-2">Immersion Camp: 8:am-10:am or 10am-12pm</li>
                     <li className="before:content-['-'] before:mr-2">Lunch: 12:30pm</li>
                     <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 2pm-4pm</li>
                     <li className="before:content-['-'] before:mr-2">Dinner: 6:30pm</li>
@@ -166,7 +165,7 @@ export default function Packages() {
                 <br />
                 <span className="font-bold">Thursday</span><br/>
                 <ul className="list-none">
-                    <li className="before:content-['-'] before:mr-2">Master Camp: 8:am-10:am or 10am-12pm</li>
+                    <li className="before:content-['-'] before:mr-2">Immersion Camp: 8:am-10:am or 10am-12pm</li>
                     <li className="before:content-['-'] before:mr-2">Lunch: 12:30pm</li>
                     <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 2pm-4pm</li>
                     <li className="before:content-['-'] before:mr-2">Dinner: 6:30pm</li>
@@ -174,7 +173,7 @@ export default function Packages() {
                 <br />
                 <span className="font-bold">Friday</span><br/>
                 <ul className="list-none">
-                    <li className="before:content-['-'] before:mr-2">Master Camp: 8:am-10:am or 10am-12pm</li>
+                    <li className="before:content-['-'] before:mr-2">Immersion Camp: 8:am-10:am or 10am-12pm</li>
                     <li className="before:content-['-'] before:mr-2">Lunch: 12:30pm</li>
                     <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 2pm-4pm <br/>(Championship Night)</li>
                     <li className="before:content-['-'] before:mr-2">Dinner: 6:30pm</li>
@@ -208,7 +207,7 @@ export default function Packages() {
                 </div>
                 
                 <br />
-                <p>(All Inclusive package)</p>
+                <p className="mt-4">(All Inclusive package)</p>
                 <p><span className="font-bold">7 nights /</span><span className="font-normal text-xs">starting at</span><span className="font-bold"> $2,094 per person</span></p>
                 <div className="box-border w-auto mt-4 p-4 border-4 text-start">
                 <span className="font-bold">Saturday</span><br/>
@@ -284,7 +283,7 @@ export default function Packages() {
 
             <div className="text-center pb-16">
             <div data-aos="fade-up" data-aos-duration="2000" className="relative inline-block">
-                <p className="z-10 relative text-white text-3xl sm:text-3xl lg:text-6xl font-bold inline z-10">
+                <p className="z-10 relative text-white text-3xl sm:text-3xl lg:text-7xl font-bold inline z-10">
                 WHAT INCLUDED?
                 </p>
                 <div className="z-0 absolute bottom-0 left-0 w-full h-3 bg-orange-500"></div>
@@ -298,11 +297,11 @@ export default function Packages() {
                 breafast, lunch, & dinner included daily <br />
                 all afternoon activities leave from and return to resort <br />
                 afternoon activities not included in price except for &quot;more pickleball&quot; & &quot;siesta&quot; <br />
-                unlimited pickleball included if 30 scheduled hours is not enough
+                unlimited pickleball included if 30 scheduled hours is not enough.
             </p>
             <br /> <br/>
             <div data-aos="fade-down" data-aos-duration="2000"  className="relative inline-block">
-                <p className="relative text-white text-2xl sm:text-3xl lg:text-6xl font-bold inline z-10">
+                <p className="relative text-white text-2xl sm:text-3xl lg:text-5xl font-bold inline z-10">
                 NO PACKAGE, NO PROBLEM!!!
                 </p>
                 <div className="z-0 absolute bottom-0 left-0 w-full h-3 bg-orange-500"></div>

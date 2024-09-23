@@ -11,7 +11,7 @@ export default function ContactUs() {
             backgroundColor: 'rgb(99, 139, 179)'
             }}>
                 <Image
-                    className="inset-0 opacity-20"
+                    className="inset-0 opacity-10"
                     src="/bg-02.png"
                     alt="Pickleball"
                     objectFit="cover"
@@ -33,14 +33,14 @@ export default function ContactUs() {
                     <input 
                         type="text" 
                         placeholder="First" 
-                        className="z-10 w-full h-12 px-4 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        className="text-black z-10 w-full h-12 px-4 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     />
                     </div>
                     <div className="flex flex-col justify-end">
                     <input 
                         type="text" 
                         placeholder="Last" 
-                        className="z-10 w-full h-12 px-4 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        className="text-black z-10 w-full h-12 px-4 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     />
                     </div>
                     <div className="flex flex-col">
@@ -48,7 +48,7 @@ export default function ContactUs() {
                     <input 
                         type="text" 
                         placeholder="" 
-                        className="z-10 w-full h-12 px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        className="text-black z-10 w-full h-12 px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     />
                     </div>
                     <div className="flex flex-col">
@@ -56,7 +56,7 @@ export default function ContactUs() {
                     <input 
                         type="text" 
                         placeholder="" 
-                        className="z-10 w-full h-12 px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        className="text-black z-10 w-full h-12 px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     />
                     </div>
                 </div>
@@ -67,7 +67,7 @@ export default function ContactUs() {
                     <textarea
                         id="message"
                         name="message"
-                        className="z-10 p-2 w-full border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        className="text-black z-10 p-2 w-full border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                         rows={4}
                         cols={50}
                         placeholder="Enter your message here..."
@@ -96,7 +96,9 @@ export default function ContactUs() {
                     </div>
                 </div>
                 </div>
+                <div className="pt-24">
                 <Footer />
+                </div>
             </div>
         </>
     )

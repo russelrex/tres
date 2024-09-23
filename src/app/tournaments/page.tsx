@@ -8,12 +8,12 @@ export default function Tournaments() {
     return (
         <>
         <Header />
-        <div className="relative py-16 px-4"
+        <div className="relative py-32 px-4"
           style={{
           backgroundColor: 'rgb(99, 139, 179)'
         }}>
           <Image
-            className="inset-0 opacity-20"
+            className="inset-0 opacity-10"
             src="/bg-01.png"
             alt="Pickleball"
             objectFit="cover"
@@ -84,8 +84,9 @@ export default function Tournaments() {
           </div>
 
         </div>
-
-        <Footer />
+        <div className="mt-24">
+          <Footer />
+        </div>
       </div>
         </>
     )

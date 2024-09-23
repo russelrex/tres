@@ -22,7 +22,7 @@ export default function FAQ() {
             >
               <div className="grid grid-cols-1">
                     <Image
-                      className="inset-0 opacity-20"
+                      className="inset-0 opacity-10"
                       src="/bg-03.png"
                       alt="Pickleball"
                       objectFit="cover"
@@ -60,8 +60,9 @@ export default function FAQ() {
                   </div>
                   </div>
               </div>
-              
-              <Footer />
+              <div className="mt-24">
+                <Footer />
+              </div>
             </div>
         </>
     )

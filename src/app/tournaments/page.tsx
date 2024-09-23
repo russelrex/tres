@@ -26,7 +26,7 @@ export default function Tournaments() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
           <div data-aos="flip-right" data-aos-duration="2000" className="z-10">
             <div className="flex flex-col items-center mt-16 ml-0 mr-0 md:ml-[70px] md:mr-[-70px]">
-              <div className="relative w-full md:w-4/6 h-[25rem] md:h-[40rem] border border-4 border-white">
+              <div className="relative w-full md:w-4/6 h-[25rem] md:h-[40rem] 2xl:w-4/6 2xl:h-[80rem] border border-4 border-white">
                 <Image
                   src="/reg-01.jpeg"
                   alt="Pickleball"
@@ -41,7 +41,7 @@ export default function Tournaments() {
           </div>
           <div data-aos="flip-left" data-aos-duration="2000" className="z-10">
             <div className="flex flex-col items-center mt-16 ml-0 mr-0 md:ml-[-70px] md:mr-[70px]">
-              <div className="relative w-full md:w-4/6 h-[25rem] md:h-[40rem] border-4 border-white">
+              <div className="relative w-full md:w-4/6 h-[25rem] md:h-[40rem] 2xl:w-4/6 2xl:h-[80rem]  border-4 border-white">
                 <Image
                   src="/reg-02.jpg"
                   alt="Pickleball"
@@ -56,7 +56,7 @@ export default function Tournaments() {
           </div>
           <div data-aos="flip-left" data-aos-duration="2000" className="z-10">
             <div className="flex flex-col items-center mt-16 ml-0 mr-0 md:ml-[70px] md:mr-[-70px]">
-              <div className="relative w-full h-[25rem] md:w-4/6 md:h-[40rem] border-4 border-white">
+              <div className="relative w-full h-[25rem] md:w-4/6 md:h-[40rem] 2xl:w-4/6 2xl:h-[80rem] border-4 border-white">
                 <Image
                   src="/reg-03.jpg"
                   alt="Pickleball"
@@ -72,7 +72,7 @@ export default function Tournaments() {
           <div data-aos="flip-right" data-aos-duration="2000" className="z-10">
             <div className="flex flex-col items-center mt-16 ml-0 mr-0 md:ml-[-70px] md:mr-[70px]"
             >
-              <div className="relative w-full h-[25rem] md:w-4/6 md:h-[40rem] border-4 border-white">
+              <div className="relative w-full h-[25rem] md:w-4/6 md:h-[40rem] 2xl:w-4/6 2xl:h-[80rem] border-4 border-white">
                 <Image
                   src="/reg-04.jpg"
                   alt="Pickleball"

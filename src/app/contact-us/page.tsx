@@ -14,6 +14,7 @@ export default function ContactUs() {
         message: "",
       });
     
+      /* eslint-disable @typescript-eslint/no-explicit-any */
       const handleChange = (e: any) => {
         setFormData({
           ...formData,
@@ -21,6 +22,7 @@ export default function ContactUs() {
         });
       };
     
+      /* eslint-disable @typescript-eslint/no-explicit-any */
       const handleSubmit = (e: any) => {
         e.preventDefault();
         const { firstName, lastName, email, phone, message } = formData;

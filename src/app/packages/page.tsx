@@ -5,10 +5,6 @@ import Footer from "../components/footer/page";
 import Image from "next/legacy/image";
 
 export default function Packages() {
-    const handleReserveNowClick = () => {
-        window.open('https://mobileapp.courtreserve.com/Online/Portal/Index/8043', '_blank');
-      };
-
     return (
         <>
             <Header />

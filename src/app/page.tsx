@@ -17,10 +17,6 @@ export default function Home() {
       once: false,
     });
   }, []);
-
-  const handleReserveNowClick = () => {
-    window.open('https://mobileapp.courtreserve.com/Online/Portal/Index/8043', '_blank');
-  };
   
   return (
     <>

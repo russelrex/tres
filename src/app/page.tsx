@@ -246,7 +246,7 @@ export default function Home() {
               }}
             />
             <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" className="relative">
-              <p className="mt-4 m-10 sm:m-20 sm:mt-12 text-base sm:text-sm lg:text-xl text-white">
+              <p className="mt-4 m-10 sm:m-28 sm:mt-12 text-base sm:text-sm lg:text-xl text-white">
                 Experience the ultimate pickleball evolution at our
                 innovative all-inclusive 5-day Immersion Camp. This
                 comprehensive program is designed to up your game
@@ -271,7 +271,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="relative bg-green-300 h-[40rem]">
+          <div className="relative bg-green-300">
             <Image
               src="/pickle-ss-02.jpg"
               alt="Pickleball"

@@ -166,7 +166,7 @@ export default function Home() {
       <div className="grid grid-cols-1 sm:grid-cols-2"
       style={{
         backgroundColor: 'rgb(99, 139, 179)'}}>
-        <div className="relative h-[40rem]">
+        <div className="relative">
           <Image
             src="/pickle-ss-01.jpg"
             alt="Pickleball"
@@ -315,7 +315,7 @@ export default function Home() {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2">
-        <div className="relative h-[40rem]" style={{ 
+        <div className="relative" style={{ 
                 backgroundColor: 'rgb(99, 139, 179)'}}>
           <Image
               src="/pickle-ss-03.jpg"

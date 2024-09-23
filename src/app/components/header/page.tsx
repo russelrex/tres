@@ -3,13 +3,13 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import Image from 'next/image'
+import Image from "next/legacy/image"
 
 const headerNames = [
 	{ name: 'PACKAGES', url: 'packages' },
 	{ name: 'TOURNAMENTS', url: 'tournaments' },
 	{ name: 'EAT & DRINK', url: 'foods' },
-	{ name: 'RESERVE COURTS', url: '#' },
+	// { name: 'RESERVE COURTS', url: 'https://mobileapp.courtreserve.com/Online/Portal/Index/8043', target: '_blank' },
   ];
 
 export default function Header() {
@@ -33,7 +33,7 @@ export default function Header() {
       
       useEffect(() => {
         const handleScroll = () => {
-          if (window.scrollY > 50) { // Change '50' to the scroll amount where the blur should start
+          if (window.scrollY > 50) {
             setIsScrolled(true);
           } else {
             setIsScrolled(false);
@@ -98,7 +98,13 @@ export default function Header() {
                     <p className="font-semibold">{headerName.name}</p>
                   </Link>
               ))}
-              
+                    <Link
+                    href='https://mobileapp.courtreserve.com/Online/Portal/Index/8043'
+                    target="_blank"
+                    className="p-2 px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
+                  >
+                    <p className="font-semibold">RESERVE COURTS</p>
+                  </Link>
                 <div className="xs:hidden">
                 <button
                   onClick={toggleMenuMed}
@@ -186,7 +192,8 @@ export default function Header() {
                   <p className="font-semibold">EAT & DRINK</p>
                 </Link>
                 <Link
-                  href='/#'
+                  href='https://mobileapp.courtreserve.com/Online/Portal/Index/8043'
+                  target="_blank"
                   className="p-2 px-5 my-2 w-full text-center border border-2 border-zinc-900 duration-200 hover:border-zinc-500 hover:text-zinc-500"
                 >
                   <p className="font-semibold">RESERVE COURTS</p>

@@ -1,10 +1,13 @@
 'use client';
 
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Header from "../components/header/page";
 import Footer from "../components/footer/page";
+import { useRouter } from "next/navigation";
 
 export default function Tournaments() {
+  
+    const router = useRouter();
     return (
         <>
         <Header />
@@ -31,7 +34,7 @@ export default function Tournaments() {
                   layout="fill"
                 />
               </div>
-              <button className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
+              <button onClick={() => router.push('https://docs.google.com/forms/d/e/1FAIpQLSeke9uAHTSqHjx2sV3etfGuW2baszv0AfovztWCiEayKalf4Q/viewform')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
               REGISTER NOW!
               </button>
             </div>
@@ -40,13 +43,13 @@ export default function Tournaments() {
             <div className="flex flex-col items-center mt-16 ml-0 mr-0 md:ml-[-70px] md:mr-[70px]">
               <div className="relative w-full md:w-4/6 h-[25rem] md:h-[40rem] border-4 border-white">
                 <Image
-                  src="/reg-02.jpeg"
+                  src="/reg-02.jpg"
                   alt="Pickleball"
                   objectFit="cover"
                   layout="fill"
                 />
               </div>
-              <button className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
+              <button onClick={() => router.push('https://docs.google.com/forms/d/e/1FAIpQLSdosQcfShEseOc9IiVtlUFiX_E_w3QxM6cTUKlmVCDW8wp1tw/viewform')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
                 REGISTER NOW!
               </button>
             </div>
@@ -55,13 +58,13 @@ export default function Tournaments() {
             <div className="flex flex-col items-center mt-16 ml-0 mr-0 md:ml-[70px] md:mr-[-70px]">
               <div className="relative w-full h-[25rem] md:w-4/6 md:h-[40rem] border-4 border-white">
                 <Image
-                  src="/reg-03.jpeg"
+                  src="/reg-03.jpg"
                   alt="Pickleball"
                   objectFit="cover"
                   layout="fill"
                 />
               </div>
-              <button className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
+              <button onClick={() => router.push('https://docs.google.com/forms/d/e/1FAIpQLSd0bni5e_u52CIe6MTglw37A9C7yKSY1WYy1gAs5OqDlgwltQ/viewform')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
               REGISTER NOW!
               </button>
             </div>
@@ -71,13 +74,13 @@ export default function Tournaments() {
             >
               <div className="relative w-full h-[25rem] md:w-4/6 md:h-[40rem] border-4 border-white">
                 <Image
-                  src="/reg-04.jpeg"
+                  src="/reg-04.jpg"
                   alt="Pickleball"
                   objectFit="cover"
                   layout="fill"
                 />
               </div>
-              <button className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
+              <button onClick={() => router.push('https://docs.google.com/forms/d/e/1FAIpQLSd73eGgpKC1TQXqn1-X55hK8ZAzIcpejhF0RVA23Czih7uqGQ/viewform')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
               REGISTER NOW!
               </button>
             </div>

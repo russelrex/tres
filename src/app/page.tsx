@@ -1,6 +1,6 @@
 'use client';
 
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Header from "./components/header/page";
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
@@ -17,6 +17,10 @@ export default function Home() {
       once: false,
     });
   }, []);
+
+  const handleReserveNowClick = () => {
+    window.open('https://mobileapp.courtreserve.com/Online/Portal/Index/8043', '_blank');
+  };
   
   return (
     <>

@@ -12,7 +12,7 @@ export default function Footer() {
                             </div>
                         </li>
                     </a>
-                    <a href="https://www.facebook.com/TresPalapasPickleball" target="_blank">
+                    <a href="https://g.co/kgs/h9YVYd1" target="_blank">
                         <li className="flex justify-center">
                             <div className="border border-2 cursor-pointer rounded-full p-2 w-10 h-10 flex justify-center items-center">
                                 <FaGooglePlusG className="w-8 h-8 text-white transform transition-all hover:scale-125" />

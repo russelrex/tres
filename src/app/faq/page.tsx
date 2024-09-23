@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Header from "../components/header/page";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Footer from "../components/footer/page";
 
 export default function FAQ() {

@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <>
             <div className="flex justify-center mt-4">
-                <ul className="z-10 transition ease-in duration-300 flex list-none grid grid-cols-4 w-64">
+                <ul className="z-10 transition ease-in duration-300 flex list-none grid grid-cols-4 w-48">
                     <a href="https://www.instagram.com/trespalapasresort/" target="_blank">
                         <li className="flex justify-center">
                             <div className="border border-2 cursor-pointer rounded-full p-2 w-10 h-10 flex justify-center items-center">
@@ -28,7 +28,7 @@ export default function Footer() {
                     </a>
                     
                     <a href="/contact-us" target="_blank">
-                        <li className="flex justify-center w-[110px] ms-2">
+                        <li className="flex justify-center w-[110px]">
                             <div className="flex items-center border border-2 cursor-pointer rounded-full p-2 h-auto">
                                 <p className="text-white text-[10px] sm:text-sm transform transition-all hover:scale-110">
                                 CONTACT US

@@ -286,16 +286,16 @@ export default function Packages() {
             <div className="text-center pb-16">
             <div data-aos="fade-up" data-aos-duration="2000" className="relative inline-block">
                 <p className="z-10 relative text-white text-3xl sm:text-3xl lg:text-7xl font-bold inline z-10">
-                WHAT INCLUDED?
+                WHAT&apos;S INCLUDED?
                 </p>
                 <div className="z-0 absolute bottom-0 left-0 w-full h-3 bg-orange-500"></div>
             </div>
             <br /><br />
-            <p className="z-10 relative text-white text-base lg:text-2xl">INCLUDED IN BOTH PACKAGES, AIRPORT TRANSFERS, LODGING, <br /> DAILY RESORT SHUTTLE, FOOD & PICKLEBALL</p>
+            <p className="z-10 relative text-white text-base lg:text-2xl">INCLUDED IN ALL PACKAGES, AIRPORT TRANSFERS, LODGING, <br /> DAILY RESORT SHUTTLE, FOOD & PICKLEBALL</p>
             <p className="z-10 relative text-white text-base lg:text-lg">**airfare not included in price**<br />
                 lodging is double occupancy (single occupancy add $500) <br />
                 lodging is clean, comfortable, Mexican authentic <br />
-                (add $300, $400, $600, or $1000 per person for upgraded accomodation) <br />
+                (add $300, $600, or $1000 per person for upgraded accomodations) <br />
                 breafast, lunch, & dinner included daily <br />
                 all afternoon activities leave from and return to resort <br />
                 afternoon activities not included in price except for &quot;more pickleball&quot; & &quot;siesta&quot; <br />
@@ -309,8 +309,9 @@ export default function Packages() {
                 <div className="z-0 absolute bottom-0 left-0 w-full h-3 bg-orange-500"></div>
             </div>
             <br /><br />
-            <p className="z-10 relative text-white text-base lg:text-lg">Join us for open play hours daily, available to every player!<br />
-                Check schedule for open play time slots & hours.
+            <p className="z-10 relative text-white text-base lg:text-lg">
+                Join us for skill-based open play daily, available to every player!<br />
+                <a href="https://mobileapp.courtreserve.com/Online/Portal/Index/8043" target="_blank" className="underline underline-offset-4">Check schedule</a> for time slots & hours. 
             </p>
             </div>
             

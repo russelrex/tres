@@ -66,7 +66,7 @@ export default function Home() {
             <p className="text-2xl font-extrabold text-white mb-2">
               MAJOR TRES PICKLEBALL EXPERIENCE
             </p>
-            <p className="text-medium text-white mb-2">
+            <p className="text-medium text-white">
               (All inclusive package)
             </p>
             <p className="text-medium font-extrabold text-white">
@@ -93,11 +93,11 @@ export default function Home() {
             <p className="text-2xl font-extrabold text-white mb-2">
               TRES PALAPAS <br /> IMMERSION CAMPS
             </p>
-            <p className="text-medium text-white mb-2">
+            <p className="text-medium text-white">
               (All inclusive package)
             </p>
             <p className="text-medium font-extrabold text-white">
-              7 nights / <span className="font-normal text-xs">starting at</span> $1,294 per person
+              7 nights / <span className="font-normal text-xs">starting at</span> $1,794 per person
             </p>
             <button className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
               RESERVE NOW!
@@ -120,11 +120,11 @@ export default function Home() {
             <p className="text-2xl font-extrabold text-white mb-2">
               PRO-SERIES <br /> CAMPS
             </p>
-            <p className="text-medium text-white mb-2">
+            <p className="text-medium text-white">
               (All inclusive package)
             </p>
             <p className="text-medium font-extrabold text-white">
-              7 nights / <span className="font-normal text-xs">starting at</span> $1,294 per person
+              7 nights / <span className="font-normal text-xs">starting at</span> $2,094 per person
             </p>
             <button className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
               RESERVE NOW!
@@ -144,7 +144,7 @@ export default function Home() {
           </div>
           <div data-aos="flip-right" className="block md:flex mt-4 text-white gap-4">
             <p className="text-xl font-extrabold">ALL INCLUSIVE PACKAGES &#x2714;</p>
-            <p className="text-xl font-extrabold">HOURLY PAY &#x2714;</p>
+            <p className="text-xl font-extrabold">HOURLY PLAY &#x2714;</p>
             <p className="text-xl font-extrabold">BAJA TRAVELERS &#x2714;</p>
             <p className="text-xl font-extrabold">LOCALS &#x2714;</p>
           </div>
@@ -166,7 +166,7 @@ export default function Home() {
       <div className="grid grid-cols-1 sm:grid-cols-2"
       style={{
         backgroundColor: 'rgb(99, 139, 179)'}}>
-        <div className="relative">
+        <div className="relative h-[40rem] sm:h-auto">
           <Image
             src="/pickle-ss-01.jpg"
             alt="Pickleball"
@@ -178,16 +178,15 @@ export default function Home() {
           <div className="absolute inset-0 flex flex-col items-left text-left m-5 mt-20 sm:m-10">
           <div>
             <div data-aos="zoom-in-left" className="relative inline-block">
-              <p className="relative text-white text-5xl sm:text-4xl lg:text-6xl font-extrabold inline z-10">
+              <p className="relative text-white text-4xl lg:text-6xl font-extrabold inline z-10">
                 MTP
               </p>
               <div className="z-0 absolute bottom-0 left-0 w-full h-4 bg-orange-500"></div>
             </div>
           </div>
-          <br />
           <div>
             <div data-aos="zoom-in-right" className="relative inline-block">
-              <p className="relative text-white text-5xl sm:text-4xl lg:text-6xl font-extrabold inline z-10">
+              <p className="relative text-white text-4xl lg:text-6xl font-extrabold inline z-10">
                 EXPERIENCE
               </p>
               <div className="z-0 absolute bottom-0 left-0 w-full h-4 bg-orange-500"></div>
@@ -201,7 +200,7 @@ export default function Home() {
         </div>
         <div className="relative overflow-hidden flex items-center justify-center">
           <Image
-              className="opacity-10 transform scale-200"
+              className="opacity-10"
               src="/bg-01.png"
               alt="Pickleball"
               objectFit="cover"
@@ -209,7 +208,7 @@ export default function Home() {
               layout="fill"
             />
           <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" className="relative">
-            <p className="mt-4 m-10 sm:m-28 sm:mt-4 text-base sm:text-sm lg:text-xl text-white">
+            <p className="m-10 sm:m-24 md:m-12 text-base sm:text-sm lg:text-xl text-white">
               Experience the ultimate pickleball getaway with our
               all-inclusive travel package. Enjoy hassle-free airport
               transfers, comfortable lodging, daily shuttles to and
@@ -246,21 +245,21 @@ export default function Home() {
               }}
             />
             <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" className="relative">
-              <p className="mt-4 m-10 sm:m-28 sm:mt-12 text-base sm:text-sm lg:text-xl text-white">
+              <p className="m-10 sm:m-24 md:m-12 text-base sm:text-sm lg:text-xl text-white">
                 Experience the ultimate pickleball evolution at our
                 innovative all-inclusive 5-day Immersion Camp. This
                 comprehensive program is designed to up your game
                 through a unique blend of technique/strategic
                 development and implement a growth mindset to lay
-                the foundation for future self-improvement
+                the foundation for future self-improvement.
                 <br /><br />
-                Our expert instructor will guide you through our
+                Our expert instructors will guide you through our
                 carefully crafted curriculum that builds progressively
                 from foundational skills to advanced strategies. Our
                 innovative drills and exercises seamlessly integrate
                 multiple skills while constantly reinforcing previous
                 learnings, ensuring a holistic improvement in your
-                pickleball prowess
+                pickleball prowess.
                 <br /><br />
                 Whether you&apos;re an intermediate player looking to
                 build on a solid foundation or an advanced player
@@ -271,7 +270,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="relative bg-green-300">
+          <div className="relative bg-green-300 h-[40rem] sm:h-auto">
             <Image
               src="/pickle-ss-02.jpg"
               alt="Pickleball"
@@ -288,7 +287,6 @@ export default function Home() {
                 <div className="z-0 absolute bottom-0 left-0 w-full h-4 bg-orange-500"></div>
               </div>
             </div>
-            <br />
             <div>
               <div data-aos="zoom-in-left" className="relative inline-block">
                 <p className="relative text-white text-4xl lg:text-6xl font-extrabold inline z-10">
@@ -297,7 +295,6 @@ export default function Home() {
                 <div className="z-0 absolute bottom-0 left-0 w-full h-4 bg-orange-500"></div>
               </div>
             </div>
-            <br />
             <div>
               <div data-aos="zoom-in-left" className="relative inline-block">
                 <p className="relative text-white text-4xl lg:text-6xl font-extrabold inline z-10">
@@ -315,7 +312,7 @@ export default function Home() {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2">
-        <div className="relative" style={{ 
+        <div className="relative h-[40rem] sm:h-auto" style={{ 
                 backgroundColor: 'rgb(99, 139, 179)'}}>
           <Image
               src="/pickle-ss-03.jpg"
@@ -324,7 +321,7 @@ export default function Home() {
               layout="fill"
               className="opacity-50"
             />
-          <div className="absolute inset-0 flex flex-col items-left text-left m-20 sm:m-10">
+          <div className="absolute inset-0 flex flex-col items-left text-left m-10 sm:m-10">
           <div>
             <div data-aos="fade-up-right" className="relative inline-block">
               <p className="relative text-white text-3xl sm:text-3xl lg:text-6xl font-extrabold inline z-10">
@@ -333,7 +330,6 @@ export default function Home() {
               <div className="z-0 absolute bottom-0 left-0 w-full h-4 bg-orange-500"></div>
             </div>
           </div>
-          <br />
           <div>
             <div data-aos="fade-up-left" className="relative inline-block">
               <p className="relative text-white text-3xl sm:text-3xl lg:text-6xl font-extrabold inline z-10">
@@ -359,7 +355,7 @@ export default function Home() {
               }}
             />
             <div data-aos="fade-up" data-aos-duration="2000" className="relative">
-              <p className="mt-4 m-10 sm:m-28 sm:mt-4 text-base sm:text-sm lg:text-xl text-white">
+              <p className="m-10 sm:m-24 md:m-12 text-base sm:text-sm lg:text-xl text-white">
                 Elevate your pickleball game with our exclusive
                 Pro-Series Camp experience. This all-inclusive travel
                 package offers an intensive 9-hour training over 3 days
@@ -394,7 +390,7 @@ export default function Home() {
               objectFit="cover"
               layout="fill"
             />
-            <div className="text-center pt-16">
+            <div className="text-center pt-4 sm:pt-16">
             <div data-aos="fade-left" data-aos-duration="2000" className="relative inline-block">
                 <p className="relative text-white text-2xl sm:text-4xl lg:text-6xl font-extrabold inline z-10">
                 HOOKED ON PICKLEBALL
@@ -409,9 +405,9 @@ export default function Home() {
                 <div className="z-0 absolute bottom-0 left-0 w-full h-4 bg-orange-500"></div>
             </div>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 mx-12 lg:mx-48 gap-16">
-              <div data-aos="fade-up" data-aos-duration="2000" className="z-10">
-                  <p className="m-10 sm:m-5 text-base sm:text-sm lg:text-2xl text-white mt-4 lg:mt-16">
+            <div className="grid grid-cols-1 sm:grid-cols-2 mx-12 md:mx-12 lg:mx-16 gap-16">
+              <div data-aos="fade-up" data-aos-duration="2000" className="z-10 mt-4 sm:mt-16 lg:mt-2">
+                  <p className="m-10 sm:m-4 text-base sm:text-sm lg:text-2xl text-white mt-4 lg:mt-16">
                   Tres Palapas is your ultimate pickleball paradise from
                   sun up to sun down. Unleash your pickleball passion with
                   our innovative programming tailored to every skill level.
@@ -424,7 +420,7 @@ export default function Home() {
                   </p>
               </div>
             <div data-aos="fade-down" data-aos-duration="2000">
-                <div className="flex justify-center mt-16">
+                <div className="flex justify-center mt-0 sm:mt-16">
                   <div className="relative w-full h-96 border border-4 border-white-900">
                       <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
                       <Image

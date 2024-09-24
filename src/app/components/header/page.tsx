@@ -53,7 +53,7 @@ export default function Header() {
             isScrolled ? 'backdrop-blur' : ''
             }`
         }>
-          <div className="container flex items-center justify-between p-6 mx-auto">
+          <div className="container flex items-center justify-between p-0.5 mx-auto">
             <div>
                 <Image
                     onClick={handleClick}
@@ -93,17 +93,17 @@ export default function Header() {
                   <Link
                     href={`/${headerName.url}`}
                     key={headerName.name}
-                    className="p-2 px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
+                    className="p-2 px-5 md:px-2 lg:px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                   >
-                    <p className="font-semibold">{headerName.name}</p>
+                    <p className="font-semibold lg:text-base md:text-xs">{headerName.name}</p>
                   </Link>
               ))}
                     <Link
                     href='https://mobileapp.courtreserve.com/Online/Portal/Index/8043'
                     target="_blank"
-                    className="p-2 px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
+                    className="p-2 px-5 md:px-1 lg:px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                   >
-                    <p className="font-semibold">RESERVE COURTS</p>
+                    <p className="font-semibold lg:text-base md:text-xs">RESERVE COURTS</p>
                   </Link>
                 <div className="xs:hidden">
                 <button
@@ -153,15 +153,22 @@ export default function Header() {
                   </button>
                   <Link
                     href="/contact-us"
-                    className="w-5/6 text-center p-2 px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
+                    className="w-5/6 text-center p-2 px-5 md:px-2 lg:px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                   >
-                    <p className="font-semibold">Contact Us</p>
+                    <p className="font-semibold md:text-sm lg:text-base">Contact Us</p>
                   </Link>
                   <Link
                     href="/faq"
-                    className="w-5/6 text-center p-2 px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
+                    className="w-5/6 text-center p-2 px-5 md:px-2 lg:px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                   >
-                    <p className="font-semibold">FAQ</p>
+                    <p className="font-semibold md:text-sm lg:text-base">FAQ</p>
+                  </Link>
+                  <Link
+                    href="https://mobileapp.courtreserve.com/Online/Calendar/Events/8043/Month"
+                    target="_blank"
+                    className="w-5/6 text-center p-2 px-5 md:px-2 lg:px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
+                  >
+                    <p className="font-semibold md:text-sm lg:text-base">SCHEDULE</p>
                   </Link>
                 </div>
               </div>
@@ -209,6 +216,13 @@ export default function Header() {
                   className="p-2 px-5 my-2 w-full text-center border border-2 border-zinc-900 duration-200 hover:border-zinc-500 hover:text-zinc-500"
                 >
                   <p className="font-semibold">FAQ</p>
+                </Link>
+                <Link
+                  href='https://mobileapp.courtreserve.com/Online/Calendar/Events/8043/Month'
+                  target="_blank"
+                  className="p-2 px-5 my-2 w-full text-center border border-2 border-zinc-900 duration-200 hover:border-zinc-500 hover:text-zinc-500"
+                >
+                  <p className="font-semibold">SCHEDULE</p>
                 </Link>
             </div>
           </div>

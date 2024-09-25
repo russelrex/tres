@@ -50,7 +50,7 @@ export default function Header() {
     return (
         <header>
         <div className={`fixed inset-x-0 top-0 z-50 duration-200 ${
-            isScrolled ? 'backdrop-blur' : ''
+            isScrolled ? 'backdrop-blur-lg' : ''
             }`
         }>
           <div className="container flex items-center justify-between p-0.5 mx-auto">
@@ -128,9 +128,13 @@ export default function Header() {
               </div>
 
               <div
-                className={`fixed top-0 right-0 rounded-s-xl z-60 h-80 transition-transform transform ${isMenuOpenMed ? 'translate-x-0' : 'translate-x-full'} xs:hidden`}
-                style={{ width: '20%', transition: 'transform 0.3s ease-in-out', backgroundColor: 'rgb(99, 139, 99)' }}
-              >
+  className={`fixed top-0 right-0 backdrop-blur-lg rounded-s-xl z-60 h-80 transition-transform transform ${isMenuOpenMed ? 'translate-x-0' : 'translate-x-full'} xs:hidden`}
+  style={{
+    width: '20%',
+    transition: 'transform 0.3s ease-in-out',
+    backgroundColor: 'rgba(99, 139, 99, 0.7)',
+  }}
+>
                 <div className="flex flex-col items-center mt-16 space-y-4">
                   <button
                     onClick={toggleMenuMed}
@@ -168,7 +172,7 @@ export default function Header() {
                     target="_blank"
                     className="w-5/6 text-center p-2 px-5 md:px-2 lg:px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                   >
-                    <p className="font-semibold md:text-sm lg:text-base">SCHEDULE</p>
+                    <p className="font-semibold md:text-sm lg:text-base">Schedule</p>
                   </Link>
                 </div>
               </div>
@@ -222,7 +226,7 @@ export default function Header() {
                   target="_blank"
                   className="p-2 px-5 my-2 w-full text-center border border-2 border-zinc-900 duration-200 hover:border-zinc-500 hover:text-zinc-500"
                 >
-                  <p className="font-semibold">SCHEDULE</p>
+                  <p className="font-semibold">Schedule</p>
                 </Link>
             </div>
           </div>

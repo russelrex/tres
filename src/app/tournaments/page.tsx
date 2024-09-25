@@ -11,7 +11,7 @@ export default function Tournaments() {
     return (
         <>
         <Header />
-        <div className="relative py-32 px-4"
+        <div className="relative pt-32 px-4"
           style={{
           backgroundColor: 'rgb(99, 139, 179)'
         }}>
@@ -97,7 +97,7 @@ export default function Tournaments() {
           </div>
 
         </div>
-        <div className="mt-24">
+        <div className="py-16">
           <Footer />
         </div>
       </div>

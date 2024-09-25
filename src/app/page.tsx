@@ -60,14 +60,15 @@ export default function Home() {
             <div className="z-0 absolute bottom-0 left-0 w-full h-4 bg-orange-500"></div>
           </div>
         </div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <div data-aos="flip-left" className="relative w-80 h-80 sm:w-[25rem] border border-4 border-white">
           <Image
+            className="transform scale-150"
             src="/header-01.jpg"
             alt="Pickleball"
             objectFit="cover"
             layout="fill"
+            style={{ marginTop: '-80px' }}
           />
           <div
             className="absolute inset-0 bg-black"
@@ -84,17 +85,20 @@ export default function Home() {
             <p className="text-medium font-extrabold text-white">
               7 nights / <span className="font-normal text-xs">starting at</span> $1,294 per person
             </p>
-            <button className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
+            <button onClick={() => router.push('https://forms.gle/nsgcKz3huNJdAcKt9')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
               RESERVE NOW!
             </button>
           </div>
         </div>
         <div data-aos="flip-up" className="relative w-80 h-80 sm:w-[25rem] border border-4 border-white">
           <Image
+            // className="transform scale-150"
             src="/header-02.jpg"
             alt="Pickleball"
             objectFit="cover"
             layout="fill"
+            objectPosition="center 100%"
+            // style={{ paddingTop: '-80px' }}
           />
           <div
             className="absolute inset-0 bg-black"
@@ -111,7 +115,7 @@ export default function Home() {
             <p className="text-medium font-extrabold text-white">
               7 nights / <span className="font-normal text-xs">starting at</span> $1,794 per person
             </p>
-            <button className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
+            <button onClick={() => router.push('https://forms.gle/RzT99hK45L3Byonj8')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
               RESERVE NOW!
             </button>
           </div>
@@ -122,6 +126,7 @@ export default function Home() {
             alt="Pickleball"
             objectFit="cover"
             layout="fill"
+            objectPosition="center 100%"
           />
           <div
             className="absolute inset-0 bg-black"
@@ -138,7 +143,7 @@ export default function Home() {
             <p className="text-medium font-extrabold text-white">
               7 nights / <span className="font-normal text-xs">starting at</span> $2,094 per person
             </p>
-            <button className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
+            <button onClick={() => router.push('https://forms.gle/DKGGsrmb2HUn6C518')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
               RESERVE NOW!
             </button>
           </div>
@@ -184,7 +189,7 @@ export default function Home() {
             alt="Pickleball"
             objectFit="cover"
             layout="fill"
-            objectPosition="center 20%"
+            objectPosition="center 70%"
             className="opacity-50"
           />
           <div className="absolute inset-0 flex flex-col items-left text-left m-5 mt-20 sm:m-10">
@@ -220,16 +225,16 @@ export default function Home() {
               layout="fill"
             />
           <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" className="relative">
-            <p className="m-10 sm:m-24 md:m-12 text-base sm:text-sm lg:text-xl text-white">
+            <p className="m-10 lg:m-24 md:m-12 text-base sm:text-sm lg:text-xl text-white">
               Experience the ultimate pickleball getaway with our
               all-inclusive travel package. Enjoy hassle-free airport
               transfers, comfortable lodging, daily shuttles to and
-              from the resort, and our curated foodie tour for every
+              from the resort, and our curated foodie tour for
               breakfast, lunch and dinner.
               <br /><br />
               Focusing on pickleball as your main course, the
               highlight of your trip will be Major Tres Pickleball
-              (MTP), our exciting team-based event running Monday
+              (MTP) with our exciting team-based event running Monday
               to Friday. Engage in MTP social play, draft night, team
               matches, and championship games with prizes for
               winning teams.
@@ -257,12 +262,12 @@ export default function Home() {
               }}
             />
             <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" className="relative">
-              <p className="m-10 sm:m-24 md:m-12 text-base sm:text-sm lg:text-xl text-white">
+              <p className="m-10 lg:m-24 md:m-12 text-base sm:text-sm lg:text-xl text-white">
                 Experience the ultimate pickleball evolution at our
                 innovative all-inclusive 5-day Immersion Camp. This
                 comprehensive program is designed to up your game
                 through a unique blend of technique/strategic
-                development and implement a growth mindset to lay
+                development and to implement a growth mindset to lay
                 the foundation for future self-improvement.
                 <br /><br />
                 Our expert instructors will guide you through our
@@ -367,7 +372,7 @@ export default function Home() {
               }}
             />
             <div data-aos="fade-up" data-aos-duration="2000" className="relative">
-              <p className="m-10 sm:m-24 md:m-12 text-base sm:text-sm lg:text-xl text-white">
+              <p className="m-10 lg:m-24 md:m-12 text-base sm:text-sm lg:text-xl text-white">
                 Elevate your pickleball game with our exclusive
                 Pro-Series Camp experience. This all-inclusive travel
                 package offers an intensive 9-hour training over 3 days
@@ -446,7 +451,7 @@ export default function Home() {
                 </div>
             </div>
             </div>
-            <div className="mt-24">
+            <div className="mt-16">
               <Footer />
             </div>
         </div>

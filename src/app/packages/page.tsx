@@ -3,12 +3,15 @@
 import Header from "../components/header/page";
 import Footer from "../components/footer/page";
 import Image from "next/legacy/image";
+import { useRouter } from "next/navigation";
 
 export default function Packages() {
+    const router = useRouter();
+
     return (
         <>
             <Header />
-            <div className="relative py-16 px-4"
+            <div className="relative py-16 opacity-90 px-4"
                 style={{
                 backgroundColor: 'rgb(99, 139, 99)'
                 }}
@@ -16,10 +19,10 @@ export default function Packages() {
     <div className="fixed inset-0 overflow-hidden">
     <Image
       className="opacity-10"
-      src="/bg-01.png"
+      src="/bg-02.png"
       alt="Pickleball"
-      width={1600}
-      height={2000}
+      width={1400}
+      height={2300}
       style={{ zIndex: -1 }}
     />
   </div>
@@ -114,7 +117,7 @@ export default function Packages() {
                     <li className="before:content-['-'] before:mr-2">Shuttle (1 hour) -&gt; Flight</li>
                 </ul>
                 </div>
-                <button className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
+                <button onClick={() => router.push('https://forms.gle/nsgcKz3huNJdAcKt9')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
                 RESERVE NOW!
                 </button>
             </div>
@@ -199,7 +202,7 @@ export default function Packages() {
                     <li className="before:content-['-'] before:mr-2">Shuttle (1 hour) -&gt; Flight</li>
                 </ul>
                 </div>
-                <button className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
+                <button onClick={() => router.push('https://forms.gle/RzT99hK45L3Byonj8')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
                 RESERVE NOW!
                 </button>
             </div>
@@ -287,13 +290,13 @@ export default function Packages() {
                 <br />
                 <br />
                 </div>
-                <button className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
+                <button onClick={() => router.push('https://forms.gle/DKGGsrmb2HUn6C518')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
                 RESERVE NOW!
                 </button>
             </div>
             </div>
 
-            <div className="text-center pb-16">
+            <div className="text-center pb-8">
             <div data-aos="fade-up" data-aos-duration="2000" className="relative inline-block">
                 <p className="z-10 relative text-white text-3xl sm:text-3xl lg:text-7xl font-bold inline z-10">
                 WHAT&apos;S INCLUDED?
@@ -302,7 +305,37 @@ export default function Packages() {
             </div>
             <br /><br />
             <p className="z-10 relative text-white text-base lg:text-2xl">INCLUDED IN ALL PACKAGES, AIRPORT TRANSFERS, LODGING, <br /> DAILY RESORT SHUTTLE, FOOD & PICKLEBALL</p>
-            <p className="z-10 relative text-white text-base lg:text-lg">**airfare not included in price**<br />
+            <div className="flex justify-center text-start">
+
+            <ul className="list-disc text-white mt-2">
+                <li className="marker:text-black">
+                    **AIRFARE NOT INCLUDED IN PRICE**
+                </li>
+                <li className="marker:text-black">
+                    Lodging is double occupancy (single occupancy add $500)
+                </li>
+                <li className="marker:text-black">
+                    Lodging is clean, comfortable, Mexican authentic
+                </li>
+                <li className="marker:text-black">
+                    (Add $300, $600, or $1000 per person for upgraded accommodations)
+                </li>
+                <li className="marker:text-black">
+                    Breakfast, lunch, & dinner included daily
+                </li>
+                <li className="marker:text-black">
+                    All afternoon activities leave from and return to resort
+                </li>
+                <li className="marker:text-black">
+                    Afternoon activities not included in price except for &quot;more pickleball&quot; & &quot;siesta&quot;
+                </li>
+                <li className="marker:text-black">
+                    Unlimited pickleball included if 30 scheduled hours is not enough.
+                </li>
+            </ul>
+            </div>
+            
+            {/* <p className="z-10 relative text-white text-base lg:text-lg">**airfare not included in price**<br />
                 lodging is double occupancy (single occupancy add $500) <br />
                 lodging is clean, comfortable, Mexican authentic <br />
                 (add $300, $600, or $1000 per person for upgraded accomodations) <br />
@@ -310,7 +343,7 @@ export default function Packages() {
                 all afternoon activities leave from and return to resort <br />
                 afternoon activities not included in price except for &quot;more pickleball&quot; & &quot;siesta&quot; <br />
                 unlimited pickleball included if 30 scheduled hours is not enough.
-            </p>
+            </p> */}
             <br /> <br/>
             <div data-aos="fade-down" data-aos-duration="2000"  className="relative inline-block">
                 <p className="relative text-white text-2xl sm:text-3xl lg:text-5xl font-bold inline z-10">

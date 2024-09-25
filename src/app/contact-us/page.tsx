@@ -137,7 +137,7 @@ export default function ContactUs() {
                     </p>
                     <br />
                     <p className="relative text-white text-2xl font-bold inline z-10">
-                        Octor - May: Every Day 7:00AM to 8:00PM
+                        Oct - May: Every Day 7:00AM to 8:00PM
                     </p>
                     <br />
                     <p className="relative text-white text-2xl font-bold inline z-10">
@@ -146,7 +146,7 @@ export default function ContactUs() {
                     </div>
                 </div>
                 </div>
-                <div className="py-24">
+                <div className="pb-16 pt-12">
                     <Footer />
                 </div>
             </div>

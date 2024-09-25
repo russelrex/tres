@@ -14,7 +14,7 @@ export default function Packages() {
         <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
             <div className="relative">
                 <Image
-                    className="inset-0 opacity-10"
+                    className="inset-0 opacity-10 transform scale-90"
                     src="/pickle-ss-05.png"
                     alt="Pickleball"
                     objectFit="cover"

@@ -13,14 +13,24 @@ export default function Packages() {
                 backgroundColor: 'rgb(99, 139, 99)'
                 }}
             >
-            <Image
+    <div className="fixed inset-0 overflow-hidden">
+    <Image
+      className="opacity-10"
+      src="/bg-01.png"
+      alt="Pickleball"
+      width={1600}
+      height={2000}
+      style={{ zIndex: -1 }}
+    />
+  </div>
+            {/* <Image
                 className="fixed inset-0 opacity-10"
                 src="/bg-01.png"
                 alt="Pickleball"
                 objectFit="cover"
                 objectPosition="center"
                 layout="fill"
-            />
+            /> */}
             <div className="grid grid-cols-1 sm:grid-cols-3 text-center py-24 gap-2">
             <div className="z-10 text-white justify-self-center">
                 <div data-aos="zoom-in-right" className="relative inline-block">

@@ -26,13 +26,25 @@ export default function Home() {
           backgroundColor: 'rgb(99, 139, 99)'
         }}
       >
-        <Image
-            className="opacity-10"
+          <div className="absolute inset-0 overflow-hidden">
+    <Image
+      className="opacity-10" // Scale down the image to 75% without affecting width/height
+      src="/bg-02.png"
+      alt="Pickleball"
+      // objectFit="cover"
+      // layout="fill"
+      width={1400}
+      height={2300}
+      style={{ zIndex: -1 }}
+    />
+  </div>
+        {/* <Image
+            className="opacity-10 transform scale-y-75"
             src="/bg-02.png"
             alt="Pickleball"
             objectFit="cover"
             layout="fill"
-          />
+          /> */}
         <div className="container text-center mt-20 xs:ml-72 sm:text-start">
           <div data-aos="fade-left" className="relative inline-block">
             <p className="relative text-white text-2xl sm:text-4xl lg:text-6xl font-extrabold inline z-10">
@@ -200,7 +212,7 @@ export default function Home() {
         </div>
         <div className="relative overflow-hidden flex items-center justify-center">
           <Image
-              className="opacity-10"
+              className="opacity-10 transform scale-200"
               src="/bg-01.png"
               alt="Pickleball"
               objectFit="cover"
@@ -237,7 +249,7 @@ export default function Home() {
         <div className="relative flex items-center justify-center" style={{ 
                 backgroundColor: 'rgb(99, 139, 99)'}}>
             <div
-              className="absolute opacity-10 inset-0 transform scale-150"
+              className="absolute opacity-10 inset-0 transform scale-110"
               style={{
                 backgroundImage: 'url("/pickle-ss-05.png")',
                 backgroundSize: 'cover',
@@ -347,7 +359,7 @@ export default function Home() {
         <div className="relative flex items-center justify-center overflow-hidden" style={{ 
                 backgroundColor: 'rgb(99, 139, 179)'}}>
             <div
-              className="absolute opacity-10 inset-0 transform scale-200"
+              className="absolute opacity-10 inset-0 transform scale-[1.7]"
               style={{
                 backgroundImage: 'url("/bg-02.png")',
                 backgroundSize: 'cover',

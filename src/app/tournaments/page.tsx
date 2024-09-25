@@ -15,14 +15,24 @@ export default function Tournaments() {
           style={{
           backgroundColor: 'rgb(99, 139, 179)'
         }}>
-          <Image
+              <div className="fixed inset-0 overflow-hidden">
+    <Image
+      className="opacity-10"
+      src="/bg-01.png"
+      alt="Pickleball"
+      width={1600}
+      height={2000}
+      style={{ zIndex: -1 }}
+    />
+  </div>
+          {/* <Image
             className="inset-0 opacity-10"
             src="/bg-01.png"
             alt="Pickleball"
             objectFit="cover"
             objectPosition="center"
             layout="fill"
-          />
+          /> */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
           <div data-aos="flip-right" data-aos-duration="2000" className="z-10">
             <div className="flex flex-col items-center mt-16 ml-0 mr-0 md:ml-[70px] md:mr-[-70px]">

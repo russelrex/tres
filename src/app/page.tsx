@@ -28,23 +28,15 @@ export default function Home() {
       >
           <div className="absolute inset-0 overflow-hidden">
     <Image
-      className="opacity-10" // Scale down the image to 75% without affecting width/height
+      className="opacity-10" 
       src="/bg-02.png"
       alt="Pickleball"
-      // objectFit="cover"
-      // layout="fill"
-      width={1400}
-      height={2300}
+      layout="responsive"
+      width={1700}
+      height={2800}
       style={{ zIndex: -1 }}
     />
   </div>
-        {/* <Image
-            className="opacity-10 transform scale-y-75"
-            src="/bg-02.png"
-            alt="Pickleball"
-            objectFit="cover"
-            layout="fill"
-          /> */}
         <div className="container text-center mt-20 xs:ml-72 sm:text-start">
           <div data-aos="fade-left" className="relative inline-block">
             <p className="relative text-white text-2xl sm:text-4xl lg:text-6xl font-extrabold inline z-10">
@@ -62,14 +54,15 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <div data-aos="flip-left" className="relative w-80 h-80 sm:w-[25rem] border border-4 border-white">
+          <div 
+            style={{ marginTop: '-80px !important' }}>
           <Image
-            className="transform scale-150"
-            src="/header-01.jpg"
+            src="/header-01-copy.jpg"
             alt="Pickleball"
             objectFit="cover"
             layout="fill"
-            style={{ marginTop: '-80px' }}
           />
+          </div>
           <div
             className="absolute inset-0 bg-black"
             style={{ 

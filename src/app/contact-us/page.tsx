@@ -35,18 +35,19 @@ export default function ContactUs() {
     return (
         <>
         <Header />
-            <div className="relative min-h-screen grid-cols-1 pt-24"
+            <div className="relative pt-24 px-4"
             style={{
             backgroundColor: 'rgb(99, 139, 179)'
             }}>
-                <Image
-                    className="inset-0 opacity-10"
-                    src="/bg-02.png"
-                    alt="Pickleball"
-                    objectFit="cover"
-                    objectPosition="center"
-                    layout="fill"
-                />
+                <div className="fixed inset-0 overflow-hidden h-[2200px]">
+    <Image
+      className="opacity-10"
+      src="/bg-02.png"
+      alt="Pick0leball"
+      layout="fill"
+      style={{ zIndex: -1 }}
+    />
+  </div>
                 <div className="pt-16">
                 <div data-aos="zoom-in" className="text-center">
                     <div className="relative inline-block">
@@ -133,7 +134,7 @@ export default function ContactUs() {
                 <div className="text-center mt-8">
                     <div className="relative inline-block">
                     <p className="relative text-white text-2xl font-bold inline z-10">
-                        * * HOURS OF OPERATION * *
+                        HOURS OF OPERATION
                     </p>
                     <br />
                     <p className="relative text-white text-2xl font-bold inline z-10">

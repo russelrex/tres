@@ -71,7 +71,7 @@ export default function FAQ() {
 const accordionData = [
     { title: "What is Tres Palapas", content: (
       <p>
-        - We are a dedicated pickleball facility. We have 10 courts, onsite coffee, smoothies, restaurant, courtside bar. We are the perfect place to immerse yourself in the Baja pickleball lifestyle
+        - We are a dedicated oasis of pickleball with 10 courts surrounding our courtside bar. We offer a cafe which provides delicious coffee, smoothies and breakfast. Additionally we have a full service restaurant on site. We are the original destination for pickleball experience. Get ready to immerse yourself in the beautiful Baja pickleball lifestyle.
       </p>
     ) },
     { title: "How do I get to Tres Palapas? What airport do I fly into?", content: (
@@ -101,17 +101,17 @@ const accordionData = [
     ) },
     { title: "What do I need to do before I arrive?", content: (
       <p>
-        - Register for Scheduled Play, reserve a court, or sign up for the events you wish to participate in during your time at Tres Palapas. Due to the high demand for courts, we recommend you schedule your pickleball play at the same time you make your travel plans. You can schedule all your pickleball play here: <a className="text-blue-500 hover:underline" href="https://mobileapp.courtreserve.com/Online/Portal/Index/8043" target="_blank"> https://mobileapp.courtreserve.com/Online/Portal/Index/8043 </a> 
+        - We recommend you reserve your favorite times for skill based open play and sign up for any of the special programs that interest you. Space is limited so we can ensure the maximum play experience for your vacation time. You can schedule all your pickleball play here: <a className="text-blue-500 hover:underline" href="https://mobileapp.courtreserve.com/Online/Portal/Index/8043" target="_blank"> https://mobileapp.courtreserve.com/Online/Portal/Index/8043 </a> 
       </p>
     ) },
     { title: "Is there drinking water? Is the water safe to drink?", content: (
       <p>
-        - We have a water bottle filling station at the courts that is treated and triple filtered and safe to drink. If you’re visiting, all you need to do is bring your water bottle and you will be set. We do also sell bottled water. If you stay somewhere in town or offsite, you will need to buy
+        - We have a treated and triple filtered water bottle filling station at the courts which is safe to drink. If you&apos;re visiting, all you need to do is bring your water bottle and you will be set. In addition, we sell bottled water. If you are staying off site the water is not recommended to drink unless your accommodations specifically state their water is filtered.  
       </p>
     ) },
     { title: "Do I need to bring a paddle/ball/shoes?", content: (
       <p>
-        - You can bring your own paddle, but we have a pro shop onsite that has paddles for demo and for sale. Balls are supplied on court at no cost. Court shoes are required to play at Tres Palapas, we do not have any shoes for sale in the pro shop.
+        - We recommend you bring your own paddle and shoes. We do have a pro shop with clothing items and we offer demo paddles and paddles for sale. Balls are supplied on the courts at no cost to you! Court shoes are required to play at Tres Palapas. Note we do not sell footwear/court shoes in our pro shop.
       </p>
     )},
     { title: "How does pickleball play work at Tres Palapas?", content: (
@@ -121,7 +121,7 @@ const accordionData = [
     ) },
     { title: "Do you offer pickleball camps/clinics/lessons?", content: (
       <p>
-        - Yes, we offer weekly clinics to sign up for and private lessons by appointment. We also have visiting pros that offer camps. View our clinics schedule here. Sign up for private lessons here. View our Pro-Series camps here. Please check in at the front desk when you arrive so we know you are here.
+        - Absolutely!  See our home page and choose from one of three awesome packages. In addition to those packages we offer private and semi-private lessons by appointment and run additional skills camps throughout the week. You can sign up on our home page for any of our three packages. You can sign up here <a className="text-blue-500 hover:underline" href="https://mobileapp.courtreserve.com/Online/Portal/Index/8043" target="_blank"> https://mobileapp.courtreserve.com/Online/Portal/Index/8043 </a> for private and semi-private lessons.
       </p>
     ) },
     { title: "Do you have any tournaments?", content: (
@@ -151,12 +151,12 @@ const accordionData = [
     ) },
     { title: "I want to look at Real Estate near Tres Palapas. How do I get started?", content: (
       <p>
-        - Our personal friends and the #1 real estate agency in Los Barriles are Carlene and David Lokey with Homes and Land of Baja. You can get in touch with them here
+        - Our personal friends and the #1 real estate agency in Los Barriles are Carlene and David Lokey with Homes and Land of Baja. You can get in touch with them <a className="text-blue-500 hover:underline" href="https://www.homesandlandofbaja.com/">https://www.homesandlandofbaja.com/</a>
       </p>
     ) },
     { title: "Do you allow pets?", content: (
       <p>
-        - We love pets at Tres Palapas, however we need to ensure that they do not disrupt other people’s vacations. Well behaved pets are welcome as long as they are on a leash at all times.
+        - We love pets at Tres Palapas, however we need to ensure that they do not disrupt other people&apos;s vacations. Well behaved pets are welcome as long as they are on a leash at all times.
       </p>
     ) },
     { title: "Are children allowed?", content: (
@@ -166,12 +166,9 @@ const accordionData = [
       (<p>- Yes, we host weddings, family reunions, friends&apos; trips, and other types of private events. Email info@trespalapasbaja.com to inquire about reserving for your private party.</p>)
     },
     { title: "Do you have any job opportunities?", content: (
-      <>
-        <p>- We are always on the lookout for fun and interesting people to join us either on the courts, in the bar/restaurant, or elsewhere.</p>
-        <p>Reach out to us at <a className="text-blue-500 hover:underline" href="mailto:info@trespalapasbaja.com">info@trespalapasbaja.com</a> to inquire about job opportunities.</p>
-        <br />
-        <p>Need more info? Email us at <a className="text-blue-500 hover:underline" href="mailto:info@trespalapasbaja.com">info@trespalapasbaja.com</a></p>
-      </>
+      <p>
+        - Please send your interest and queries to <a href="mailto:info@trespalapasbaja.com">info@trespalapasbaja.com</a>
+      </p>
     ) },
   ];
   

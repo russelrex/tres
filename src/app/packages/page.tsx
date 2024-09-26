@@ -20,9 +20,9 @@ export default function Packages() {
     <Image
       className="opacity-10"
       src="/bg-02.png"
-      alt="Pickleball"
-      width={1400}
-      height={2300}
+      alt="Pick0leball"
+      width={1700}
+      height={2800}
       style={{ zIndex: -1 }}
     />
   </div>
@@ -307,29 +307,29 @@ export default function Packages() {
             <p className="z-10 relative text-white text-base lg:text-2xl">INCLUDED IN ALL PACKAGES, AIRPORT TRANSFERS, LODGING, <br /> DAILY RESORT SHUTTLE, FOOD & PICKLEBALL</p>
             <div className="flex justify-center text-start">
 
-            <ul className="list-disc text-white mt-2">
-                <li className="marker:text-black">
-                    **AIRFARE NOT INCLUDED IN PRICE**
+            <ul className="z-10 list-disc text-white mt-2 ps-24">
+                <li>
+                    <span className="font-bold">AIRFARE NOT INCLUDED IN PRICE</span>
                 </li>
-                <li className="marker:text-black">
+                <li>
                     Lodging is double occupancy (single occupancy add $500)
                 </li>
-                <li className="marker:text-black">
+                <li>
                     Lodging is clean, comfortable, Mexican authentic
                 </li>
-                <li className="marker:text-black">
+                <li>
                     (Add $300, $600, or $1000 per person for upgraded accommodations)
                 </li>
-                <li className="marker:text-black">
+                <li>
                     Breakfast, lunch, & dinner included daily
                 </li>
-                <li className="marker:text-black">
+                <li>
                     All afternoon activities leave from and return to resort
                 </li>
-                <li className="marker:text-black">
+                <li>
                     Afternoon activities not included in price except for &quot;more pickleball&quot; & &quot;siesta&quot;
                 </li>
-                <li className="marker:text-black">
+                <li>
                     Unlimited pickleball included if 30 scheduled hours is not enough.
                 </li>
             </ul>

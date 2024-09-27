@@ -28,8 +28,8 @@ export default function Packages() {
             layout="fill"
         /> */}
         
-        <div className="grid grid-cols-2 pt-32">
-          <div className="col-span-2 flex justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 pt-32">
+          <div className="col-auto md:col-span-2 flex justify-center">
             <div className="z-10">
                 <div data-aos="fade-right" data-aos-duration="2000" className="md:mb-2 relative inline-block">
                     <p className="relative text-white text-lg sm:text-3xl lg:text-4xl font-extrabold inline z-10">
@@ -39,7 +39,7 @@ export default function Packages() {
                 </div>
             </div>
           </div>
-          <div className="col-span-2 flex justify-center">
+          <div className="col-auto md:col-span-2 flex justify-center">
             <div className="relative z-10">
                 <div data-aos="fade-right" data-aos-duration="2000"  className="relative inline-block">
                     <p className="relative text-white text-lg sm:text-3xl lg:text-4xl font-extrabold inline z-10">
@@ -89,6 +89,7 @@ export default function Packages() {
           </div>
         </div>
 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center p-8">
+
   <div className="relative w-full h-96 border border-2 border-white">
       <Image
         src="/food01.jpg"
@@ -116,6 +117,7 @@ export default function Packages() {
         className="z-10 opacity-90"
       />
   </div>
+
   <div className="relative w-full h-96 border border-2 border-white">
       <Image
         src="/food04.jpg"
@@ -251,7 +253,7 @@ export default function Packages() {
         className="z-10 opacity-90"
       />
   </div>
-  <div className="py-12 bottom-0 w-full col-span-3">
+  <div className="py-12 bottom-0 w-full col-auto md:col-span-3">
       <Footer />
   </div>
 </div>

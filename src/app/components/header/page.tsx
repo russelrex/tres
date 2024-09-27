@@ -53,7 +53,7 @@ export default function Header() {
             isScrolled ? 'backdrop-blur-lg' : ''
             }`
         }>
-          <div className="container flex items-center justify-between p-0.5 mx-auto">
+          <div className="container flex items-center justify-between p-0.5 mx-auto ms-8">
             <div>
                 <Image
                     onClick={handleClick}
@@ -66,7 +66,7 @@ export default function Header() {
                 />
             </div>
   
-            <div className="md:hidden">
+            <div className="md:hidden me-16">
               <button
                 onClick={toggleMenu}
                 className="text-zinc-900 focus:outline-none"
@@ -76,7 +76,7 @@ export default function Header() {
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="w-8 h-8 text-white"
                 >
                   <path
                     strokeLinecap="round"
@@ -185,58 +185,62 @@ export default function Header() {
             </div>
           </div>
           <div
-            className={`md:hidden bg-white overflow-hidden transition-all duration-300 ease-out ${
+            className={`md:hidden overflow-hidden transition-all duration-300 ease-out ${
               isMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
             }`}
+            style={{
+              // transition: 'transform 0.3s ease-in-out',
+              backgroundColor: 'rgba(99, 139, 99, 0.7)',
+            }}
           >
             <div className="flex flex-col items-center p-4">
                 <Link
                   href='/packages'
-                  className="p-2 px-5 my-2 w-full text-center border border-2 border-zinc-900 duration-200 hover:border-zinc-500 hover:text-zinc-500"
+                  className="p-2 px-5 my-2 w-full text-center border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                 >
                   <p className="font-semibold">PACKAGES</p>
                 </Link>
                 <Link
                   href='/tournaments'
-                  className="p-2 px-5 my-2 w-full text-center border border-2 border-zinc-900 duration-200 hover:border-zinc-500 hover:text-zinc-500"
+                  className="p-2 px-5 my-2 w-full text-center border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                 >
                   <p className="font-semibold">TOURNAMENTS</p>
                 </Link>
                 <Link
                   href='/foods'
-                  className="p-2 px-5 my-2 w-full text-center border border-2 border-zinc-900 duration-200 hover:border-zinc-500 hover:text-zinc-500"
+                  className="p-2 px-5 my-2 w-full text-center border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                 >
                   <p className="font-semibold">EAT & DRINK</p>
                 </Link>
                 <Link
                   href='https://mobileapp.courtreserve.com/Online/Portal/Index/8043'
                   target="_blank"
-                  className="p-2 px-5 my-2 w-full text-center border border-2 border-zinc-900 duration-200 hover:border-zinc-500 hover:text-zinc-500"
+                  className="p-2 px-5 my-2 w-full text-center border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                 >
                   <p className="font-semibold">RESERVE COURTS</p>
                 </Link>
                 <Link
                   href='https://secure.webrez.com/Bookings105/activity-edit.html?hotel_id=3731&table=hotels&listing_id=3731&mode=command&command=bookingrequestform_v2'
-                  className="p-2 px-5 my-2 w-full text-center border border-2 border-zinc-900 duration-200 hover:border-zinc-500 hover:text-zinc-500"
+                  className="p-2 px-5 my-2 w-full text-center border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                 >
                   <p className="font-semibold">Lodging</p>
                 </Link>
                 <Link
                   href='/contact-us'
-                  className="p-2 px-5 my-2 w-full text-center border border-2 border-zinc-900 duration-200 hover:border-zinc-500 hover:text-zinc-500"
+                  className="p-2 px-5 my-2 w-full text-center border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                 >
                   <p className="font-semibold">CONTACT US</p>
                 </Link>
                 <Link
                   href='/faq'
-                  className="p-2 px-5 my-2 w-full text-center border border-2 border-zinc-900 duration-200 hover:border-zinc-500 hover:text-zinc-500"
+                  className="p-2 px-5 my-2 w-full text-center border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                 >
                   <p className="font-semibold">FAQ</p>
                 </Link>
                 <Link
                   href='https://mobileapp.courtreserve.com/Online/Calendar/Events/8043/Month'
                   target="_blank"
-                  className="p-2 px-5 my-2 w-full text-center border border-2 border-zinc-900 duration-200 hover:border-zinc-500 hover:text-zinc-500"
+                  className="p-2 px-5 my-2 w-full text-center border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                 >
                   <p className="font-semibold">Schedule</p>
                 </Link>

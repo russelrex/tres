@@ -243,7 +243,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 overflow-hidden">
+      <div className="grid grid-cols-1 sm:grid-cols-2 overflow-hidden hidden md:grid">
         <div className="relative flex items-center justify-center" style={{ 
                 backgroundColor: 'rgb(99, 139, 99)'}}>
             <div
@@ -319,6 +319,85 @@ export default function Home() {
             </button>
             </div>
         </div>
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 overflow-hidden md:hidden">
+        
+      <div className="relative bg-green-300 h-[40rem] sm:h-auto">
+            <Image
+              src="/pickle-ss-02.jpg"
+              alt="Pickleball"
+              objectFit="cover"
+              layout="fill"
+              className="opacity-80"
+            />
+            <div className="absolute inset-0 flex flex-col items-left text-left m-10 sm:m-10">
+            <div>
+              <div data-aos="zoom-in-right" className="relative inline-block">
+                <p className="relative text-white text-4xl lg:text-6xl font-extrabold inline z-10">
+                  TRES PALAPAS
+                </p>
+                <div className="z-0 absolute bottom-0 left-0 w-full h-4 bg-orange-500"></div>
+              </div>
+            </div>
+            <div>
+              <div data-aos="zoom-in-left" className="relative inline-block">
+                <p className="relative text-white text-4xl lg:text-6xl font-extrabold inline z-10">
+                  IMMERSION
+                </p>
+                <div className="z-0 absolute bottom-0 left-0 w-full h-4 bg-orange-500"></div>
+              </div>
+            </div>
+            <div>
+              <div data-aos="zoom-in-left" className="relative inline-block">
+                <p className="relative text-white text-4xl lg:text-6xl font-extrabold inline z-10">
+                  CAMPS
+                </p>
+                <div className="z-0 absolute bottom-0 left-0 w-full h-4 bg-orange-500"></div>
+              </div>
+            </div>
+            <br />
+            <button onClick={() => router.push('/packages')} data-aos="flip-right" className="mt-4 p-1 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400 w-52">
+              VIEW SCHEDULE
+            </button>
+            </div>
+        </div>
+        <div className="relative flex items-center justify-center" style={{ 
+                backgroundColor: 'rgb(99, 139, 99)'}}>
+            <div
+              className="absolute opacity-10 inset-0 transform scale-110"
+              style={{
+                backgroundImage: 'url("/pickle-ss-05.png")',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+              }}
+            />
+            <div data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" className="relative">
+              <p className="m-10 lg:m-24 md:m-12 text-base sm:text-sm lg:text-xl text-white">
+                Experience the ultimate pickleball evolution at our
+                innovative all-inclusive 5-day Immersion Camp. This
+                comprehensive program is designed to up your game
+                through a unique blend of technique/strategic
+                development and to implement a growth mindset to lay
+                the foundation for future self-improvement.
+                <br /><br />
+                Our expert instructors will guide you through our
+                carefully crafted curriculum that builds progressively
+                from foundational skills to advanced strategies. Our
+                innovative drills and exercises seamlessly integrate
+                multiple skills while constantly reinforcing previous
+                learnings, ensuring a holistic improvement in your
+                pickleball prowess.
+                <br /><br />
+                Whether you&apos;re an intermediate player looking to
+                build on a solid foundation or an advanced player
+                aiming to refind your skills, our camp caters to varying
+                abilities with tailored instruction. Join us for an
+                unforgettable pickleball experience that will fuel your
+                passion for continuous improvement.
+              </p>
+            </div>
+          </div>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2">
@@ -415,9 +494,9 @@ export default function Home() {
                 <div className="z-0 absolute bottom-0 left-0 w-full h-4 bg-orange-500"></div>
             </div>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 mx-12 md:mx-12 lg:mx-16 gap-16">
+            <div className="grid grid-cols-1 sm:grid-cols-2 mx-auto md:mx-12 lg:mx-16 gap-2 md:gap-16">
               <div data-aos="fade-up" data-aos-duration="2000" className="z-10 mt-4 sm:mt-16 lg:mt-2">
-                  <p className="m-10 sm:m-4 text-base sm:text-sm lg:text-2xl text-white mt-4 lg:mt-16">
+                  <p className="m-6 sm:m-4 text-base sm:text-sm lg:text-2xl text-white mt-4 lg:mt-16">
                   Tres Palapas is your ultimate pickleball paradise from
                   sun up to sun down. Unleash your pickleball passion with
                   our innovative programming tailored to every skill level.

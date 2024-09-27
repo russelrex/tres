@@ -26,14 +26,6 @@ export default function Packages() {
       style={{ zIndex: -1 }}
     />
   </div>
-            {/* <Image
-                className="fixed inset-0 opacity-10"
-                src="/bg-01.png"
-                alt="Pickleball"
-                objectFit="cover"
-                objectPosition="center"
-                layout="fill"
-            /> */}
             <div className="grid grid-cols-1 sm:grid-cols-3 text-center py-24 gap-2">
             <div className="z-10 text-white justify-self-center">
                 <div data-aos="zoom-in-right" className="relative inline-block">
@@ -121,7 +113,7 @@ export default function Packages() {
                 RESERVE NOW!
                 </button>
             </div>
-            <div className="z-10 text-white justify-self-center">
+            <div className="z-10 text-white justify-self-center mt-12 md:mt-0">
                 <div data-aos="zoom-in-up" className="relative inline-block">
                 <p className="relative text-white text-3xl font-bold inline z-10">
                     IMMERSION
@@ -206,7 +198,7 @@ export default function Packages() {
                 RESERVE NOW!
                 </button>
             </div>
-            <div className="z-10 text-white justify-self-center">
+            <div className="z-10 text-white justify-self-center mt-12 md:mt-0">
                 <div data-aos="zoom-in-left" className="relative inline-block">
                 <p className="relative text-white text-3xl font-bold inline z-10">
                     PRO-SERIES
@@ -307,7 +299,7 @@ export default function Packages() {
             <p className="z-10 relative text-white text-base lg:text-2xl">INCLUDED IN ALL PACKAGES, AIRPORT TRANSFERS, LODGING, <br /> DAILY RESORT SHUTTLE, FOOD & PICKLEBALL</p>
             <div className="flex justify-center text-start">
 
-            <ul className="z-10 list-disc text-white mt-2 ps-24">
+            <ul className="z-10 list-disc text-white mt-2 ps-12 md:ps-24">
                 <li>
                     <span className="font-bold">AIRFARE NOT INCLUDED IN PRICE</span>
                 </li>
@@ -334,16 +326,6 @@ export default function Packages() {
                 </li>
             </ul>
             </div>
-            
-            {/* <p className="z-10 relative text-white text-base lg:text-lg">**airfare not included in price**<br />
-                lodging is double occupancy (single occupancy add $500) <br />
-                lodging is clean, comfortable, Mexican authentic <br />
-                (add $300, $600, or $1000 per person for upgraded accomodations) <br />
-                breafast, lunch, & dinner included daily <br />
-                all afternoon activities leave from and return to resort <br />
-                afternoon activities not included in price except for &quot;more pickleball&quot; & &quot;siesta&quot; <br />
-                unlimited pickleball included if 30 scheduled hours is not enough.
-            </p> */}
             <br /> <br/>
             <div data-aos="fade-down" data-aos-duration="2000"  className="relative inline-block">
                 <p className="relative text-white text-2xl sm:text-3xl lg:text-5xl font-bold inline z-10">

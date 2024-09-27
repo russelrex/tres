@@ -21,14 +21,26 @@ export default function FAQ() {
                 }}
             >
               <div className="grid grid-cols-1">
-                    <Image
+                    {/* <Image
                       className="inset-0 opacity-10"
                       src="/bg-03.png"
                       alt="Pickleball"
                       objectFit="cover"
                       objectPosition="center"
                       layout="fill"
-                  />
+                  /> */}
+                                <div className="fixed inset-0 overflow-hidden">
+    <Image
+      className="opacity-10"
+      src="/bg-03.png"
+      alt="Pickleball"
+      layout="fill"
+      objectFit="cover"
+      // width={1600}
+      // height={3000}
+      style={{ zIndex: -1 }}
+    />
+  </div>
                   <div className="pt-16">
                   <div data-aos="zoom-in" className="text-center">
                       <div className="relative inline-block">
@@ -60,7 +72,7 @@ export default function FAQ() {
                   </div>
                   </div>
               </div>
-              <div className="mt-24">
+              <div className="mt-12">
                 <Footer />
               </div>
             </div>

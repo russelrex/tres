@@ -55,7 +55,7 @@ export default function Packages() {
                 <div className="box-border w-auto mt-4 p-4 border-4 text-start">
                 <span className="font-bold">Saturday</span><br/>
                 <ul className="list-none">
-                    <li className="before:content-['-'] before:mr-2">Flight - Shuttle (1 hour)</li>
+                    <li className="before:content-['-'] before:mr-2">Flight - Shuttle from SJD to LB (1 hour)</li>
                     <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 4pm-6pm</li>
                     <li className="before:content-['-'] before:mr-2">Dinner: 6:30pm</li>
                     <li className="before:content-['-'] before:mr-2">Check-In: 7:30pm-8pm</li>
@@ -114,7 +114,7 @@ export default function Packages() {
                     <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 7am-9pm</li>
                     <li className="before:content-['-'] before:mr-2">Check-Out: 10am</li>
                     <li className="before:content-['-'] before:mr-2">Lunch: 12:30pm</li>
-                    <li className="before:content-['-'] before:mr-2">Shuttle (1 hour) -&gt; Flight</li>
+                    <li className="before:content-['-'] before:mr-2">Shuttle leaving LB (3 hours) before flight</li>
                 </ul>
                 </div>
                 <button onClick={() => router.push('https://forms.gle/nsgcKz3huNJdAcKt9')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
@@ -140,7 +140,7 @@ export default function Packages() {
                 <div className="box-border w-auto mt-4 p-4 border-4 text-start">
                 <span className="font-bold">Saturday</span><br/>
                 <ul className="list-none">
-                    <li className="before:content-['-'] before:mr-2">Flight - Shuttle (1 hour)</li>
+                    <li className="before:content-['-'] before:mr-2">Flight - Shuttle from SJD to LB (1 hour)</li>
                     <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 4pm-6pm</li>
                     <li className="before:content-['-'] before:mr-2">Dinner: 6:30pm</li>
                     <li className="before:content-['-'] before:mr-2">Check-In: 7:30pm-8pm</li>
@@ -199,7 +199,7 @@ export default function Packages() {
                     <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 7am-9pm</li>
                     <li className="before:content-['-'] before:mr-2">Check-Out: 10am</li>
                     <li className="before:content-['-'] before:mr-2">Lunch: 12:30pm</li>
-                    <li className="before:content-['-'] before:mr-2">Shuttle (1 hour) -&gt; Flight</li>
+                    <li className="before:content-['-'] before:mr-2">Shuttle leaving LB (3 hours) before flight</li>
                 </ul>
                 </div>
                 <button onClick={() => router.push('https://forms.gle/RzT99hK45L3Byonj8')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
@@ -227,7 +227,7 @@ export default function Packages() {
                 <div className="box-border w-auto mt-4 p-4 border-4 text-start">
                 <span className="font-bold">Saturday</span><br/>
                 <ul className="list-none">
-                    <li className="before:content-['-'] before:mr-2">Flight - Shuttle (1 hour)</li>
+                    <li className="before:content-['-'] before:mr-2">Flight - Shuttle from SJD to LB (1 hour)</li>
                     <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 4pm-6pm</li>
                     <li className="before:content-['-'] before:mr-2">Dinner: 6:30pm</li>
                     <li className="before:content-['-'] before:mr-2">Check-In: 7:30pm-8pm</li>
@@ -284,7 +284,7 @@ export default function Packages() {
                     <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 7am-9pm</li>
                     <li className="before:content-['-'] before:mr-2">Check-Out: 10am</li>
                     <li className="before:content-['-'] before:mr-2">Lunch: 12:30pm</li>
-                    <li className="before:content-['-'] before:mr-2">Shuttle (1 hour) -&gt; Flight</li>
+                    <li className="before:content-['-'] before:mr-2">Shuttle leaving LB (3 hours) before flight</li>
                 </ul>
                 <br />
                 <br />

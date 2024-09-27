@@ -86,7 +86,7 @@ const accordionData = [
     )},
     { title: "What transportation do I need to get around Los Barriles?", content: (
       <p>
-        - Most people rent a quad or a side by side to travel around town and the beaches and arroyos. We recommend <a className="text-blue-500 hover:underline" href="https://www.quadmanbaja.com/" target="_blank"> https://www.quadmanbaja.com/ </a> for their excellent rental service.
+        - If you purchase one of the three all-inclusive packages, transportation to and from the airport is included, courtesy of Tres Palapas. These packages also provide daily shuttle service between off-site lodging and the facility. For those not on a package, most people choose to rent a quad or side-by-side to explore the town, beaches, and arroyos. Renting a car in San José del Cabo is another option. It&apos;s worth noting that there are no taxis in Los Barriles.
       </p>
     ) },
     { title: "What is the best time of year to visit?", content: (
@@ -96,7 +96,7 @@ const accordionData = [
     ) },
     { title: "Where do I stay?", content: (
       <p>
-        - We have three beautiful 1-bedroom condos onsite. We also recommend a few hotels and rentals in the area. You can view all our favorite accommodation options here
+        - Welcome to Hacienda Blanca, where we offer three beautiful, private 1-bedroom condos onsite, complete with a hot tub and swimming pool. If the condos are fully booked, no worries! We provide lodging solutions with all-inclusive packages for each of our Tres Experiences, including MTP, Immersion Camps, and the Pro-Series Camps.
       </p>
     ) },
     { title: "What do I need to do before I arrive?", content: (
@@ -116,7 +116,7 @@ const accordionData = [
     )},
     { title: "How does pickleball play work at Tres Palapas?", content: (
       <p>
-        - All scheduled play, events, and reservations are organized by skill level. Register for the play you wish to participate in and you will be assigned a court when you arrive.
+        - All scheduled play, events, and reservations are organized by skill level. Register for the play you wish to participate in and you will be assigned a court when you arrive. Alternatively, choose from one of our amazing three packages for the full Tres Palapas Pickleball experience!
       </p>
     ) },
     { title: "Do you offer pickleball camps/clinics/lessons?", content: (

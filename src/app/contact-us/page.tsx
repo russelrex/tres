@@ -35,19 +35,19 @@ export default function ContactUs() {
     return (
         <>
         <Header />
-            <div className="relative pt-24 px-4"
+            <div className="relative pt-24 px-4 min-h-screen"
             style={{
             backgroundColor: 'rgb(99, 139, 179)'
             }}>
-                <div className="fixed inset-0 overflow-hidden h-[2200px]">
-    <Image
-      className="opacity-10"
-      src="/bg-02.png"
-      alt="Pick0leball"
-      layout="fill"
-      style={{ zIndex: -1 }}
-    />
-  </div>
+        <div className="fixed inset-0 overflow-hidden w-[1500px] h-[2500px]">
+            <Image
+            className="opacity-10"
+            src="/bg-02.png"
+            alt="Pick0leball"
+            layout="fill"
+            style={{ zIndex: -1 }}
+            />
+        </div>
                 <div className="pt-16">
                 <div data-aos="zoom-in" className="text-center">
                     <div className="relative inline-block">

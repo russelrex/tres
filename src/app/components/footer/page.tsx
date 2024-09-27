@@ -19,7 +19,7 @@ export default function Footer() {
                             </div>
                         </li>
                     </a>
-                    <a href="https://www.instagram.com/trespalapasresort/" target="_blank">
+                    <a href="https://www.facebook.com/TresPalapasPickleball" target="_blank">
                         <li className="flex justify-center">
                             <div className="border border-2 cursor-pointer rounded-full p-2 w-10 h-10 flex justify-center items-center">
                                 <FaFacebookF className="w-6 h-6 text-white transform transition-all hover:scale-125" />

@@ -156,6 +156,13 @@ export default function Header() {
                     </svg>
                   </button>
                   <Link
+                    href="https://mobileapp.courtreserve.com/Online/Calendar/Events/8043/Month"
+                    target="_blank"
+                    className="w-5/6 text-center p-2 px-5 md:px-2 lg:px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
+                  >
+                    <p className="font-semibold md:text-sm lg:text-base">Schedule</p>
+                  </Link>
+                  <Link
                     href='https://secure.webrez.com/Bookings105/activity-edit.html?hotel_id=3731&table=hotels&listing_id=3731&mode=command&command=bookingrequestform_v2'
                     className="w-5/6 text-center p-2 px-5 md:px-2 lg:px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                   >
@@ -172,13 +179,6 @@ export default function Header() {
                     className="w-5/6 text-center p-2 px-5 md:px-2 lg:px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                   >
                     <p className="font-semibold md:text-sm lg:text-base">FAQ</p>
-                  </Link>
-                  <Link
-                    href="https://mobileapp.courtreserve.com/Online/Calendar/Events/8043/Month"
-                    target="_blank"
-                    className="w-5/6 text-center p-2 px-5 md:px-2 lg:px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
-                  >
-                    <p className="font-semibold md:text-sm lg:text-base">Schedule</p>
                   </Link>
                 </div>
               </div>
@@ -220,6 +220,13 @@ export default function Header() {
                   <p className="font-semibold">RESERVE COURTS</p>
                 </Link>
                 <Link
+                  href='https://mobileapp.courtreserve.com/Online/Calendar/Events/8043/Month'
+                  target="_blank"
+                  className="p-2 px-5 my-2 w-full text-center border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
+                >
+                  <p className="font-semibold">Schedule</p>
+                </Link>
+                <Link
                   href='https://secure.webrez.com/Bookings105/activity-edit.html?hotel_id=3731&table=hotels&listing_id=3731&mode=command&command=bookingrequestform_v2'
                   className="p-2 px-5 my-2 w-full text-center border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                 >
@@ -236,13 +243,6 @@ export default function Header() {
                   className="p-2 px-5 my-2 w-full text-center border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                 >
                   <p className="font-semibold">FAQ</p>
-                </Link>
-                <Link
-                  href='https://mobileapp.courtreserve.com/Online/Calendar/Events/8043/Month'
-                  target="_blank"
-                  className="p-2 px-5 my-2 w-full text-center border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
-                >
-                  <p className="font-semibold">Schedule</p>
                 </Link>
             </div>
           </div>

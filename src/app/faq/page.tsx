@@ -6,7 +6,7 @@ import Image from "next/legacy/image";
 import Footer from "../components/footer/page";
 
 export default function FAQ() {
-    const [openAccordions, setOpenAccordions] = useState([false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]);
+    const [openAccordions, setOpenAccordions] = useState([false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]);
 
     const toggleAccordion = (index: number) => {
         setOpenAccordions(openAccordions.map((isOpen, i) => (i === index ? !isOpen : isOpen)));
@@ -177,10 +177,8 @@ const accordionData = [
     { title: "Can I bring a group for a private event at Tres Palapas?", content: 
       (<p>- Yes, we host weddings, family reunions, friends&apos; trips, and other types of private events. Email info@trespalapasbaja.com to inquire about reserving for your private party.</p>)
     },
-    { title: "Do you have any job opportunities?", content: (
-      <p>
-        - Please send your interest and queries to <a href="mailto:info@trespalapasbaja.com">info@trespalapasbaja.com</a>
-      </p>
-    ) },
+    { title: "Do you have any job opportunities?", content: 
+      (<p>- Please send your interest and queries to <a className="text-blue-500 hover:underline" href="mailto:info@trespalapasbaja.com">info@trespalapasbaja.com</a></p>)
+    },
   ];
   

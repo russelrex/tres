@@ -161,10 +161,10 @@ export default function Home() {
             </div>
           </div>
           <div data-aos="flip-right" className="block md:flex mt-4 text-white gap-4">
-            <p className="text-xl font-extrabold">ALL INCLUSIVE PACKAGES <span style={{ color: "white" }}>&#x2714;</span></p>
-            <p className="text-xl font-extrabold">HOURLY PLAY <span style={{ color: "white" }}>&#x2714;</span></p>
-            <p className="text-xl font-extrabold">BAJA TRAVELERS <span style={{ color: "white" }}>&#x2714;</span></p>
-            <p className="text-xl font-extrabold">LOCALS <span style={{ color: "white" }}>&#x2714;</span></p>
+          <p className="text-xl font-extrabold">ALL INCLUSIVE PACKAGES <span className="checkmark">&#x2714;</span></p>
+          <p className="text-xl font-extrabold">HOURLY PLAY <span className="checkmark">&#x2714;</span></p>
+          <p className="text-xl font-extrabold">BAJA TRAVELERS <span className="checkmark">&#x2714;</span></p>
+          <p className="text-xl font-extrabold">LOCALS <span className="checkmark">&#x2714;</span></p>
           </div>
           <div className="video-container flex justify-center mt-8">
             <div className="relative w-full h-80 sm:w-4/5 lg:w-2/3 border border-4 border-white">

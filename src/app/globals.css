@@ -38,3 +38,9 @@ body {
     text-wrap: balance;
   }
 }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .checkmark {
+    color: white;
+  }
+}

@@ -133,7 +133,7 @@ const accordionData = [
     ) },
     { title: "Do you offer pickleball camps/clinics/lessons?", content: (
       <p>
-        - Absolutely!  See our home page and choose from one of three awesome packages. In addition to those packages we offer private and semi-private lessons by appointment and run additional skills camps throughout the week. You can sign up on our home page for any of our three packages. Email <a className="text-blue-500 hover:underline" href="mailto:joe@trespalapasbaja.com">joe@trespalapasbaja.com</a>to schedule your private and semi-private lessons and clinics.
+        - Absolutely!  See our home page and choose from one of three awesome packages. In addition to those packages we offer private and semi-private lessons by appointment and run additional skills camps throughout the week. You can sign up on our home page for any of our three packages. Email <a className="text-blue-500 hover:underline" href="mailto:joe@trespalapasbaja.com">joe@trespalapasbaja.com</a> to schedule your private and semi-private lessons and clinics.
       </p>
     ) },
     { title: "Do you have any tournaments?", content: (
@@ -148,7 +148,7 @@ const accordionData = [
     ) },
     { title: "Is Tres Palapas open to the public? Do I need a membership to play at Tres Palapas?", content: (
       <p>
-        - Yes! Tres Palapas welcomes all visitors and tourists. No Membership required. All scheduled play, reservations and events can be paid for with Tres Tokens. Save money and purchase a Tres Token Package here: <a className="text-blue-500 hover:underline" href="https://app.courtreserve.com/Online/Memberships/Index/8043">https://app.courtreserve.com/Online/Memberships/Index/8043</a>
+        - Yes, we are open to the public! All visitors and tourists are welcome. No Membership required. All scheduled play, reservations and events can be paid by credit card at the time you <a className="text-blue-500 hover:underline" href="https://mobileapp.courtreserve.com/Online/Calendar/Events/8043/Month">schedule your play</a>
       </p>
     ) },
     { title: "What can my friends/spouse do while I play pickleball", content: (

@@ -161,10 +161,27 @@ export default function Home() {
             </div>
           </div>
           <div data-aos="flip-right" className="block md:flex mt-4 text-white gap-4">
-          <p className="text-xl font-extrabold">ALL INCLUSIVE PACKAGES <span className="checkmark">&#10004;</span></p>
-          <p className="text-xl font-extrabold">HOURLY PLAY <span className="checkmark">&#10004;</span></p>
-          <p className="text-xl font-extrabold">BAJA TRAVELERS <span className="checkmark">&#10004;</span></p>
-          <p className="text-xl font-extrabold">LOCALS <span className="checkmark">&#10004;</span></p>
+          <p className="text-xl font-extrabold flex items-center">
+            ALL INCLUSIVE PACKAGES 
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 16 16" className="ml-2">
+              <path d="M13.485 1.515a1.5 1.5 0 0 1 0 2.121L6.9 10.22a1.5 1.5 0 0 1-2.121 0l-2.464-2.465a1.5 1.5 0 0 1 2.122-2.122l1.415 1.414 6.071-6.071a1.5 1.5 0 0 1 2.121 0z"/>
+            </svg>
+          </p>
+          <p className="text-xl font-extrabold flex items-center">HOURLY PLAY 
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 16 16" className="ml-2">
+              <path d="M13.485 1.515a1.5 1.5 0 0 1 0 2.121L6.9 10.22a1.5 1.5 0 0 1-2.121 0l-2.464-2.465a1.5 1.5 0 0 1 2.122-2.122l1.415 1.414 6.071-6.071a1.5 1.5 0 0 1 2.121 0z"/>
+            </svg>
+          </p>
+          <p className="text-xl font-extrabold flex items-center">BAJA TRAVELERS 
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 16 16" className="ml-2">
+              <path d="M13.485 1.515a1.5 1.5 0 0 1 0 2.121L6.9 10.22a1.5 1.5 0 0 1-2.121 0l-2.464-2.465a1.5 1.5 0 0 1 2.122-2.122l1.415 1.414 6.071-6.071a1.5 1.5 0 0 1 2.121 0z"/>
+            </svg>
+          </p>
+          <p className="text-xl font-extrabold flex items-center">LOCALS
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 16 16" className="ml-2">
+              <path d="M13.485 1.515a1.5 1.5 0 0 1 0 2.121L6.9 10.22a1.5 1.5 0 0 1-2.121 0l-2.464-2.465a1.5 1.5 0 0 1 2.122-2.122l1.415 1.414 6.071-6.071a1.5 1.5 0 0 1 2.121 0z"/>
+            </svg>
+          </p>
           </div>
           <div className="video-container flex justify-center mt-8">
             <div className="relative w-full h-80 sm:w-4/5 lg:w-2/3 border border-4 border-white">

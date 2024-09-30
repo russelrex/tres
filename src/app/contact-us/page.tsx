@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Footer from "../components/footer/page";
 import Header from "../components/header/page";
-import Image from "next/image";
 
 export default function ContactUs() {
     const [formData, setFormData] = useState({

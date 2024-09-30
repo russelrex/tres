@@ -2,7 +2,6 @@
 
 import Header from "../components/header/page";
 import Footer from "../components/footer/page";
-import Image from "next/legacy/image";
 import { useRouter } from "next/navigation";
 
 export default function Packages() {

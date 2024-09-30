@@ -17,7 +17,7 @@ export default function Tournaments() {
         }}>
               <div className="fixed inset-0 overflow-hidden">
     <Image
-      className="opacity-10 object-cover md:object-none md:w-[1700px] md:h-[2800px]"
+      className="opacity-10 object-cover sm:object-none md:object-cover lg:object-cover w-auto h-auto sm:w-[1700px] sm:h-[2800px]"
       src="/bg-01.png"
       alt="Pickleball"
             layout="fill"

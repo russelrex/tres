@@ -10,7 +10,15 @@ export default function Packages() {
           style={{
           backgroundColor: 'rgb(99, 139, 99)'
         }}>
-    <div className="fixed inset-0 overflow-hidden md:w-auto md:h-full">
+        <div
+          className="fixed opacity-10 inset-0 object-cover md:object-none w-full h-full sm:w-[1600px] sm:h-[1200px] lg:w-full"
+          style={{
+            backgroundImage: 'url("/pickle-ss-05.png")',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        />
+    {/* <div className="fixed inset-0 overflow-hidden md:w-auto md:h-full">
         <Image
         className="opacity-10 bg-repeat object-cover md:object-none"
         // className="opacity-10"
@@ -22,7 +30,7 @@ export default function Packages() {
         // height={1200}
         style={{ zIndex: -1 }}
         />
-    </div>
+    </div> */}
         {/* <Image
             className="inset-0 opacity-10 z-0"
             src="/pickle-ss-05.png"

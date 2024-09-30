@@ -172,7 +172,7 @@ export default function Header() {
                     href="/contact-us"
                     className="w-5/6 text-center p-2 px-5 md:px-2 lg:px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                   >
-                    <p className="font-semibold md:text-sm lg:text-base">Contact Us</p>
+                    <p className="font-semibold md:text-sm lg:text-base">CONTACT US</p>
                   </Link>
                   <Link
                     href="/faq"

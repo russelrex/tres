@@ -233,7 +233,7 @@ export default function Home() {
               winning teams.
               <br /><br />
               Additionally, participate in our skill-based open play,
-              ladder league, and unique game day events such as
+              Round Robins Kings & Queens, and unique game day events such as
               &quot;Lefty/Righty&quot; and &quot;Vegas Jackpot.&quot; Whether you&apos;re a
               beginner or advanced player, our diverse pickleball
               programming ensures non-stop fun and improvement
@@ -454,7 +454,7 @@ export default function Home() {
                 Hone your skills, learn advanced strategies, and
                 receive expert feedback to take your game to the next
                 level. Outside camp hours, enjoy skill-based open play
-                and our competitive Ladder League tailored to your
+                and our Round Robins Kings & Queens tailored to your
                 skill level. 
                 <br /><br />
                 Your stay includes comfortable lodging, airport

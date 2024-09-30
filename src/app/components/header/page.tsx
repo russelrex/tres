@@ -99,7 +99,7 @@ export default function Header() {
                   </Link>
               ))}
                     <Link
-                    href='https://mobileapp.courtreserve.com/Online/Portal/Index/8043'
+                    href='https://mobileapp.courtreserve.com/Online/Calendar/Events/8043/Month'
                     target="_blank"
                     className="p-2 px-5 md:px-1 lg:px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                   >
@@ -213,7 +213,7 @@ export default function Header() {
                   <p className="font-semibold">EAT & DRINK</p>
                 </Link>
                 <Link
-                  href='https://mobileapp.courtreserve.com/Online/Portal/Index/8043'
+                  href='https://mobileapp.courtreserve.com/Online/Calendar/Events/8043/Month'
                   target="_blank"
                   className="p-2 px-5 my-2 w-full text-center border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                 >

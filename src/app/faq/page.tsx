@@ -113,7 +113,7 @@ const accordionData = [
     ) },
     { title: "What do I need to do before I arrive?", content: (
       <p>
-        - We recommend you reserve your favorite times for skill based open play and sign up for any of the special programs that interest you. Space is limited so we can ensure the maximum play experience for your vacation time. You can schedule all your pickleball play here: <a className="text-blue-500 hover:underline" href="https://mobileapp.courtreserve.com/Online/Portal/Index/8043" target="_blank"> https://mobileapp.courtreserve.com/Online/Portal/Index/8043 </a> 
+        - We recommend you reserve your favorite times for skill based open play and sign up for any of the special programs that interest you. Space is limited so we can ensure the maximum play experience for your vacation time. <a className="text-blue-500 hover:underline" href="https://mobileapp.courtreserve.com/Online/Calendar/Events/8043/Month">CLICK HERE</a> to schedule all of your pickleball play.
       </p>
     ) },
     { title: "Is there drinking water? Is the water safe to drink?", content: (
@@ -133,17 +133,17 @@ const accordionData = [
     ) },
     { title: "Do you offer pickleball camps/clinics/lessons?", content: (
       <p>
-        - Absolutely!  See our home page and choose from one of three awesome packages. In addition to those packages we offer private and semi-private lessons by appointment and run additional skills camps throughout the week. You can sign up on our home page for any of our three packages. You can sign up here <a className="text-blue-500 hover:underline" href="https://mobileapp.courtreserve.com/Online/Portal/Index/8043" target="_blank"> https://mobileapp.courtreserve.com/Online/Portal/Index/8043 </a> for private and semi-private lessons.
+        - Absolutely!  See our home page and choose from one of three awesome packages. In addition to those packages we offer private and semi-private lessons by appointment and run additional skills camps throughout the week. You can sign up on our home page for any of our three packages. Email <a className="text-blue-500 hover:underline" href="mailto:joe@trespalapasbaja.com">joe@trespalapasbaja.com</a>to schedule your private and semi-private lessons and clinics.
       </p>
     ) },
     { title: "Do you have any tournaments?", content: (
       <p>
-      - Yes. We run a tournament almost every month. View the tournament schedule here to plan your vacation around a tournament. All of our tournament results will be uploaded to DUPR after completion of the tournament. Find our Tournament Registrations here: <a className="text-blue-500 hover:underline" href="https://mobileapp.courtreserve.com/Online/Events/List/8043/MZMFKCTETW?pageTitle=Tournaments&rootCall=false " target="_blank"> https://mobileapp.courtreserve.com/Online/Events/List/8043/MZMFKCTETW?pageTitle=Tournaments&rootCall=false  </a>
+      - Yes, we run four major tournaments during the season. All of our tournament results will be uploaded to DUPR after completion of the tournament. View the upcoming tournaments <a className="text-blue-500 hover:underline" href="/tournaments">here</a>.
       </p>
     ) },
     { title: "Do you have round robins/leagues/ladders to compete in?", content: (
       <p>
-        - We have different scheduled events on each day of the week. See the schedule here: <a className="text-blue-500 hover:underline" href="https://mobileapp.courtreserve.com/Online/Portal/Index/8043">https://mobileapp.courtreserve.com/Online/Portal/Index/8043</a>
+        - We have different scheduled events on each day of the week. <a className="text-blue-500 hover:underline" href="https://mobileapp.courtreserve.com/Online/Calendar/Events/8043/Month">CLICK HERE</a> to see the schedule
       </p>
     ) },
     { title: "Is Tres Palapas open to the public? Do I need a membership to play at Tres Palapas?", content: (

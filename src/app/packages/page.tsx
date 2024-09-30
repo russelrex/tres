@@ -296,7 +296,7 @@ export default function Packages() {
                 <div className="z-0 absolute bottom-0 left-0 w-full h-3 bg-orange-500"></div>
             </div>
             <br /><br />
-            <p className="z-10 relative text-white text-base lg:text-2xl">INCLUDED IN ALL PACKAGES, AIRPORT TRANSFERS, LODGING, <br /> DAILY RESORT SHUTTLE, FOOD & PICKLEBALL</p>
+            <p className="z-10 relative text-white text-base lg:text-2xl">AIRPORT TRANSFERS, LODGING, <br /> DAILY RESORT SHUTTLE, FOOD & PICKLEBALL</p>
             <div className="flex justify-center text-start">
 
             <ul className="z-10 list-disc text-white mt-2 ps-12 md:ps-24">
@@ -336,7 +336,7 @@ export default function Packages() {
             <br /><br />
             <p className="z-10 relative text-white text-base lg:text-lg">
                 Join us for skill-based open play daily, available to every player!<br />
-                <a href="https://mobileapp.courtreserve.com/Online/Portal/Index/8043" target="_blank" className="underline underline-offset-4">Check schedule</a> for time slots & hours. 
+                <a href="https://mobileapp.courtreserve.com/Online/Calendar/Events/8043/Month" target="_blank" className="underline underline-offset-4">Check schedule</a> for time slots & hours. 
             </p>
             </div>
             

@@ -148,7 +148,7 @@ const accordionData = [
     ) },
     { title: "Is Tres Palapas open to the public? Do I need a membership to play at Tres Palapas?", content: (
       <p>
-        - Yes, we are open to the public! All visitors and tourists are welcome. No Membership required. All scheduled play, reservations and events can be paid by credit card at the time you <a className="text-blue-500 hover:underline" href="https://mobileapp.courtreserve.com/Online/Calendar/Events/8043/Month">schedule your play</a>
+        - Yes, we are open to the public! All visitors and tourists are welcome. No Membership required. All scheduled play, reservations and events can be paid by credit card at the time you <a className="text-blue-500 hover:underline" href="https://mobileapp.courtreserve.com/Online/Calendar/Events/8043/Month">schedule your play.</a>
       </p>
     ) },
     { title: "What can my friends/spouse do while I play pickleball", content: (

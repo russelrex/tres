@@ -17,11 +17,12 @@ export default function Tournaments() {
         }}>
               <div className="fixed inset-0 overflow-hidden">
     <Image
-      className="opacity-10"
+      className="opacity-10 object-cover md:object-none md:w-[1700px] md:h-[2800px]"
       src="/bg-01.png"
       alt="Pickleball"
-      width={1600}
-      height={2000}
+            layout="fill"
+      // width={1600}
+      // height={2000}
       style={{ zIndex: -1 }}
     />
   </div>

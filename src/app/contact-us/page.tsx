@@ -39,7 +39,15 @@ export default function ContactUs() {
             style={{
             backgroundColor: 'rgb(99, 139, 179)'
             }}>
-        <div className="fixed inset-0 overflow-hidden w-[1500px] h-[2500px]">
+                   <div
+          className="fixed opacity-10 inset-0 w-[1000px] h-auto sm:w-[1500px] lg:w-auto"
+          style={{
+            backgroundImage: 'url("/bg-02.png")',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        />
+        {/* <div className="fixed inset-0 overflow-hidden w-[1500px] h-[2500px]">
             <Image
             className="opacity-10"
             src="/bg-02.png"
@@ -47,7 +55,7 @@ export default function ContactUs() {
             layout="fill"
             style={{ zIndex: -1 }}
             />
-        </div>
+        </div> */}
                 <div className="pt-16">
                 <div data-aos="zoom-in" className="text-center">
                     <div className="relative inline-block">

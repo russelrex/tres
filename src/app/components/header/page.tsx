@@ -160,13 +160,13 @@ export default function Header() {
                     target="_blank"
                     className="w-5/6 text-center p-2 px-5 md:px-2 lg:px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                   >
-                    <p className="font-semibold md:text-sm lg:text-base">Schedule</p>
+                    <p className="font-semibold md:text-sm lg:text-base">SCHEDULE</p>
                   </Link>
                   <Link
                     href='https://secure.webrez.com/Bookings105/activity-edit.html?hotel_id=3731&table=hotels&listing_id=3731&mode=command&command=bookingrequestform_v2'
                     className="w-5/6 text-center p-2 px-5 md:px-2 lg:px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                   >
-                    <p className="font-semibold">Lodging</p>
+                    <p className="font-semibold">LODGING</p>
                   </Link>
                   <Link
                     href="/contact-us"
@@ -224,13 +224,13 @@ export default function Header() {
                   target="_blank"
                   className="p-2 px-5 my-2 w-full text-center border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                 >
-                  <p className="font-semibold">Schedule</p>
+                  <p className="font-semibold">SCHEDULE</p>
                 </Link>
                 <Link
                   href='https://secure.webrez.com/Bookings105/activity-edit.html?hotel_id=3731&table=hotels&listing_id=3731&mode=command&command=bookingrequestform_v2'
                   className="p-2 px-5 my-2 w-full text-center border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                 >
-                  <p className="font-semibold">Lodging</p>
+                  <p className="font-semibold">LODGING</p>
                 </Link>
                 <Link
                   href='/contact-us'

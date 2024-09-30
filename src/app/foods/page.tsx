@@ -10,13 +10,16 @@ export default function Packages() {
           style={{
           backgroundColor: 'rgb(99, 139, 99)'
         }}>
-    <div className="fixed inset-0 overflow-hidden">
+    <div className="fixed inset-0 overflow-hidden md:w-auto md:h-full">
         <Image
-        className="opacity-10"
+        className="opacity-10 bg-repeat object-cover md:object-none"
+        // className="opacity-10"
         src="/pickle-ss-05.png"
         alt="Pickleball"
-        width={1600}
-        height={1200}
+        // objectFit="cover"
+        layout="fill"
+        // width={1600}
+        // height={1200}
         style={{ zIndex: -1 }}
         />
     </div>
@@ -49,8 +52,8 @@ export default function Packages() {
                 </div>
             </div>
           </div>
-          <div className="relative m-10 mt-12">
-              <div className="z-10  mx-4 sm:mx-16 md:mx-1 text-base lg:text-xl text-white">
+          <div className="relative m-10 mt-4 md:mt-12 ">
+              <div className="z-10 mx-4 sm:mx-16 md:mx-1 text-xs lg:text-xl text-white">
               
               Exceptional dining is an integral part of any memorable pickleball 
               and travel experience.  We are excited to present our newly curated 
@@ -64,8 +67,8 @@ export default function Packages() {
               food is brought to you while you play.
               </div>
           </div>
-          <div className="relative m-10 mt-12  border border-2 border-white">
-          <div className="h-[40rem] md:h-auto">
+          <div className="relative mx-8 mt-2 md:mt-12 border border-2 border-white">
+          <div className="w-full h-96">
                 <Image
                     src="/taco.jpg"
                     alt="Pickleball"

@@ -21,14 +21,22 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="relative grid flex items-center opacity-90 justify-items-center py-16 gap-8"
+      <div className="relative grid overflow-hidden flex items-center opacity-90 justify-items-center py-16 gap-8"
         style={{
           backgroundColor: 'rgb(99, 139, 99)'
         }}
       >
-          <div className="absolute inset-0 overflow-hidden">
+        <div
+          className="absolute opacity-10 inset-0 w-auto h-auto sm:w-[1500px] lg:w-auto"
+          style={{
+            backgroundImage: 'url("/bg-02.png")',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        />
+          {/* <div className="absolute inset-0 overflow-hidden">
     <Image
-      className="opacity-10" 
+      className="opacity-10 object-cover sm:object-fill" 
       src="/bg-02.png"
       alt="Pickleball"
       layout="responsive"
@@ -36,7 +44,7 @@ export default function Home() {
       height={2800}
       style={{ zIndex: -1 }}
     />
-  </div>
+  </div> */}
         <div className="container text-center mt-20 xs:ml-72 sm:text-start">
           <div data-aos="fade-left" className="relative inline-block">
             <p className="relative text-white text-2xl sm:text-4xl lg:text-6xl font-extrabold inline z-10">
@@ -153,10 +161,10 @@ export default function Home() {
             </div>
           </div>
           <div data-aos="flip-right" className="block md:flex mt-4 text-white gap-4">
-            <p className="text-xl font-extrabold">ALL INCLUSIVE PACKAGES &#x2714;</p>
-            <p className="text-xl font-extrabold">HOURLY PLAY &#x2714;</p>
-            <p className="text-xl font-extrabold">BAJA TRAVELERS &#x2714;</p>
-            <p className="text-xl font-extrabold">LOCALS &#x2714;</p>
+            <p className="text-xl font-extrabold">ALL INCLUSIVE PACKAGES <span className="text-white">&#x2714;</span></p>
+            <p className="text-xl font-extrabold">HOURLY PLAY <span className="text-white">&#x2714;</span></p>
+            <p className="text-xl font-extrabold">BAJA TRAVELERS <span className="text-white">&#x2714;</span></p>
+            <p className="text-xl font-extrabold">LOCALS <span className="text-white">&#x2714;</span></p>
           </div>
           <div className="video-container flex justify-center mt-8">
             <div className="relative w-full h-80 sm:w-4/5 lg:w-2/3 border border-4 border-white">

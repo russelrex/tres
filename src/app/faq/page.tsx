@@ -143,7 +143,7 @@ const accordionData = [
     ) },
     { title: "Do you have round robins/leagues/ladders to compete in?", content: (
       <p>
-        - We have different scheduled events on each day of the week. <a className="text-blue-500 hover:underline" href="https://mobileapp.courtreserve.com/Online/Calendar/Events/8043/Month">CLICK HERE</a> to see the schedule
+        - We have different scheduled events on each day of the week. <a className="text-blue-500 hover:underline" href="https://mobileapp.courtreserve.com/Online/Calendar/Events/8043/Month">CLICK HERE</a> to see the schedule.
       </p>
     ) },
     { title: "Is Tres Palapas open to the public? Do I need a membership to play at Tres Palapas?", content: (

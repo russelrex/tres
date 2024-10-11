@@ -9,12 +9,12 @@ export default function Packages() {
 
     return (
         <>
-            <Header />
-            <div className="relative py-16 opacity-90 px-4"
-                style={{
-                backgroundColor: 'rgb(99, 139, 99)'
-                }}
-            >
+        <Header />
+        <div className="relative py-16 opacity-90 px-4"
+            style={{
+            backgroundColor: 'rgb(99, 139, 99)'
+            }}
+        >
         <div
           className="fixed opacity-10 inset-0 w-[1000px] h-auto sm:w-[1500px] lg:w-auto"
           style={{
@@ -50,8 +50,9 @@ export default function Packages() {
                 <div className="absolute bottom-0 left-0 w-full h-3 bg-orange-500"></div>
                 </div>
                 <br />
-                <p className="mt-4">(All Inclusive package)</p>
-                <p><span className="font-bold">7 nights /</span><span className="font-normal text-xs">starting at</span><span className="font-bold"> $1,294 per person</span></p>
+                <p className="mt-4">(All Inclusive-Package)</p>
+                <p><span className="font-bold">7 nights /</span><span className="font-normal text-xs">starting at</span><span className="font-bold"> $1,494 per person</span></p>
+                <p>Taxes & Feed included</p>
                 <div className="box-border w-auto mt-4 p-4 border-4 text-start">
                 <span className="font-bold">Saturday</span><br/>
                 <ul className="list-none">
@@ -71,7 +72,7 @@ export default function Packages() {
                 <br />
                 <span className="font-bold">Monday</span><br/>
                 <ul className="list-none">
-                    <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 8:am-10:am</li>
+                    <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 8am-10am</li>
                     <li className="before:content-['-'] before:mr-2">Lunch: 12:30pm</li>
                     <li className="before:content-['-'] before:mr-2">Major Tres Pickleball: 2pm-4:30pm</li>
                     <li className="before:content-['-'] before:mr-2">Dinner: 6:30pm</li>
@@ -79,7 +80,7 @@ export default function Packages() {
                 <br />
                 <span className="font-bold">Tuesday</span><br/>
                 <ul className="list-none">
-                    <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 8:am-10:am</li>
+                    <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 8am-10am</li>
                     <li className="before:content-['-'] before:mr-2">Lunch: 12:30pm</li>
                     <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 4pm-6pm</li>
                     <li className="before:content-['-'] before:mr-2">Dinner: 6:30pm</li>
@@ -117,7 +118,7 @@ export default function Packages() {
                     <li className="before:content-['-'] before:mr-2">Shuttle leaving LB (3 hours) before flight</li>
                 </ul>
                 </div>
-                <button onClick={() => router.push('https://forms.gle/nsgcKz3huNJdAcKt9')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
+                <button onClick={() => window.open('https://forms.gle/nsgcKz3huNJdAcKt9', '_blank')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
                 RESERVE NOW!
                 </button>
             </div>
@@ -135,8 +136,9 @@ export default function Packages() {
                 </p>
                 <div className="z-0 absolute bottom-0 left-0 w-full h-3 bg-orange-500"></div>
                 </div>
-                <p className="mt-4">(All Inclusive package)</p>
-                <p><span className="font-bold">7 nights /</span><span className="font-normal text-xs">starting at</span><span className="font-bold"> $1,794 per person</span></p>
+                <p className="mt-4">(All Inclusive-Package)</p>
+                <p><span className="font-bold">7 nights /</span><span className="font-normal text-xs">starting at</span><span className="font-bold"> $2,094 per person</span></p>
+                <p>Taxes & Feed included</p>
                 <div className="box-border w-auto mt-4 p-4 border-4 text-start">
                 <span className="font-bold">Saturday</span><br/>
                 <ul className="list-none">
@@ -156,7 +158,7 @@ export default function Packages() {
                 <br />
                 <span className="font-bold">Monday</span><br/>
                 <ul className="list-none">
-                    <li className="before:content-['-'] before:mr-2">Immersion Camp: 8:am-10:am</li>
+                    <li className="before:content-['-'] before:mr-2">Immersion Camp: 8am-10am</li>
                     <li className="before:content-['-'] before:mr-2">Lunch: 12:30pm</li>
                     <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 2pm-4pm</li>
                     <li className="before:content-['-'] before:mr-2">Dinner: 6:30pm</li>
@@ -164,7 +166,7 @@ export default function Packages() {
                 <br />
                 <span className="font-bold">Tuesday</span><br/>
                 <ul className="list-none">
-                    <li className="before:content-['-'] before:mr-2">Immersion Camp: 8:am-10:am or 10am-12pm</li>
+                    <li className="before:content-['-'] before:mr-2">Immersion Camp: 8am-10am or 10am-12pm</li>
                     <li className="before:content-['-'] before:mr-2">Lunch: 12:30pm</li>
                     <li className="before:content-['-'] before:mr-2">Round Robin: 2pm-4pm</li>
                     <li className="before:content-['-'] before:mr-2">Dinner: 6:30pm</li>
@@ -172,7 +174,7 @@ export default function Packages() {
                 <br />
                 <span className="font-bold">Wednesday</span><br/>
                 <ul className="list-none">
-                    <li className="before:content-['-'] before:mr-2">Immersion Camp: 8:am-10:am or 10am-12pm</li>
+                    <li className="before:content-['-'] before:mr-2">Immersion Camp: 8am-10am or 10am-12pm</li>
                     <li className="before:content-['-'] before:mr-2">Lunch: 12:30pm</li>
                     <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 2pm-4pm</li>
                     <li className="before:content-['-'] before:mr-2">Dinner: 6:30pm</li>
@@ -180,7 +182,7 @@ export default function Packages() {
                 <br />
                 <span className="font-bold">Thursday</span><br/>
                 <ul className="list-none">
-                    <li className="before:content-['-'] before:mr-2">Immersion Camp: 8:am-10:am or 10am-12pm</li>
+                    <li className="before:content-['-'] before:mr-2">Immersion Camp: 8am-10am or 10am-12pm</li>
                     <li className="before:content-['-'] before:mr-2">Lunch: 12:30pm</li>
                     <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 2pm-4pm</li>
                     <li className="before:content-['-'] before:mr-2">Dinner: 6:30pm</li>
@@ -188,7 +190,7 @@ export default function Packages() {
                 <br />
                 <span className="font-bold">Friday</span><br/>
                 <ul className="list-none">
-                    <li className="before:content-['-'] before:mr-2">Immersion Camp: 8:am-10:am or 10am-12pm</li>
+                    <li className="before:content-['-'] before:mr-2">Immersion Camp: 8am-10am or 10am-12pm</li>
                     <li className="before:content-['-'] before:mr-2">Lunch: 12:30pm</li>
                     <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 2pm-4pm <br/>(Championship Night)</li>
                     <li className="before:content-['-'] before:mr-2">Dinner: 6:30pm</li>
@@ -202,7 +204,7 @@ export default function Packages() {
                     <li className="before:content-['-'] before:mr-2">Shuttle leaving LB (3 hours) before flight</li>
                 </ul>
                 </div>
-                <button onClick={() => router.push('https://forms.gle/RzT99hK45L3Byonj8')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
+                <button onClick={() => window.open('https://forms.gle/RzT99hK45L3Byonj8', '_blank')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
                 RESERVE NOW!
                 </button>
             </div>
@@ -222,8 +224,9 @@ export default function Packages() {
                 </div>
                 
                 <br />
-                <p className="mt-4">(All Inclusive package)</p>
-                <p><span className="font-bold">7 nights /</span><span className="font-normal text-xs">starting at</span><span className="font-bold"> $2,094 per person</span></p>
+                <p className="mt-4">(All Inclusive-Package)</p>
+                <p><span className="font-bold">7 nights /</span><span className="font-normal text-xs">starting at</span><span className="font-bold"> $2,394 per person</span></p>
+                <p>Taxes & Feed included</p>
                 <div className="box-border w-auto mt-4 p-4 border-4 text-start">
                 <span className="font-bold">Saturday</span><br/>
                 <ul className="list-none">
@@ -290,7 +293,7 @@ export default function Packages() {
                 <br />
                 <br />
                 </div>
-                <button onClick={() => router.push('https://forms.gle/DKGGsrmb2HUn6C518')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
+                <button onClick={() => window.open('https://forms.gle/DKGGsrmb2HUn6C518', '_blank')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
                 RESERVE NOW!
                 </button>
             </div>

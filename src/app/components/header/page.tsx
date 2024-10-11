@@ -47,6 +47,14 @@ export default function Header() {
         };
       }, []);
 
+    const handleDownload = () => {
+      const pdfUrl = '/pdf/Guide_To_Tres_Palapas_Lodging_2024.pdf';
+      const link = document.createElement('a');
+      link.href = pdfUrl;
+      link.download = 'Guide_To_Tres_Palapas_Lodging_2024.pdf';
+      link.click();
+    };
+
     return (
         <header>
         <div className={`fixed inset-x-0 top-0 z-50 duration-200 ${
@@ -162,12 +170,18 @@ export default function Header() {
                   >
                     <p className="font-semibold md:text-sm lg:text-base">SCHEDULE</p>
                   </Link>
-                  <Link
+                  {/* <Link
                     href='https://secure.webrez.com/Bookings105/activity-edit.html?hotel_id=3731&table=hotels&listing_id=3731&mode=command&command=bookingrequestform_v2'
+                    className="w-5/6 text-center p-2 px-5 md:px-2 lg:px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
+                  > */}
+                  <Link
+                    href="#" 
+                    onClick={handleDownload} 
                     className="w-5/6 text-center p-2 px-5 md:px-2 lg:px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                   >
                     <p className="font-semibold">LODGING</p>
                   </Link>
+                  {/* </Link> */}
                   <Link
                     href="/contact-us"
                     className="w-5/6 text-center p-2 px-5 md:px-2 lg:px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
@@ -227,11 +241,12 @@ export default function Header() {
                   <p className="font-semibold">SCHEDULE</p>
                 </Link>
                 <Link
-                  href='https://secure.webrez.com/Bookings105/activity-edit.html?hotel_id=3731&table=hotels&listing_id=3731&mode=command&command=bookingrequestform_v2'
-                  className="p-2 px-5 my-2 w-full text-center border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
-                >
+                    href="#" 
+                    onClick={handleDownload} 
+                    className="w-5/6 text-center p-2 px-5 md:px-2 lg:px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
+                  >
                   <p className="font-semibold">LODGING</p>
-                </Link>
+                  </Link>
                 <Link
                   href='/contact-us'
                   className="p-2 px-5 my-2 w-full text-center border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"

@@ -27,24 +27,21 @@ export default function Home() {
         }}
       >
         <div
-          className="absolute opacity-10 inset-0 w-auto h-auto sm:w-[1500px] lg:w-auto"
+          className="fixed opacity-10 inset-0 w-[1000px] h-auto sm:w-[1500px] lg:w-auto"
           style={{
             backgroundImage: 'url("/bg-02.png")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
         />
-          {/* <div className="absolute inset-0 overflow-hidden">
-    <Image
-      className="opacity-10 object-cover sm:object-fill" 
-      src="/bg-02.png"
-      alt="Pickleball"
-      layout="responsive"
-      width={1700}
-      height={2800}
-      style={{ zIndex: -1 }}
-    />
-  </div> */}
+        {/* <div
+          className="absolute opacity-10 inset-0 w-auto h-auto sm:w-[1500px] lg:w-auto"
+          style={{
+            backgroundImage: 'url("/bg-02.png")',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        /> */}
         <div className="container text-center mt-20 xs:ml-72 sm:text-start">
           <div data-aos="fade-left" className="relative inline-block">
             <p className="relative text-white text-2xl sm:text-4xl lg:text-6xl font-extrabold inline z-10">
@@ -65,7 +62,7 @@ export default function Home() {
           <div 
             style={{ marginTop: '-80px !important' }}>
           <Image
-            src="/header-01-copy.jpg"
+            src="/pickle-ss-04.jpg"
             alt="Pickleball"
             objectFit="cover"
             layout="fill"
@@ -77,16 +74,19 @@ export default function Home() {
               backgroundColor: 'rgb(99, 139, 99)', opacity: 0.5 }}
           ></div>
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
-            <p className="text-2xl font-extrabold text-white mb-2">
+            <p className="text-3xl font-extrabold text-white mb-2">
               MAJOR TRES PICKLEBALL EXPERIENCE
             </p>
-            <p className="text-medium text-white">
-              (All inclusive package)
+            <p className="text-lg text-white">
+              (All Inclusive-Package)
             </p>
-            <p className="text-medium font-extrabold text-white">
-              7 nights / <span className="font-normal text-xs">starting at</span> $1,294 per person
+            <p className="text-lg font-extrabold text-white">
+              7 nights / <span className="font-normal text-xs">starting at</span> $1,494 per person
             </p>
-            <button onClick={() => router.push('https://forms.gle/nsgcKz3huNJdAcKt9')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
+            <p className="text-lg text-white">
+              Taxes & Feed included*
+            </p>
+            <button onClick={() => window.open('https://forms.gle/nsgcKz3huNJdAcKt9', '_blank')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
               RESERVE NOW!
             </button>
           </div>
@@ -107,27 +107,31 @@ export default function Home() {
               backgroundColor: 'rgb(99, 139, 99)', opacity: 0.5 }}
           ></div>
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
-            <p className="text-2xl font-extrabold text-white mb-2">
+            <p className="text-3xl font-extrabold text-white mb-2">
               TRES PALAPAS <br /> IMMERSION CAMPS
             </p>
-            <p className="text-medium text-white">
-              (All inclusive package)
+            <p className="text-lg text-white">
+            (All Inclusive-Package)
             </p>
-            <p className="text-medium font-extrabold text-white">
-              7 nights / <span className="font-normal text-xs">starting at</span> $1,794 per person
+            <p className="text-lg font-extrabold text-white">
+              7 nights / <span className="font-normal text-xs">starting at</span> $2,094 per person
             </p>
-            <button onClick={() => router.push('https://forms.gle/RzT99hK45L3Byonj8')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
+            <p className="text-lg text-white">
+              Taxes & Feed included*
+            </p>
+            <button onClick={() => window.open('https://forms.gle/RzT99hK45L3Byonj8', '_blank')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
               RESERVE NOW!
             </button>
           </div>
         </div>
         <div data-aos="flip-right" className="relative w-80 h-80 sm:w-[25rem] border border-4 border-white">
           <Image
+          className="scale-125"
             src="/header-03.jpg"
             alt="Pickleball"
             objectFit="cover"
             layout="fill"
-            objectPosition="center 100%"
+            objectPosition="center 90%"
           />
           <div
             className="absolute inset-0 bg-black"
@@ -135,16 +139,19 @@ export default function Home() {
               backgroundColor: 'rgb(99, 139, 99)', opacity: 0.5 }}
           ></div>
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
-            <p className="text-2xl font-extrabold text-white mb-2">
+            <p className="text-3xl font-extrabold text-white mb-2">
               PRO-SERIES <br /> CAMPS
             </p>
-            <p className="text-medium text-white">
-              (All inclusive package)
+            <p className="text-lg text-white">
+            (All Inclusive-Package)
             </p>
-            <p className="text-medium font-extrabold text-white">
-              7 nights / <span className="font-normal text-xs">starting at</span> $2,094 per person
+            <p className="text-lg font-extrabold text-white">
+              7 nights / <span className="font-normal text-xs">starting at</span> $2,394 per person
             </p>
-            <button onClick={() => router.push('https://forms.gle/DKGGsrmb2HUn6C518')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
+            <p className="text-lg text-white">
+              Taxes & Feed included*
+            </p>
+            <button onClick={() => window.open('https://forms.gle/DKGGsrmb2HUn6C518', '_blank')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
               RESERVE NOW!
             </button>
           </div>
@@ -198,7 +205,7 @@ export default function Home() {
         </div>
       </div>
       
-      <div className="grid grid-cols-1 sm:grid-cols-2"
+      <div className="grid grid-cols-1 overflow-hidden sm:grid-cols-2"
       style={{
         backgroundColor: 'rgb(99, 139, 179)'}}>
         <div className="relative h-[40rem] sm:h-auto">
@@ -208,7 +215,7 @@ export default function Home() {
             objectFit="cover"
             layout="fill"
             objectPosition="center 70%"
-            className="opacity-50"
+            className="opacity-80"
           />
           <div className="absolute inset-0 flex flex-col items-left text-left m-5 mt-20 sm:m-10">
           <div>
@@ -229,11 +236,13 @@ export default function Home() {
           </div>
           <br />
             <button onClick={() => router.push('/packages')} data-aos="flip-left" className="mt-4 p-1 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400 w-52">
-              VIEW SCHEDULE
+              VIEW ITINERARY
             </button>
           </div>
         </div>
-        <div className="relative overflow-hidden flex items-center justify-center">
+        <div className="relative overflow-hidden flex items-center justify-center"
+        style={{ 
+          backgroundColor: 'rgb(99, 139, 179)'}}>
           <Image
               className="opacity-10 transform scale-200"
               src="/bg-01.png"
@@ -340,7 +349,7 @@ export default function Home() {
             </div>
             <br />
             <button onClick={() => router.push('/packages')} data-aos="flip-right" className="mt-4 p-1 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400 w-52">
-              VIEW SCHEDULE
+              VIEW ITINERARY
             </button>
             </div>
         </div>
@@ -383,7 +392,7 @@ export default function Home() {
             </div>
             <br />
             <button onClick={() => router.push('/packages')} data-aos="flip-right" className="mt-4 p-1 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400 w-52">
-              VIEW SCHEDULE
+              VIEW ITINERARY
             </button>
             </div>
         </div>
@@ -433,7 +442,7 @@ export default function Home() {
               alt="Pickleball"
               objectFit="cover"
               layout="fill"
-              className="opacity-50"
+              className="opacity-80"
             />
           <div className="absolute inset-0 flex flex-col items-left text-left m-10 sm:m-10">
           <div>
@@ -454,7 +463,7 @@ export default function Home() {
           </div>
           <br />
             <button onClick={() => router.push('/packages')} data-aos="flip-up" className="mt-4 p-1 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400 w-52">
-              VIEW SCHEDULE
+              VIEW ITINERARY
             </button>
           </div>
         </div>
@@ -534,16 +543,23 @@ export default function Home() {
                   </p>
               </div>
             <div data-aos="fade-down" data-aos-duration="2000">
+              {/* <div className="relative w-full h-96">
+                <Image
+                    src="/header-01-copy.jpg"
+                    alt="Pickleball"
+                    objectFit="cover"
+                    layout="fill"
+                  />
+              </div> */}
                 <div className="flex justify-center mt-0 sm:mt-16">
-                  <div className="relative w-full h-96 border border-4 border-white-900">
-                      <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
-                      <Image
-                          src="/pickle-ss-04.jpg"
-                          alt="Pickleball"
-                          objectFit="cover"
-                          layout="fill"
-                      />
-                      </div>
+                  <div className="relative w-full opacity-80 h-96 md:h-[300px] lg:h-[500px] border border-4 border-white-900">
+                  <Image
+                    src="/header-01-copy.jpg"
+                    alt="Pickleball"
+                    objectFit="cover"
+                    layout="fill"
+                    objectPosition="center 100%"
+                  />
                   </div>
                 </div>
             </div>

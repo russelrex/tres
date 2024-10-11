@@ -145,7 +145,7 @@ export default function ContactUs() {
                     </p>
                     <br />
                     <p className="relative text-white text-2xl font-bold inline z-10">
-                        Oct - May: Every Day 7:00AM to 8:00PM
+                        Oct - May **BUSY SEASON** : Every Day 7:00AM to 8:00PM
                     </p>
                     <br />
                     <p className="relative text-white text-2xl font-bold inline z-10">

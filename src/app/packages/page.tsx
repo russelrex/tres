@@ -2,10 +2,8 @@
 
 import Header from "../components/header/page";
 import Footer from "../components/footer/page";
-import { useRouter } from "next/navigation";
 
 export default function Packages() {
-    const router = useRouter();
 
     return (
         <>

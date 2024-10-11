@@ -83,8 +83,8 @@ export default function Home() {
             <p className="text-lg font-extrabold text-white">
               7 nights / <span className="font-normal text-xs">starting at</span> $1,494 per person
             </p>
-            <p className="text-lg text-white">
-              Taxes & Feed included*
+            <p className="text-sm text-white">
+              Taxes & Fees included*
             </p>
             <button onClick={() => window.open('https://forms.gle/nsgcKz3huNJdAcKt9', '_blank')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
               RESERVE NOW!
@@ -116,8 +116,8 @@ export default function Home() {
             <p className="text-lg font-extrabold text-white">
               7 nights / <span className="font-normal text-xs">starting at</span> $2,094 per person
             </p>
-            <p className="text-lg text-white">
-              Taxes & Feed included*
+            <p className="text-sm text-white">
+              Taxes & Fees included*
             </p>
             <button onClick={() => window.open('https://forms.gle/RzT99hK45L3Byonj8', '_blank')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
               RESERVE NOW!
@@ -148,8 +148,8 @@ export default function Home() {
             <p className="text-lg font-extrabold text-white">
               7 nights / <span className="font-normal text-xs">starting at</span> $2,394 per person
             </p>
-            <p className="text-lg text-white">
-              Taxes & Feed included*
+            <p className="text-sm text-white">
+              Taxes & Fees included*
             </p>
             <button onClick={() => window.open('https://forms.gle/DKGGsrmb2HUn6C518', '_blank')} className="mt-4 px-6 py-3 rounded-full bg-orange-500 text-white font-bold hover:bg-orange-400">
               RESERVE NOW!

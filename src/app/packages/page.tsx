@@ -110,7 +110,7 @@ export default function Packages() {
                 <br />
                 <span className="font-bold">Saturday</span><br/>
                 <ul className="list-none">
-                    <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 7am-9pm</li>
+                    <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 7am-9am</li>
                     <li className="before:content-['-'] before:mr-2">Check-Out: 10am</li>
                     <li className="before:content-['-'] before:mr-2">Lunch: 12:30pm</li>
                     <li className="before:content-['-'] before:mr-2">Shuttle leaving LB (3 hours) before flight</li>
@@ -196,7 +196,7 @@ export default function Packages() {
                 <br />
                 <span className="font-bold">Saturday</span><br/>
                 <ul className="list-none">
-                    <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 7am-9pm</li>
+                    <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 7am-9am</li>
                     <li className="before:content-['-'] before:mr-2">Check-Out: 10am</li>
                     <li className="before:content-['-'] before:mr-2">Lunch: 12:30pm</li>
                     <li className="before:content-['-'] before:mr-2">Shuttle leaving LB (3 hours) before flight</li>
@@ -282,7 +282,7 @@ export default function Packages() {
                 <br />
                 <span className="font-bold">Saturday</span><br/>
                 <ul className="list-none">
-                    <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 7am-9pm</li>
+                    <li className="before:content-['-'] before:mr-2">Skill-Based Open Play: 7am-9am</li>
                     <li className="before:content-['-'] before:mr-2">Check-Out: 10am</li>
                     <li className="before:content-['-'] before:mr-2">Lunch: 12:30pm</li>
                     <li className="before:content-['-'] before:mr-2">Shuttle leaving LB (3 hours) before flight</li>

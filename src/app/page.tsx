@@ -74,14 +74,14 @@ export default function Home() {
               backgroundColor: 'rgb(99, 139, 99)', opacity: 0.5 }}
           ></div>
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
-            <p className="text-3xl font-extrabold text-white mb-2">
+            <p className="text-2xl font-extrabold text-white mb-2">
               MAJOR TRES PICKLEBALL EXPERIENCE
             </p>
             <p className="text-lg text-white">
               (All Inclusive-Package)
             </p>
             <p className="text-lg font-extrabold text-white">
-              7 nights / <span className="font-normal text-xs">starting at</span> $1,494 per person
+              7 nights / <span className="font-normal text-xs">starting at*</span> $1,494 per person
             </p>
             <p className="text-sm text-white">
               Taxes & Fees included*
@@ -107,14 +107,14 @@ export default function Home() {
               backgroundColor: 'rgb(99, 139, 99)', opacity: 0.5 }}
           ></div>
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
-            <p className="text-3xl font-extrabold text-white mb-2">
+            <p className="text-2xl font-extrabold text-white mb-2">
               TRES PALAPAS <br /> IMMERSION CAMPS
             </p>
             <p className="text-lg text-white">
             (All Inclusive-Package)
             </p>
             <p className="text-lg font-extrabold text-white">
-              7 nights / <span className="font-normal text-xs">starting at</span> $2,094 per person
+              7 nights / <span className="font-normal text-xs">starting at*</span> $2,094 per person
             </p>
             <p className="text-sm text-white">
               Taxes & Fees included*
@@ -139,14 +139,14 @@ export default function Home() {
               backgroundColor: 'rgb(99, 139, 99)', opacity: 0.5 }}
           ></div>
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
-            <p className="text-3xl font-extrabold text-white mb-2">
+            <p className="text-2xl font-extrabold text-white mb-2">
               PRO-SERIES <br /> CAMPS
             </p>
             <p className="text-lg text-white">
             (All Inclusive-Package)
             </p>
             <p className="text-lg font-extrabold text-white">
-              7 nights / <span className="font-normal text-xs">starting at</span> $2,394 per person
+              7 nights / <span className="font-normal text-xs">starting at*</span> $2,394 per person
             </p>
             <p className="text-sm text-white">
               Taxes & Fees included*

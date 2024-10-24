@@ -49,7 +49,7 @@ export default function Packages() {
                 </div>
                 <br />
                 <p className="mt-4">(All Inclusive-Package)</p>
-                <p><span className="font-bold">7 nights /</span><span className="font-normal text-xs">starting at</span><span className="font-bold"> $1,494 per person</span></p>
+                <p><span className="font-bold">7 nights /</span><span className="font-normal text-xs">starting at*</span><span className="font-bold"> $1,494 per person</span></p>
                 <p className="text-xs">Taxes & Fees included*</p>
                 <div className="box-border w-auto mt-4 p-4 border-4 text-start">
                 <span className="font-bold">Saturday</span><br/>
@@ -135,7 +135,7 @@ export default function Packages() {
                 <div className="z-0 absolute bottom-0 left-0 w-full h-3 bg-orange-500"></div>
                 </div>
                 <p className="mt-4">(All Inclusive-Package)</p>
-                <p><span className="font-bold">7 nights /</span><span className="font-normal text-xs">starting at</span><span className="font-bold"> $2,094 per person</span></p>
+                <p><span className="font-bold">7 nights /</span><span className="font-normal text-xs">starting at*</span><span className="font-bold"> $2,094 per person</span></p>
                 <p className="text-xs">Taxes & Fees included*</p>
                 <div className="box-border w-auto mt-4 p-4 border-4 text-start">
                 <span className="font-bold">Saturday</span><br/>
@@ -223,7 +223,7 @@ export default function Packages() {
                 
                 <br />
                 <p className="mt-4">(All Inclusive-Package)</p>
-                <p><span className="font-bold">7 nights /</span><span className="font-normal text-xs">starting at</span><span className="font-bold"> $2,394 per person</span></p>
+                <p><span className="font-bold">7 nights /</span><span className="font-normal text-xs">starting at*</span><span className="font-bold"> $2,394 per person</span></p>
                 <p className="text-xs">Taxes & Fees included*</p>
                 <div className="box-border w-auto mt-4 p-4 border-4 text-start">
                 <span className="font-bold">Saturday</span><br/>

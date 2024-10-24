@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import Image from "next/legacy/image"
+import "../../style/style.css";
 
 const headerNames = [
 	{ name: 'PACKAGES', url: 'packages' },
@@ -62,7 +63,7 @@ export default function Header() {
             }`
         }>
           <div className="container flex items-center justify-between p-0.5 mx-auto ms-8">
-            <div>
+            <div className="ms-0 lg:ms-32">
                 <Image
                     onClick={handleClick}
                     src="/icon-header.png"
@@ -96,7 +97,7 @@ export default function Header() {
               </button>
             </div>
   
-            <div className="hidden md:flex space-between gap-8">
+            <div className="hidden md:flex gap-8 me-32">
               {headerNames.map((headerName) => (
                   <Link
                     href={`/${headerName.url}`}

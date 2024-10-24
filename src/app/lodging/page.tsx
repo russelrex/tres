@@ -6,8 +6,15 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Footer from "../components/footer/page";
 import Header from "../components/header/page";
+import { useEffect } from "react";
 
 export default function Home() {
+    useEffect(() => {
+        AOS.init({
+          duration: 1000,
+          once: false,
+        });
+      }, []);
   return (
     <>
       <Header />
@@ -31,7 +38,7 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-20">
-            <div className="z-10 text-center justify-items-center text-white content-center">
+            <div data-aos="fade-right" className="z-10 text-center justify-items-center text-white content-center">
                 
                 <div className="justify-center text-start">
                     <h1 className="text-[48px] lg:text-[58px] font-bold">2 to 4 Bedroom Homes</h1>
@@ -59,7 +66,7 @@ export default function Home() {
                 </div>
             </div>
             <div>
-                <div className="grid grid-cols-2 gap-4">
+                <div data-aos="fade-left" className="grid grid-cols-2 gap-4">
                     <div className="relative border border-4 border-white h-64">
                         <Image
                             src="/lodging-01.png"
@@ -112,7 +119,7 @@ export default function Home() {
             </div>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-20">
-            <div className="z-10 text-center justify-items-center text-white content-center">
+            <div data-aos="fade-up" className="z-10 text-center justify-items-center text-white content-center">
                 
                 <div className="justify-center text-start">
                     <h1 className="text-[48px] lg:text-[58px] font-bold">2 to 4 Bedroom Homes</h1>
@@ -140,7 +147,7 @@ export default function Home() {
                 </div>
             </div>
             <div>
-                <div className="grid grid-cols-2 gap-4">
+                <div data-aos="fade-down" className="grid grid-cols-2 gap-4">
                     <div className="relative border border-4 border-white h-64">
                         <Image
                             src="/lodging-07.png"
@@ -193,7 +200,7 @@ export default function Home() {
             </div>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-20">
-            <div className="z-10 text-center justify-items-center text-white content-center">
+            <div data-aos="flip-left" className="z-10 text-center justify-items-center text-white content-center">
                 
                 <div className="justify-center text-start">
                     <h1 className="text-[58px] lg:text-[48px] font-bold">2 to 4 Bedroom Homes</h1>
@@ -221,7 +228,7 @@ export default function Home() {
                 </div>
             </div>
             <div>
-                <div className="grid grid-cols-2 gap-4">
+                <div data-aos="flip-right" className="grid grid-cols-2 gap-4">
                     <div className="relative border border-4 border-white h-64">
                         <Image
                             src="/lodging-13.png"
@@ -274,7 +281,7 @@ export default function Home() {
             </div>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-20">
-            <div className="z-10 text-center justify-items-center text-white content-center">
+            <div data-aos="zoom-in" className="z-10 text-center justify-items-center text-white content-center">
                 
                 <div className="justify-center text-start">
                     <h1 className="text-[48px] lg:text-[58px] font-bold">2 to 4 Bedroom Homes</h1>
@@ -302,7 +309,7 @@ export default function Home() {
                 </div>
             </div>
             <div>
-                <div className="grid grid-cols-2 gap-4">
+                <div data-aos="zoom-out" className="grid grid-cols-2 gap-4">
                     <div className="relative border border-4 border-white h-64">
                         <Image
                             src="/lodging-19.png"
@@ -355,7 +362,7 @@ export default function Home() {
             </div>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-20">
-            <div className="z-10 text-center justify-items-center text-white content-center">
+            <div data-aos="fade-down-right" className="z-10 text-center justify-items-center text-white content-center">
                 
                 <div className="justify-center text-start">
                     <h1 className="text-[48px] lg:text-[58px] font-bold">2 to 4 Bedroom Homes</h1>
@@ -383,7 +390,7 @@ export default function Home() {
                 </div>
             </div>
             <div>
-                <div className="grid grid-cols-2 gap-4">
+                <div data-aos="fade-down-left" className="grid grid-cols-2 gap-4">
                     <div className="relative border border-4 border-white h-64">
                         <Image
                             src="/lodging-25.png"
@@ -436,7 +443,7 @@ export default function Home() {
             </div>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-20">
-            <div className="z-10 text-center justify-items-center text-white content-center">
+            <div data-aos="fade-up-right" className="z-10 text-center justify-items-center text-white content-center">
                 
                 <div className="justify-center text-start">
                     <h1 className="text-[48px] lg:text-[58px] font-bold">Private Casitas</h1>
@@ -489,7 +496,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="flex items-center">
-                <div className="container">
+                <div data-aos="fade-up-left" className="container">
                     <table className="table-auto border border-4 border-white w-full text-center text-white">
                         <thead>
                             <tr>

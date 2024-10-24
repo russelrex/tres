@@ -1,8 +1,6 @@
 'use client';
 
 import Image from "next/legacy/image";
-import { useEffect } from "react";
-import { useRouter } from "next/navigation";
 // @ts-expect-error: This error is expected due to XYZ reason
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -10,14 +8,6 @@ import Footer from "../components/footer/page";
 import Header from "../components/header/page";
 
 export default function Home() {
-  const router = useRouter();
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: false,
-    });
-  }, []);
-  
   return (
     <>
       <Header />

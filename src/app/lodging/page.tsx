@@ -32,9 +32,9 @@ export default function Home() {
           }}
         />
 
-        <div className="container text-center text-white">
-          <h1 data-aos="fade-left" className="text-[48px] lg:text-[64px] font-bold">Guide to Tres Palapas Lodging</h1>
-          <h2 data-aos="fade-right" className="text-[32px] lg:text-[48px]">As part of All-Inclusive Packages</h2>
+        <div className="text-center text-white">
+          <h1 data-aos="fade-left" className="text-[32px] lg:text-[64px] font-bold">Guide to Tres Palapas Lodging</h1>
+          <h2 data-aos="fade-right" className="text-[32px] lg:text-[32px]">As part of All-Inclusive Packages</h2>
         </div>
 
         <div className="mx-16">
@@ -42,11 +42,11 @@ export default function Home() {
                 <div data-aos="fade-right" className="z-10 text-white content-center">
                     
                     <div className="justify-center text-start">
-                        <h1 className="text-[48px] lg:text-[58px] font-bold mb-[-20px]">2 to 4 Bedroom Homes</h1>
-                        <h2 className="text-[32px] lg:text-[42px]">Standard (2 Palms)</h2>
+                        <h1 className="text-[32px] lg:text-[44px] font-bold mb-[-10px]">2 to 4 Bedroom Homes</h1>
+                        <h2 className="text-[24px] lg:text-[30px] font-bold">Standard (2 Palms)</h2>
                         
                         <div className="text-start ms-8 mt-8">
-                            <ul className="list-disc text-white text-[22px] lg:text-[28px]">
+                            <ul className="list-disc text-white text-[22px] lg:text-[24px]">
                                 <li>
                                     Shared home (kitchen, living room etc)
                                 </li>
@@ -123,11 +123,11 @@ export default function Home() {
                 <div data-aos="fade-up" className="z-10 text-white content-center">
                     
                     <div className="justify-center text-start">
-                        <h1 className="text-[48px] lg:text-[58px] mb-[-20px] font-bold">3 Palms Upgrade</h1>
-                        <h2 className="text-[32px] lg:text-[38px]">(add $300 per person per week)</h2>
+                        <h1 className="text-[32px] lg:text-[44px] mb-[-10px] font-bold">3 Palms Upgrade</h1>
+                        <h2 className="text-[24px] lg:text-[30px] font-bold">(add $300 per person per week)</h2>
                         
                         <div className="text-start ms-8 mt-8">
-                            <ul className="list-disc text-white text-[22px] lg:text-[28px]">
+                            <ul className="list-disc text-white text-[22px] lg:text-[24px]">
                                 <li>
                                     Shared home (kitchen, living room etc)
                                 </li>
@@ -201,11 +201,11 @@ export default function Home() {
                 <div data-aos="flip-left" className="z-10 text-white content-center">
                     
                     <div className="justify-center text-start">
-                        <h1 className="text-[58px] lg:text-[48px] mb-[-20px] font-bold">4 Palms Upgrade</h1>
-                        <h2 className="text-[42px] lg:text-[42px]">(add $600 per person per week)</h2>
+                        <h1 className="text-[32px] lg:text-[44px] mb-[-10px] font-bold">4 Palms Upgrade</h1>
+                        <h2 className="text-[24px] lg:text-[30px] font-bold">(add $600 per person per week)</h2>
                         
                         <div className="text-start ms-8 mt-8">
-                            <ul className="list-disc text-white text-[22px] lg:text-[28px]">
+                            <ul className="list-disc text-white text-[22px] lg:text-[24px]">
                                 <li>
                                     Shared home (kitchen, living room etc)
                                 </li>
@@ -286,11 +286,11 @@ export default function Home() {
                 <div data-aos="zoom-in" className="z-10 text-white content-center">
                     
                     <div className="justify-center text-start">
-                        <h1 className="text-[48px] lg:text-[58px] mb-[-20px] font-bold">5 Palms Upgrade</h1>
-                        <h2 className="text-[32px] lg:text-[32px]">(add $1,000 per person per week)</h2>
+                        <h1 className="text-[32px] lg:text-[44px] mb-[-10px] font-bold">5 Palms Upgrade</h1>
+                        <h2 className="text-[24px] lg:text-[30px] font-bold">(add $1,000 per person per week)</h2>
                         
                         <div className="text-start ms-8 mt-8">
-                            <ul className="list-disc text-white text-[22px] lg:text-[28px]">
+                            <ul className="list-disc text-white text-[22px] lg:text-[24px]">
                                 <li>
                                     Private Suite
                                 </li>
@@ -369,11 +369,11 @@ export default function Home() {
                 <div data-aos="fade-down-right" className="z-10 text-white content-center">
                     
                     <div className="justify-center text-start">
-                        <h1 className="text-[48px] lg:text-[52px] mb-[-20px] font-bold">5 Palms On-site Condos</h1>
-                        <h2 className="text-[32px] lg:text-[42px]">(add $1,000 per person per week)</h2>
+                        <h1 className="text-[32px] lg:text-[44px] mb-[-10px] font-bold">5 Palms On-site Condos</h1>
+                        <h2 className="text-[24px] lg:text-[30px] font-bold">(add $1,000 per person per week)</h2>
                         
                         <div className="text-start ms-8 mt-8">
-                            <ul className="list-disc text-white text-[22px] lg:text-[28px]">
+                            <ul className="list-disc text-white text-[22px] lg:text-[24px]">
                                 <li>
                                     Spacious (1,000 sf)
                                 </li>
@@ -453,9 +453,9 @@ export default function Home() {
                 <div data-aos="fade-up-right" className="z-10 text-white content-center">
                     
                     <div className="justify-center text-start">
-                        <h1 className="text-[48px] lg:text-[58px] font-bold">Private Casitas</h1>
+                        <h1 className="text-[32px] lg:text-[44px] font-bold">Private Casitas</h1>
                         <div className="text-start ms-8">
-                            <ul className="list-disc text-white text-[22px] lg:text-[28px]">
+                            <ul className="list-disc text-white text-[22px] lg:text-[24px]">
                                 <li>
                                     Main house may be occupied by others
                                 </li>
@@ -472,9 +472,9 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="justify-center text-start mt-8">
-                        <h1 className="text-[48px] lg:text-[58px] font-bold">One Bedroom Home</h1>
+                        <h1 className="text-[32px] lg:text-[44px] font-bold">One Bedroom Home</h1>
                         <div className="text-start ms-8">
-                            <ul className="list-disc text-white text-[22px] lg:text-[28px]">
+                            <ul className="list-disc text-white text-[22px] lg:text-[24px]">
                                 <li>
                                     Entire home is double occupancy
                                 </li>
@@ -485,9 +485,9 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="justify-center text-start mt-8">
-                        <h1 className="text-[48px] lg:text-[58px] font-bold">Notes</h1>
+                        <h1 className="text-[32px] lg:text-[44px] font-bold">Notes</h1>
                         <div className="text-start ms-8">
-                            <ul className="list-disc text-white text-[22px] lg:text-[28px]">
+                            <ul className="list-disc text-white text-[22px] lg:text-[24px]">
                                 <li>
                                     All rooms are double occupancy
                                 </li>

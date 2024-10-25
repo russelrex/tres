@@ -37,567 +37,566 @@ export default function Home() {
           <h2 className="text-[32px] lg:text-[48px]">As part of All-Inclusive Packages</h2>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-20">
-            <div data-aos="fade-right" className="z-10 text-center justify-items-center text-white content-center">
-                
-                <div className="justify-center text-start">
-                    <h1 className="text-[48px] lg:text-[58px] font-bold">2 to 4 Bedroom Homes</h1>
-                    <h2 className="text-[32px] lg:text-[42px]">Standard (2 Palms)</h2>
+        <div className="mx-16">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-20">
+                <div data-aos="fade-right" className="z-10 text-white content-center">
                     
-                    <div className="text-start ms-8 mt-8">
-                        <ul className="list-disc text-white text-[22px] lg:text-[28px]">
-                            <li>
-                                Shared home (kitchen, living room etc)
-                            </li>
-                            <li>
-                                Private bedroom
-                            </li>
-                            <li>
-                                Double or Queen bed (usually Queen)
-                            </li>
-                            <li>
-                                May have detached shared bathroom
-                            </li>
-                            <li>
-                                Clean, Mexican authentic
-                            </li>
-                        </ul>
+                    <div className="justify-center text-start">
+                        <h1 className="text-[48px] lg:text-[58px] font-bold mb-[-20px]">2 to 4 Bedroom Homes</h1>
+                        <h2 className="text-[32px] lg:text-[42px]">Standard (2 Palms)</h2>
+                        
+                        <div className="text-start ms-8 mt-8">
+                            <ul className="list-disc text-white text-[22px] lg:text-[28px]">
+                                <li>
+                                    Shared home (kitchen, living room etc)
+                                </li>
+                                <li>
+                                    Private bedroom
+                                </li>
+                                <li>
+                                    Double or Queen bed (usually Queen)
+                                </li>
+                                <li>
+                                    May have detached shared bathroom
+                                </li>
+                                <li>
+                                    Clean, Mexican authentic
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div data-aos="fade-left" className="grid grid-cols-2 gap-4">
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-01.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-02.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-03.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-04.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-05.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-06.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
-            <div>
-                <div data-aos="fade-left" className="grid grid-cols-2 gap-4">
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-01.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-02.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-03.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-04.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-05.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-06.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-20">
-            <div data-aos="fade-up" className="z-10 text-center justify-items-center text-white content-center">
-                
-                <div className="justify-center text-start">
-                    <h1 className="text-[48px] lg:text-[58px] font-bold">2 to 4 Bedroom Homes</h1>
-                    <h2 className="text-[32px] lg:text-[38px]">Standard (2 Palms)</h2>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-20">
+                <div data-aos="fade-up" className="z-10 text-white content-center">
                     
-                    <div className="text-start ms-8 mt-8">
-                        <ul className="list-disc text-white text-[22px] lg:text-[28px]">
-                            <li>
-                                Shared home (kitchen, living room etc)
-                            </li>
-                            <li>
-                                Private bedroom
-                            </li>
-                            <li>
-                                Double or Queen bed (usually Queen)
-                            </li>
-                            <li>
-                                May have detached shared bathroom
-                            </li>
-                            <li>
-                                Clean, Mexican authentic
-                            </li>
-                        </ul>
+                    <div className="justify-center text-start">
+                        <h1 className="text-[48px] lg:text-[58px] mb-[-20px] font-bold">3 Palms Upgrade</h1>
+                        <h2 className="text-[32px] lg:text-[38px]">(add $300 per person per week)</h2>
+                        
+                        <div className="text-start ms-8 mt-8">
+                            <ul className="list-disc text-white text-[22px] lg:text-[28px]">
+                                <li>
+                                    Shared home (kitchen, living room etc)
+                                </li>
+                                <li>
+                                    Private bedroom
+                                </li>
+                                <li>
+                                    Attached private bathroom
+                                </li>
+                                <li>
+                                    Queen or King Bed
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div data-aos="fade-down" className="grid grid-cols-2 gap-4">
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-07.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-08.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-09.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-10.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-11.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-12.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
-            <div>
-                <div data-aos="fade-down" className="grid grid-cols-2 gap-4">
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-07.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-08.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-09.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-10.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-11.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-12.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-20">
-            <div data-aos="flip-left" className="z-10 text-center justify-items-center text-white content-center">
-                
-                <div className="justify-center text-start">
-                    <h1 className="text-[58px] lg:text-[48px] font-bold">2 to 4 Bedroom Homes</h1>
-                    <h2 className="text-[42px] lg:text-[42px]">Standard (2 Palms)</h2>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-20">
+                <div data-aos="flip-left" className="z-10 text-white content-center">
                     
-                    <div className="text-start ms-8 mt-8">
-                        <ul className="list-disc text-white text-[22px] lg:text-[28px]">
-                            <li>
-                                Shared home (kitchen, living room etc)
-                            </li>
-                            <li>
-                                Private bedroom
-                            </li>
-                            <li>
-                                Double or Queen bed (usually Queen)
-                            </li>
-                            <li>
-                                May have detached shared bathroom
-                            </li>
-                            <li>
-                                Clean, Mexican authentic
-                            </li>
-                        </ul>
+                    <div className="justify-center text-start">
+                        <h1 className="text-[58px] lg:text-[48px] mb-[-20px] font-bold">4 Palms Upgrade</h1>
+                        <h2 className="text-[42px] lg:text-[42px]">(add $600 per person per week)</h2>
+                        
+                        <div className="text-start ms-8 mt-8">
+                            <ul className="list-disc text-white text-[22px] lg:text-[28px]">
+                                <li>
+                                    Shared home (kitchen, living room etc)
+                                </li>
+                                <li>
+                                    Private Suite
+                                </li>
+                                <li>
+                                    Nicer finishes
+                                </li>
+                                <li>
+                                    May include...
+                                </li>
+                                <li className="list-none">
+                                    - Pool <br />
+                                    - Close to beach <br />
+                                    - Beachfront <br />
+                                    - Great views <br />
+                                    - Rooftop patio <br />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div data-aos="flip-right" className="grid grid-cols-2 gap-4">
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-13.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-14.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-15.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-16.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-17.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-18.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
-            <div>
-                <div data-aos="flip-right" className="grid grid-cols-2 gap-4">
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-13.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-14.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-15.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-16.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-17.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-18.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-20">
-            <div data-aos="zoom-in" className="z-10 text-center justify-items-center text-white content-center">
-                
-                <div className="justify-center text-start">
-                    <h1 className="text-[48px] lg:text-[58px] font-bold">2 to 4 Bedroom Homes</h1>
-                    <h2 className="text-[32px] lg:text-[32px]">Standard (2 Palms)</h2>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-20">
+                <div data-aos="zoom-in" className="z-10 text-white content-center">
                     
-                    <div className="text-start ms-8 mt-8">
-                        <ul className="list-disc text-white text-[22px] lg:text-[28px]">
-                            <li>
-                                Shared home (kitchen, living room etc)
-                            </li>
-                            <li>
-                                Private bedroom
-                            </li>
-                            <li>
-                                Double or Queen bed (usually Queen)
-                            </li>
-                            <li>
-                                May have detached shared bathroom
-                            </li>
-                            <li>
-                                Clean, Mexican authentic
-                            </li>
-                        </ul>
+                    <div className="justify-center text-start">
+                        <h1 className="text-[48px] lg:text-[58px] mb-[-20px] font-bold">5 Palms Upgrade</h1>
+                        <h2 className="text-[32px] lg:text-[32px]">(add $1,000 per person per week)</h2>
+                        
+                        <div className="text-start ms-8 mt-8">
+                            <ul className="list-disc text-white text-[22px] lg:text-[28px]">
+                                <li>
+                                    Private Suite
+                                </li>
+                                <li>
+                                    High end finishes
+                                </li>
+                                <li>
+                                    May include...
+                                </li>
+                                <li className="list-none">
+                                    - Emmaculate Pool <br />
+                                    - Relaxing gardens <br />
+                                    - Beachfront <br />
+                                    - Hilltop <br />
+                                    - Great views <br />
+                                    - Downtown <br />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div data-aos="zoom-out" className="grid grid-cols-2 gap-4">
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-19.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-20.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-21.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-22.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-23.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-24.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
-            <div>
-                <div data-aos="zoom-out" className="grid grid-cols-2 gap-4">
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-19.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-20.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-21.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-22.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-23.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-24.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-20">
-            <div data-aos="fade-down-right" className="z-10 text-center justify-items-center text-white content-center">
-                
-                <div className="justify-center text-start">
-                    <h1 className="text-[48px] lg:text-[58px] font-bold">2 to 4 Bedroom Homes</h1>
-                    <h2 className="text-[32px] lg:text-[42px]">Standard (2 Palms)</h2>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-20">
+                <div data-aos="fade-down-right" className="z-10 text-white content-center">
                     
-                    <div className="text-start ms-8 mt-8">
-                        <ul className="list-disc text-white text-[22px] lg:text-[28px]">
-                            <li>
-                                Shared home (kitchen, living room etc)
-                            </li>
-                            <li>
-                                Private bedroom
-                            </li>
-                            <li>
-                                Double or Queen bed (usually Queen)
-                            </li>
-                            <li>
-                                May have detached shared bathroom
-                            </li>
-                            <li>
-                                Clean, Mexican authentic
-                            </li>
-                        </ul>
+                    <div className="justify-center text-start">
+                        <h1 className="text-[48px] lg:text-[52px] mb-[-20px] font-bold">5 Palms On-site Condos</h1>
+                        <h2 className="text-[32px] lg:text-[42px]">(add $1,000 per person per week)</h2>
+                        
+                        <div className="text-start ms-8 mt-8">
+                            <ul className="list-disc text-white text-[22px] lg:text-[28px]">
+                                <li>
+                                    Spacious (1,000 sf)
+                                </li>
+                                <li>
+                                    King Suite
+                                </li>
+                                <li>
+                                    Full Kitchen
+                                </li>
+                                <li>
+                                    High end finishes
+                                </li>
+                                <li>
+                                    Private pool & jacuzzi (on-site guests only)
+                                </li>
+                                <li>
+                                    Gated parking
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div data-aos="fade-down-left" className="grid grid-cols-2 gap-4">
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-25.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-26.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-27.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-28.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-29.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
+                        <div className="relative border border-4 border-white h-64">
+                            <Image
+                                src="/lodging-30.png"
+                                alt="Pickleball"
+                                objectFit="cover"
+                                layout="fill"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
-            <div>
-                <div data-aos="fade-down-left" className="grid grid-cols-2 gap-4">
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-25.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-20">
+                <div data-aos="fade-up-right" className="z-10 text-white content-center">
+                    
+                    <div className="justify-center text-start">
+                        <h1 className="text-[48px] lg:text-[58px] font-bold">Private Casitas</h1>
+                        <div className="text-start ms-8">
+                            <ul className="list-disc text-white text-[22px] lg:text-[28px]">
+                                <li>
+                                    Main house may be occupied by others
+                                </li>
+                                <li>
+                                    Attached private bathroom
+                                </li>
+                                <li>
+                                    Kitchenette or full kitchen
+                                </li>
+                                <li>
+                                    Add $200 per week
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-26.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
+                    <div className="justify-center text-start mt-8">
+                        <h1 className="text-[48px] lg:text-[58px] font-bold">One Bedroom Home</h1>
+                        <div className="text-start ms-8">
+                            <ul className="list-disc text-white text-[22px] lg:text-[28px]">
+                                <li>
+                                    Entire home is double occupancy
+                                </li>
+                                <li>
+                                    Add $400 per week
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-27.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
+                    <div className="justify-center text-start mt-8">
+                        <h1 className="text-[48px] lg:text-[58px] font-bold">Notes</h1>
+                        <div className="text-start ms-8">
+                            <ul className="list-disc text-white text-[22px] lg:text-[28px]">
+                                <li>
+                                    All rooms are double occupancy
+                                </li>
+                                <li>
+                                    Add $500 per week for single occupancy
+                                </li>
+                                <li>
+                                    Additions and subtractions table<br />
+                                    (all amounts are per room per week):
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-28.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-29.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
-                    </div>
-                    <div className="relative border border-4 border-white h-64">
-                        <Image
-                            src="/lodging-30.png"
-                            alt="Pickleball"
-                            objectFit="cover"
-                            layout="fill"
-                        />
+                </div>
+                <div className="flex items-center">
+                    <div data-aos="fade-up-left" className="container">
+                        <table className="table-auto border border-4 border-white w-full text-center text-white">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th className="border border-4 border-white p-2">2 Palms</th>
+                                    <th className="border border-4 border-white p-2">3 Palms</th>
+                                    <th className="border border-4 border-white p-2">4 Palms</th>
+                                    <th className="border border-4 border-white p-2">5 Palms</th>
+                                    <th className="border border-4 border-white p-2">Casita</th>
+                                </tr>
+                            </thead>
+                            <tbody className="border border-4 border-white">
+                                <tr className="border border-4 border-white">
+                                    <td className="border border-4 border-white p-3 text-end">King bed</td>
+                                    <td className="border border-4 border-white">$200</td>
+                                    <td className="border border-4 border-white">$200</td>
+                                    <td className="border border-4 border-white">$0</td>
+                                    <td className="border border-4 border-white">$0</td>
+                                    <td className="border border-4 border-white">$100</td>
+                                </tr>
+                                <tr className="border border-4 border-white">
+                                    <td className="border border-4 border-white p-2 text-end">Queen bed</td>
+                                    <td className="border border-4 border-white p-2">$0</td>
+                                    <td className="border border-4 border-white p-2">$0</td>
+                                    <td className="border border-4 border-white p-2">($200)</td>
+                                    <td className="border border-4 border-white p-2">($300)</td>
+                                    <td className="border border-4 border-white p-2">$0</td>
+                                </tr>
+                                <tr className="border border-4 border-white">
+                                    <td className="border border-4 border-white p-2 text-end">Double bed</td>
+                                    <td className="border border-4 border-white p-2">($100)</td>
+                                    <td className="border border-4 border-white p-2">($200)</td>
+                                    <td className="border border-4 border-white p-2">($300)</td>
+                                    <td className="border border-4 border-white p-2">($400)</td>
+                                    <td className="border border-4 border-white p-2">($100)</td>
+                                </tr>
+                                <tr className="border border-4 border-white">
+                                    <td className="border border-4 border-white p-2 text-end">Sofa bed</td>
+                                    <td className="border border-4 border-white p-2">($200)</td>
+                                    <td className="border border-4 border-white p-2">($200)</td>
+                                    <td className="border border-4 border-white p-2">($400)</td>
+                                    <td className="border border-4 border-white p-2">($500)</td>
+                                    <td className="border border-4 border-white p-2">($200)</td>
+                                </tr>
+                                <tr className="border border-4 border-white">
+                                    <td className="border border-4 border-white p-2 text-end">1 Beds 1 Room</td>
+                                    <td className="border border-4 border-white p-2">$200</td>
+                                    <td className="border border-4 border-white p-2">$200</td>
+                                    <td className="border border-4 border-white p-2">$200</td>
+                                    <td className="border border-4 border-white p-2">$200</td>
+                                    <td className="border border-4 border-white p-2">$200</td>
+                                </tr>
+                                <tr className="border border-4 border-white">
+                                    <td className="border border-4 border-white p-2 text-end">Private Bath</td>
+                                    <td className="border border-4 border-white p-2">$200</td>
+                                    <td className="border border-4 border-white p-2">$0</td>
+                                    <td className="border border-4 border-white p-2">$0</td>
+                                    <td className="border border-4 border-white p-2">$0</td>
+                                    <td className="border border-4 border-white p-2">$0</td>
+                                </tr>
+                                <tr className="border border-4 border-white">
+                                    <td className="border border-4 border-white p-2 text-end">Shared Bath</td>
+                                    <td className="border border-4 border-white p-2">$</td>
+                                    <td className="border border-4 border-white p-2">($200)</td>
+                                    <td className="border border-4 border-white p-2">($300)</td>
+                                    <td className="border border-4 border-white p-2">($400)</td>
+                                    <td className="border border-4 border-white p-2">n/a</td>
+                                </tr>
+                                <tr className="border border-4 border-white">
+                                    <td className="border border-4 border-white p-2 text-end">Semi-private room</td>
+                                    <td className="border border-4 border-white p-2">($100)</td>
+                                    <td className="border border-4 border-white p-2">($200)</td>
+                                    <td className="border border-4 border-white p-2">($300)</td>
+                                    <td className="border border-4 border-white p-2">($400)</td>
+                                    <td className="border border-4 border-white p-2">n/a</td>
+                                </tr>
+                                <tr className="border border-4 border-white">
+                                    <td className="border border-4 border-white p-2 text-end">No private room</td>
+                                    <td className="border border-4 border-white p-2">($200)</td>
+                                    <td className="border border-4 border-white p-2">($300)</td>
+                                    <td className="border border-4 border-white p-2">($400)</td>
+                                    <td className="border border-4 border-white p-2">($500)</td>
+                                    <td className="border border-4 border-white p-2">n/a</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-20">
-            <div data-aos="fade-up-right" className="z-10 text-center justify-items-center text-white content-center">
-                
-                <div className="justify-center text-start">
-                    <h1 className="text-[48px] lg:text-[58px] font-bold">Private Casitas</h1>
-                    <div className="text-start ms-8">
-                        <ul className="list-disc text-white text-[22px] lg:text-[28px]">
-                            <li>
-                                Main house may be occupied by others
-                            </li>
-                            <li>
-                                Attached private bathroom
-                            </li>
-                            <li>
-                                Kitchenette or full kitchen
-                            </li>
-                            <li>
-                                Add $200 per week
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="justify-center text-start mt-8">
-                    <h1 className="text-[48px] lg:text-[58px] font-bold">One Bedroom Home</h1>
-                    <div className="text-start ms-8">
-                        <ul className="list-disc text-white text-[22px] lg:text-[28px]">
-                            <li>
-                                Entire home is double occupancy
-                            </li>
-                            <li>
-                                Add $400 per week
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="justify-center text-start mt-8">
-                    <h1 className="text-[48px] lg:text-[58px] font-bold">Notes</h1>
-                    <div className="text-start ms-8">
-                        <ul className="list-disc text-white text-[22px] lg:text-[28px]">
-                            <li>
-                                All rooms are double occupancy
-                            </li>
-                            <li>
-                                Add $500 per week for single occupancy
-                            </li>
-                            <li>
-                                Additions and subtractions table<br />
-                                (all amounts are per room per week):
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div className="flex items-center">
-                <div data-aos="fade-up-left" className="container">
-                    <table className="table-auto border border-4 border-white w-full text-center text-white">
-                        <thead>
-                            <tr>
-                                <th></th>
-                                <th className="border border-4 border-white p-2">2 Palms</th>
-                                <th className="border border-4 border-white p-2">3 Palms</th>
-                                <th className="border border-4 border-white p-2">4 Palms</th>
-                                <th className="border border-4 border-white p-2">5 Palms</th>
-                                <th className="border border-4 border-white p-2">Casita</th>
-                            </tr>
-                        </thead>
-                        <tbody className="border border-4 border-white">
-                            <tr className="border border-4 border-white">
-                                <td className="border border-4 border-white p-3 text-end">King bed</td>
-                                <td className="border border-4 border-white">$200</td>
-                                <td className="border border-4 border-white">$200</td>
-                                <td className="border border-4 border-white">$0</td>
-                                <td className="border border-4 border-white">$0</td>
-                                <td className="border border-4 border-white">$100</td>
-                            </tr>
-                            <tr className="border border-4 border-white">
-                                <td className="border border-4 border-white p-2 text-end">Queen bed</td>
-                                <td className="border border-4 border-white p-2">$0</td>
-                                <td className="border border-4 border-white p-2">$0</td>
-                                <td className="border border-4 border-white p-2">($200)</td>
-                                <td className="border border-4 border-white p-2">($300)</td>
-                                <td className="border border-4 border-white p-2">$0</td>
-                            </tr>
-                            <tr className="border border-4 border-white">
-                                <td className="border border-4 border-white p-2 text-end">Double bed</td>
-                                <td className="border border-4 border-white p-2">($100)</td>
-                                <td className="border border-4 border-white p-2">($200)</td>
-                                <td className="border border-4 border-white p-2">($300)</td>
-                                <td className="border border-4 border-white p-2">($400)</td>
-                                <td className="border border-4 border-white p-2">($100)</td>
-                            </tr>
-                            <tr className="border border-4 border-white">
-                                <td className="border border-4 border-white p-2 text-end">Sofa bed</td>
-                                <td className="border border-4 border-white p-2">($200)</td>
-                                <td className="border border-4 border-white p-2">($200)</td>
-                                <td className="border border-4 border-white p-2">($400)</td>
-                                <td className="border border-4 border-white p-2">($500)</td>
-                                <td className="border border-4 border-white p-2">($200)</td>
-                            </tr>
-                            <tr className="border border-4 border-white">
-                                <td className="border border-4 border-white p-2 text-end">1 Beds 1 Room</td>
-                                <td className="border border-4 border-white p-2">$200</td>
-                                <td className="border border-4 border-white p-2">$200</td>
-                                <td className="border border-4 border-white p-2">$200</td>
-                                <td className="border border-4 border-white p-2">$200</td>
-                                <td className="border border-4 border-white p-2">$200</td>
-                            </tr>
-                            <tr className="border border-4 border-white">
-                                <td className="border border-4 border-white p-2 text-end">Private Bath</td>
-                                <td className="border border-4 border-white p-2">$200</td>
-                                <td className="border border-4 border-white p-2">$0</td>
-                                <td className="border border-4 border-white p-2">$0</td>
-                                <td className="border border-4 border-white p-2">$0</td>
-                                <td className="border border-4 border-white p-2">$0</td>
-                            </tr>
-                            <tr className="border border-4 border-white">
-                                <td className="border border-4 border-white p-2 text-end">Shared Bath</td>
-                                <td className="border border-4 border-white p-2">$</td>
-                                <td className="border border-4 border-white p-2">($200)</td>
-                                <td className="border border-4 border-white p-2">($300)</td>
-                                <td className="border border-4 border-white p-2">($400)</td>
-                                <td className="border border-4 border-white p-2">n/a</td>
-                            </tr>
-                            <tr className="border border-4 border-white">
-                                <td className="border border-4 border-white p-2 text-end">Semi-private room</td>
-                                <td className="border border-4 border-white p-2">($100)</td>
-                                <td className="border border-4 border-white p-2">($200)</td>
-                                <td className="border border-4 border-white p-2">($300)</td>
-                                <td className="border border-4 border-white p-2">($400)</td>
-                                <td className="border border-4 border-white p-2">n/a</td>
-                            </tr>
-                            <tr className="border border-4 border-white">
-                                <td className="border border-4 border-white p-2 text-end">No private room</td>
-                                <td className="border border-4 border-white p-2">($200)</td>
-                                <td className="border border-4 border-white p-2">($300)</td>
-                                <td className="border border-4 border-white p-2">($400)</td>
-                                <td className="border border-4 border-white p-2">($500)</td>
-                                <td className="border border-4 border-white p-2">n/a</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+        <div className="mt-[10rem]">
+            <Footer />
         </div>
-        
-        <div className="flex justify-end">
-            <Image
-                src="/icon-header.png"
-                alt="Coconut Tree Logo"
-                objectFit="contain"
-                width={150}
-                height={100}
-                className="cursor-pointer filter brightness-0 invert"
-            />
-        </div>
-      <Footer />
         </div>
     </>
   )

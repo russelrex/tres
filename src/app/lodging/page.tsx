@@ -33,8 +33,8 @@ export default function Home() {
         />
 
         <div className="container text-center text-white">
-          <h1 className="text-[48px] lg:text-[64px] font-bold">Guide to Tres Palapas Lodging</h1>
-          <h2 className="text-[32px] lg:text-[48px]">As part of All-Inclusive Packages</h2>
+          <h1 data-aos="fade-left" className="text-[48px] lg:text-[64px] font-bold">Guide to Tres Palapas Lodging</h1>
+          <h2 data-aos="fade-right" className="text-[32px] lg:text-[48px]">As part of All-Inclusive Packages</h2>
         </div>
 
         <div className="mx-16">

@@ -97,7 +97,7 @@ export default function Header() {
               </button>
             </div>
   
-            <div className="hidden md:flex gap-8 me-32">
+            <div className="hidden md:flex gap-8 2xl:me-32">
               {headerNames.map((headerName) => (
                   <Link
                     href={`/${headerName.url}`}
@@ -176,8 +176,7 @@ export default function Header() {
                     className="w-5/6 text-center p-2 px-5 md:px-2 lg:px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                   > */}
                   <Link
-                    href="#" 
-                    onClick={handleDownload} 
+                    href="/lodging" 
                     className="w-5/6 text-center p-2 px-5 md:px-2 lg:px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                   >
                     <p className="font-semibold">LODGING</p>
@@ -242,9 +241,8 @@ export default function Header() {
                   <p className="font-semibold">SCHEDULE</p>
                 </Link>
                 <Link
-                    href="#" 
-                    onClick={handleDownload} 
-                    className="w-5/6 text-center p-2 px-5 md:px-2 lg:px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
+                    href="/lodging" 
+                    className="w-full text-center p-2 px-5 md:px-2 lg:px-5 border border-2 border-white duration-200 hover:border-slate-400 text-white hover:text-slate-400"
                   >
                   <p className="font-semibold">LODGING</p>
                   </Link>

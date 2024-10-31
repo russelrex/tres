@@ -48,13 +48,13 @@ export default function Header() {
         };
       }, []);
 
-    const handleDownload = () => {
-      const pdfUrl = '/pdf/Guide_To_Tres_Palapas_Lodging_2024.pdf';
-      const link = document.createElement('a');
-      link.href = pdfUrl;
-      link.download = 'Guide_To_Tres_Palapas_Lodging_2024.pdf';
-      link.click();
-    };
+    // const handleDownload = () => {
+    //   const pdfUrl = '/pdf/Guide_To_Tres_Palapas_Lodging_2024.pdf';
+    //   const link = document.createElement('a');
+    //   link.href = pdfUrl;
+    //   link.download = 'Guide_To_Tres_Palapas_Lodging_2024.pdf';
+    //   link.click();
+    // };
 
     return (
         <header>
